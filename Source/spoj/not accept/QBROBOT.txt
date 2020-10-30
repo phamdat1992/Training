@@ -1,0 +1,69 @@
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#include <list>
+
+using namespace std;
+
+const int oo = 0x7fffffff;
+
+void input( int &n, int &m, int* &f, vector< list< int > > &a ) {
+
+	scanf( "%d", &n );
+
+	f = new int [n+1];
+	a.resize( n+1 );
+
+	for( int i = 0; i <= n; ++i ) {
+
+		scanf( "%d", &f[i] );
+	}
+
+	scanf( "%d", &m );
+
+	for( int i = 0; i < m; ++i ) {
+
+		int w, e, r, t;
+
+		scanf( "%d%d%d%d\n", &w, &e, &r, &t );
+
+		a[w].push_bach( e );
+		a[w].push_back( r );
+		a[w].push_back( t );
+
+		a[e].push_bach( w );
+		a[e].push_back( r );
+		a[e].push_back( t );
+	}
+}
+
+void output( int kq ) {
+
+	printf( "%d", kq );
+}
+
+int visit( int u, vector< list< int > > &a ) {
+
+	v[u] = 1;
+	int m = 0x7fffffff;
+	
+	if( u == n ) { return 0; }
+
+	for( list< int >::const_iterator pos = a[u].begin(); pos != a[u].end();  ) {
+
+		int w, e, r;
+
+		w = *( pos++ );
+		e = *( pos++ );
+		r = *( pos++ );
+
+		if( v[w] == 0 ) { visit( w, a ); }
+		if( d[w] + e <= m ) {
+
+			m = d[w] + e;
+			g[u] = MAX( g[u], MAX( g[w] + r, s[w] ) );
+		}
+	}
+
+	if(  )
+}

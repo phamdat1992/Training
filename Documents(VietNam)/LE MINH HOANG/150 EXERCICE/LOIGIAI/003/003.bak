@@ -1,0 +1,342 @@
+{$M 65520,0,655360}
+program CargoMove;
+const
+  InputFile  = 'CARGO.IN0';
+  OutputFile = 'CARGO.OUT';
+  max = 80;
+  maxC = max * max * 4 + 1;
+  DName: array[1..4] of Char = 'SEWN';
+  DLName: array[1..4] of Char = 'sewn';
+  dx: array[1..4] of ShortInt = (1, 0, 0, -1);
+  dy: array[1..4] of ShortInt = (0, 1, -1, 0);
+type
+  THeapArr = array[1..max * max * 4] of ShortInt;
+  TWBoard = array[1..4, 1..max, 1..max] of Integer;
+  TBBoard = array[1..4, 1..max, 1..max] of ShortInt;
+var
+  m, n: Integer;
+  a: array[0..max + 1, 0..max + 1] of Char;
+  heapX, heapY, heapK: ^THeapArr;
+  d, pos: ^TWBoard;
+  Trace: ^TBBoard;
+  TraceBFS: array[1..max, 1..max] of ShortInt;
+  nHeap: Integer;
+  XS, YS, kD, XD, YD, XR, YR: Integer;
+  res: LongInt;
+
+procedure Enter;
+var
+  f: Text;
+  i, j: Integer;
+begin
+  FillChar(a, SizeOf(a), '#');
+  Assign(f, InputFile); Reset(f);
+  readln(f, m, n);
+  XS := 0; YS := 0;
+  XD := 0; YD := 0;
+  for i := 1 to m do
+    begin
+      for j := 1 to n do
+        begin
+          Read(f, a[i, j]);
+          case a[i, j] of
+            '@':
+              begin
+                XD := i; YD := j;
+              end;
+            '$':
+              begin
+                XS := i; YS := j;
+              end;
+            '*':
+              begin
+                XR := i; YR := j;
+              end;
+          end;
+        end;
+      Readln(f);
+    end;
+  Close(f);
+end;
+
+function NodeValue(iHeap: Integer): Integer;
+begin
+  NodeValue := d^[heapK^[iHeap], heapX^[iHeap], heapY^[iHeap]];
+end;
+
+procedure SetNodeValue(iHeap, k, x, y: Integer);
+begin
+  heapK^[iHeap] := k;
+  heapX^[iHeap] := x;
+  heapY^[iHeap] := y;
+  Pos^[k, x, y] := iHeap;
+end;
+
+procedure Push(k, x, y: Integer);
+var
+  r, c: Integer;
+begin
+  c := Pos^[k, x, y];
+  if c = 0 then
+    begin
+      Inc(nHeap);
+      c := nHeap;
+    end;
+  r := c div 2;
+  while (r > 0) and (NodeValue(r) > d^[k, x, y]) do
+    begin
+      SetNodeValue(c, heapK^[r], heapX^[r], heapY^[r]);
+      c := r;
+      r := c div 2;
+    end;
+  SetNodeValue(c, k, x, y);
+end;
+
+function Valid(k, x, y: Integer): Boolean;
+begin
+  Valid := a[x + dx[k], y + dy[k]] <> '#';
+end;
+
+procedure Init;
+var
+  k, x, y: Integer;
+begin
+  New(d);
+  for k := 1 to 4 do
+    begin
+      for x := 1 to m do
+        for y := 1 to n do d^[k, x, y] := MaxC;
+    end;
+  New(pos);
+  FillChar(pos^, SizeOf(pos^), 0);
+  New(heapK); New(heapX); New(heapY);
+  nHeap := 0;
+  for k := 1 to 4 do
+    if Valid(k, XD, YD) then
+      begin
+        d^[k, XD, YD] := 0;
+        Push(k, XD, YD);
+      end;
+  New(Trace);
+end;
+
+procedure Pop(var pk, px, py: Integer);
+var
+  tk, tx, ty: Integer;
+  r, c: Integer;
+begin
+  pk := heapK^[1]; px := heapX^[1]; py := heapY^[1];
+  pos^[pk, px, py] := -1;
+  tk := heapK^[nHeap]; tx := heapX^[nHeap]; ty := heapY^[nHeap];
+  Dec(nHeap);
+  r := 1;
+  while r * 2 <= nHeap do
+    begin
+      c := r * 2;
+      if (c < nHeap) and (NodeValue(c + 1) < NodeValue(c)) then
+        Inc(c);
+      if d^[tk, tx, ty] <= NodeValue(c) then Break;
+      SetNodeValue(r, heapK^[c], heapX^[c], heapY^[c]);
+      r := c;
+    end;
+  SetNodeValue(r, tk, tx, ty);
+end;
+
+function BFS(x1, y1, x2, y2, xC, yC: Integer): Integer;
+label Done;
+var
+  Qx, Qy: array[1..max * max] of ShortInt;
+  Layer: array[1..max, 1..max] of Integer;
+  first, last: Integer;
+  d, x, y, newx, newy: Integer;
+  Save: Char;
+begin
+  Qx[1] := x1; Qy[1] := y1;
+  first := 1; last := 1;
+  Save := a[xC, yC];
+  a[xC, yC] := '#';
+  FillChar(Layer, SizeOf(Layer), 0);
+  Layer[x1, y1] := 1;
+  while first <= last do
+    begin
+      x := Qx[first]; y := Qy[first];
+      Inc(first);
+      for d := 1 to 4 do
+        begin
+          newx := x + dx[d]; newy := y + dy[d];
+          if (a[newx, newy] <> '#') and (Layer[newx, newy] = 0) then
+            begin
+              Layer[newx, newy] := Layer[x, y] + 1;
+              if (newx = x2) and (newy = y2) then goto Done;
+              Inc(last);
+              Qx[last] := newx; Qy[last] := newy;
+            end;
+        end;
+    end;
+Done:
+  a[xC, yC] := Save;
+  if Layer[x2, y2] = 0 then BFS := MaxC
+  else BFS := Layer[x2, y2] - 1;
+end;
+
+procedure Update(pk, px, py: Integer);
+var
+  k, x, y, dis: Integer;
+  FD: Integer;
+begin
+  FD := d^[pk, px, py];
+  k := pk;
+  x := px + dx[pk]; y := py + dy[pk];
+  if Valid(k, x, y) and (FD + 1 < d^[k, x, y]) then
+    begin
+      d^[k, x, y] := FD + 1;
+      Trace^[k, x, y] := 0;
+      Push(k, x, y);
+    end;
+  x := px; y := py;
+  for k := 1 to 4 do
+    if Valid(k, x, y) then
+      begin
+        if FD >= d^[k, x, y] then Continue;
+        dis := BFS(x + dx[pk], y + dy[pk], x + dx[k], y + dy[k],
+                   x, y);
+        if FD + dis < d^[k, x, y] then
+          begin
+            d^[k, x, y] := FD + dis;
+            Trace^[k, x, y] := pk;
+            Push(k, x, y);
+          end;
+      end;
+end;
+
+function CanFinish: Boolean;
+var
+  k: Integer;
+begin
+  for k :=1 to 4 do
+    if Valid(k, xS, yS) and (pos^[k, xS, yS] >= 0) then
+      begin
+        CanFinish := False;
+        Exit;
+      end;
+  CanFinish := True;
+end;
+
+procedure Dijkstra;
+var
+  pk, px, py: Integer;
+begin
+  while nHeap <> 0 do
+    begin
+      Pop(pk, px, py);
+      if CanFinish then Break;
+      Update(pk, px, py);
+    end;
+end;
+
+procedure GetResult;
+var
+  dis: Integer;
+  k: Integer;
+begin
+  res := MaxLongInt;
+  for k := 1 to 4 do
+    if Valid(k, xS, yS) then
+      begin
+        dis := BFS(xS + dx[k], yS + dy[k], xR, yR, xS, yS);
+        if d^[k, XS, yS] + dis < res then
+          begin
+            res := d^[k, XS, yS] + dis;
+            kd := k;
+          end;
+      end;
+end;
+
+procedure FindPath(x1, y1, x2, y2, xC, yC: Integer);
+label Done;
+var
+  Qx, Qy: array[1..max * max] of ShortInt;
+  Layer: array[1..max, 1..max] of Integer;
+  first, last: Integer;
+  d, x, y, newx, newy: Integer;
+  Save: Char;
+begin
+  Qx[1] := x1; Qy[1] := y1;
+  first := 1; last := 1;
+  Save := a[xC, yC];
+  a[xC, yC] := '#';
+  FillChar(Layer, SizeOf(Layer), 0);
+  Layer[x1, y1] := 1;
+  while first <= last do
+    begin
+      x := Qx[first]; y := Qy[first];
+      Inc(first);
+      for d := 1 to 4 do
+        begin
+          newx := x + dx[d]; newy := y + dy[d];
+          if (a[newx, newy] <> '#') and (Layer[newx, newy] = 0) then
+            begin
+              Layer[newx, newy] := Layer[x, y] + 1;
+              TraceBFS[newx, newy] := d;
+              if (newx = x2) and (newy = y2) then goto Done;
+              Inc(last);
+              Qx[last] := newx; Qy[last] := newy;
+            end;
+        end;
+    end;
+Done:
+  a[xC, yC] := Save;
+end;
+
+procedure Result;
+var
+  f: Text;
+  t, k, x, y: Integer;
+
+  procedure WritePath(x1, y1, x2, y2: Integer);
+  var
+    d: Integer;
+  begin
+    while (x1 <> x2) or (y1 <> y2) do
+      begin
+        d := TraceBFS[x2, y2];
+        Write(f, DLName[5 - d]);
+        x2 := x2 - dx[d]; y2 := y2 - dy[d];
+      end;
+  end;
+
+begin
+  Assign(f, OutputFile); Rewrite(f);
+  if res >= MaxC then Writeln(f, -1)
+  else
+    begin
+      Writeln(f, res);
+      k := kd; x := xs; y := ys;
+      FindPath(x + dx[k], y + dy[k], xR, yR, x, y);
+      WritePath(x + dx[k], y + dy[k], xR, yR);
+      while (x <> XD) or (y <> YD) do
+        begin
+          t := Trace^[k, x, y];
+          if t = 0 then
+            begin
+              x := x - dx[k]; y := y - dy[k];
+              Write(f, DName[5 - k]);
+            end
+          else
+            begin
+              FindPath(x + dx[t], y + dy[t], x + dx[k], y + dy[k], x, y);
+              WritePath(x + dx[t], y + dy[t], x + dx[k], y + dy[k]);
+              k := t;
+            end;
+        end;
+    end;
+  Close(f);
+end;
+
+begin
+  Enter;
+  Init;
+  Dijkstra;
+  GetResult;
+  Result;
+end.

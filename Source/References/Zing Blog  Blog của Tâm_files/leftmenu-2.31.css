@@ -1,0 +1,570 @@
+ul.list-app li span {
+	background-image: url("../images/appsprite-1.85.png"); background-repeat: no-repeat;
+}
+.menu-item {
+	background-image: url("../images/appsprite-1.85.png"); background-repeat: no-repeat;
+}
+.menu-item-sub {
+	background-image: url("../images/appsprite-1.85.png"); background-repeat: no-repeat;
+}
+.icofeed {
+	background-image: url("../images/appsprite-1.85.png"); background-repeat: no-repeat;
+}
+#left-menu {
+	background: rgb(255, 255, 255); width: 143px; margin-bottom: 10px; float: left; display: inline; position: relative; _width: 140px;
+}
+#left-menufrd {
+	width: 160px; margin-bottom: 10px; float: left; _width: 157px;
+}
+.menu-app a:hover {
+	background: url("../images/bghovermenu.gif") repeat-x 0px bottom rgb(255, 255, 255); text-decoration: none; border-top-color: rgb(200, 212, 229); border-bottom-color: rgb(200, 212, 229); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.menu-app a.current {
+	background: url("../images/bghovermenu.gif") repeat-x 0px bottom rgb(255, 255, 255); text-decoration: none; border-top-color: rgb(200, 212, 229); border-bottom-color: rgb(200, 212, 229); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.menu-app-sub a:hover {
+	background: url("../images/bghovermenu.gif") repeat-x 0px bottom rgb(255, 255, 255); text-decoration: none; border-top-color: rgb(200, 212, 229); border-bottom-color: rgb(200, 212, 229); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.menu-appfrd a {
+	padding: 3px 10px 2px; color: rgb(0, 0, 0); border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.menu-appfrd a.current {
+	background: url("../images/bghovermenu.gif") repeat-x 0px bottom rgb(255, 255, 255); text-decoration: none;
+}
+.menu-appfrd a:hover {
+	background: url("../images/bghovermenu.gif") repeat-x 0px bottom rgb(255, 255, 255); text-decoration: none;
+}
+.menu-app a {
+	padding: 3px 6px 2px 10px; height: 18px; color: rgb(0, 0, 0); overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; display: block;
+}
+.menu-app-sub a {
+	padding: 3px 6px 2px 10px; height: 18px; color: rgb(0, 0, 0); overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; display: block;
+}
+a.menu-app-nocontent {
+	padding: 3px 10px 2px; color: rgb(128, 128, 128); margin-top: -5px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; display: block;
+}
+a.menu-app-nocontent:hover {
+	text-decoration: none;
+}
+a.menu-app-nocontent .blue {
+	color: rgb(71, 109, 164);
+}
+.menu-app a em.dynamic_counter {
+	padding: 1px 4px; color: rgb(255, 255, 255); line-height: normal; font-size: 10px; font-style: normal; font-weight: bold; float: right; display: none; background-color: rgb(217, 81, 78); -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.submenu em.dynamic_counter {
+	padding: 1px 4px; color: rgb(255, 255, 255); line-height: normal; font-size: 10px; font-style: normal; font-weight: bold; float: right; display: none; background-color: rgb(217, 81, 78); -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.menu-appfrd a em.dynamic_counter {
+	padding: 1px 4px; color: rgb(255, 255, 255); line-height: normal; font-size: 10px; font-style: normal; font-weight: bold; float: right; display: none; background-color: rgb(217, 81, 78); -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.submenu em.dynamic_counter {
+	margin-top: 3px;
+}
+.menu-item {
+	width: 16px; height: 17px; float: left; white-space: nowrap;
+}
+.menu-app .app-active {
+	background-position: 0px -106px; width: 5px; height: 10px; margin-top: 7px; float: right;
+}
+.menu-item-sub {
+	width: 16px; height: 17px; font-weight: normal; float: left; white-space: nowrap;
+}
+ul.submenu {
+	list-style: none; margin: 0px 10px; padding: 0px;
+}
+ul.submenu li {
+	padding: 3px 0px 3px 20px; height: 20px; border-bottom-color: rgb(234, 239, 244); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.submenu li.end {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+ul.submenu li.active {
+	color: rgb(68, 68, 68); font-weight: bold;
+}
+ul.submenu li a {
+	color: rgb(85, 85, 85); display: block;
+}
+ul.submenu li:hover {
+	text-decoration: none; cursor: pointer;
+}
+.titappli {
+	margin: 10px 10px 1px; height: 20px; line-height: 19px; padding-top: 10px; font-size: 10px; font-weight: bold; border-top-color: rgb(234, 239, 244); border-top-width: 1px; border-top-style: solid;
+}
+.titappli a {
+	color: rgb(122, 150, 189);
+}
+.titappli:hover {
+	cursor: pointer;
+}
+#left-menu .padleft {
+	margin-left: 4px;
+}
+.icofeed {
+	width: 16px; height: 18px; margin-right: 4px; float: left;
+}
+.icofapp {
+	width: 16px; height: 18px; margin-right: 4px; float: left;
+}
+.ficon_0 {
+	background-position: -1376px 0px;
+}
+.ficon_blog {
+	background-position: -1392px 0px;
+}
+.ficon_photo {
+	background-position: -1408px 0px;
+}
+.ficon_mp3 {
+	background-position: -1424px 0px;
+}
+.ficon_group {
+	background-position: -1440px 0px;
+}
+.ficon_hrsc {
+	background-position: -1456px 0px;
+}
+.ficon_gift {
+	background-position: -1472px 0px;
+}
+.ficon_link {
+	background-position: -1488px 0px;
+}
+.ficon_info-edit {
+	background-position: -1504px 0px;
+}
+.ficon_star {
+	background-position: -1520px 0px;
+}
+.ficon_msg {
+	background-position: -1536px 0px;
+}
+.ficon_status {
+	background-position: -1552px 0px;
+}
+.ficon_info {
+	background-position: -1568px 0px;
+}
+.ficon_friend {
+	background-position: -1584px 0px;
+}
+.ficon_hh {
+	background-position: -1600px 0px;
+}
+.ficon_fgg {
+	background-position: -1616px 0px;
+}
+.ficon_hrst {
+	background-position: -1632px 0px;
+}
+.ficon_ffs {
+	background-position: -1104px 0px;
+}
+.ficon_carparking {
+	background-position: -1120px 0px;
+}
+.ficon_vote {
+	background-position: -1136px 0px;
+}
+.ficon_quiz {
+	background-position: -1152px 0px;
+}
+.ficon_ecard {
+	background-position: -1168px 0px;
+}
+.ficon_hopqua {
+	background-position: -1184px 0px;
+}
+.ficon_hrs {
+	background-position: -1200px 0px;
+}
+.ficon_hotornot {
+	background-position: -1216px 0px;
+}
+.ficon_rds {
+	background-position: -1232px 0px;
+}
+.ficon_mobile {
+	background-position: -1248px 0px;
+}
+.ficon_fbapp {
+	background-position: -1264px 0px;
+}
+.ficon_minigame {
+	background-position: -1280px 0px;
+}
+.ficon_123mua {
+	background-position: -1296px 0px;
+}
+.ficon_hoidap {
+	background-position: -1312px 0px;
+}
+.ficon_cunyeu {
+	background-position: -1328px 0px;
+}
+.ficon_gunny {
+	background-position: -1344px 0px;
+}
+.ficon_myfarm {
+	background-position: -1360px 0px;
+}
+.ficon_bejeweled {
+	background-position: -1920px 0px;
+}
+.ficon_trangnguyen {
+	background-position: -1936px 0px;
+}
+.ficon_ntvv2 {
+	background-position: -1952px 0px;
+}
+.ficon_funnyphoto {
+	background-position: -1968px 0px;
+}
+.ficon_zingplay {
+	background-position: -1984px 0px;
+}
+.ficon_mtv {
+	background-position: -2000px 0px;
+}
+.ficon_kvtm {
+	background-position: -2016px 0px;
+}
+.ficon_game-tala {
+	background-position: -2032px 0px;
+}
+.ficon_garagames {
+	background-position: -2048px 0px;
+}
+.ficon_hf {
+	background-position: -2064px 0px;
+}
+.ficon_credits {
+	background-position: -2080px 0px;
+}
+.ficon_tinnhanhinhzms {
+	background-position: -2096px 0px;
+}
+.ficon_tinnhanhinhzms {
+	background-position: -2112px 0px;
+}
+.ficon_cutepig {
+	background-position: -2128px 0px;
+}
+.ficon_fish {
+	background-position: -2144px 0px;
+}
+.ficon_myplay {
+	background-position: -2160px 0px;
+}
+.ficon_treoco {
+	background-position: -2176px 0px;
+}
+.ficon_unin {
+	background-position: -2192px 0px;
+}
+.ficon_game-poker {
+	background-position: -1648px 0px;
+}
+.ficon_game-tienlen {
+	background-position: -1664px 0px;
+}
+.ficon_photo360 {
+	background-position: -1680px 0px;
+}
+.ficon_devuong {
+	background-position: -1696px 0px;
+}
+.ficon_boom {
+	background-position: -1712px 0px;
+}
+.ficon_vigame {
+	background-position: -1728px 0px;
+}
+.ficon_huyhieu {
+	background-position: -1744px 0px;
+}
+.ficon_tradiemthi {
+	background-position: -1760px 0px;
+}
+.ficon_chanvn {
+	background-position: -1776px 0px;
+}
+.ficon_happycity {
+	background-position: -1792px 0px;
+}
+.ficon_cotuong {
+	background-position: -1808px 0px;
+}
+.ficon_tienlen {
+	background-position: -1824px 0px;
+}
+.ficon_game-bacay {
+	background-position: -1840px 0px;
+}
+.ficon_sukien {
+	background-position: -1856px 0px;
+}
+.ficon_homeland_defense {
+	background-position: -1872px 0px;
+}
+.ficon_wlc {
+	background-position: -1888px 0px;
+}
+.ficon_4share {
+	background-position: -1904px 0px;
+}
+.ficon_chungthuc {
+	background-position: -272px 0px;
+}
+.ficon_elsword {
+	background-position: -288px 0px;
+}
+.ficon_hangrong {
+	background-position: -304px 0px;
+}
+.ficon_game-chan {
+	background-position: -320px 0px;
+}
+.ficon_ketnoitruongsa {
+	background-position: -336px 0px;
+}
+.ficon_game-binh {
+	background-position: -352px 0px;
+}
+.ficon_chromepilot {
+	background-position: -368px 0px;
+}
+.ficon_cafemot {
+	background-position: -384px 0px;
+}
+.ficon_moly {
+	background-position: -400px 0px;
+}
+.ficon_thongtuong {
+	background-position: -416px 0px;
+}
+.ficon_thoidaivanminh {
+	background-position: -432px 0px;
+}
+.ficon_anhhungonline {
+	background-position: -448px 0px;
+}
+.ficon_promotion {
+	background-position: -464px 0px;
+}
+.ficon_ssgarden {
+	background-position: -480px 0px;
+}
+.ficon_game-poker-texas {
+	background-position: -496px 0px;
+}
+.ficon_cungmuasam {
+	background-position: -512px 0px;
+}
+.ficon_zingdeal {
+	background-position: -528px 0px;
+}
+.ficon_xpet {
+	
+}
+.ficon_jayvietonline {
+	background-position: -16px 0px;
+}
+.ficon_islandcafe {
+	background-position: -32px 0px;
+}
+.ficon_happytribe {
+	background-position: -48px 0px;
+}
+.ficon_game-langquat {
+	background-position: -64px 0px;
+}
+.ficon_volamchimong {
+	background-position: -80px 0px;
+}
+.ficon_bigbang {
+	background-position: -96px 0px;
+}
+.ficon_ngoalong {
+	background-position: -112px 0px;
+}
+.ficon_daigia {
+	background-position: -128px 0px;
+}
+.ficon_tweet {
+	background-position: -144px 0px;
+}
+.ficon_zingspeed {
+	background-position: -160px 0px;
+}
+.ficon_sv2012 {
+	background-position: -176px 0px;
+}
+.ficon_tala {
+	background-position: -192px 0px;
+}
+.ficon_aniworld {
+	background-position: -208px 0px;
+}
+.ficon_pokerquyetthang {
+	background-position: -224px 0px;
+}
+.ficon_bavuong {
+	background-position: -240px 0px;
+}
+.ficon_sach {
+	background-position: -256px 0px;
+}
+.ficon_sharefile {
+	background-position: -816px 0px;
+}
+.ficon_zingnews {
+	background-position: -832px 0px;
+}
+.ficon_upcity {
+	background-position: -848px 0px;
+}
+.ficon_thanbai {
+	background-position: -864px 0px;
+}
+.ficon_tuyensinh {
+	background-position: -880px 0px;
+}
+.ficon_hungba {
+	background-position: -896px 0px;
+}
+.ficon_bnxt {
+	background-position: -912px 0px;
+}
+.ficon_ssolympia {
+	background-position: -928px 0px;
+}
+.ficon_tienmatruyenky {
+	background-position: -944px 0px;
+}
+.ficon_vipgames {
+	background-position: -960px 0px;
+}
+.ficon_chanlong {
+	background-position: -976px 0px;
+}
+.ficon_thapdienmaiphuc {
+	background-position: -992px 0px;
+}
+.ficon_cuuthien {
+	background-position: -1008px 0px;
+}
+.ficon_dechequatkhoi {
+	background-position: -1024px 0px;
+}
+.ficon_dacky {
+	background-position: -1040px 0px;
+}
+.ficon_longtuong {
+	background-position: -1056px 0px;
+}
+.ficon_chipzin {
+	background-position: -1072px 0px;
+}
+.ficon_goal {
+	background-position: -1088px 0px;
+}
+.ficon_fp_choemnucuoi2012 {
+	background-position: -544px 0px;
+}
+.ficon_3quoc {
+	background-position: -560px 0px;
+}
+.ficon_manhtuongvosong {
+	background-position: -576px 0px;
+}
+.ficon_7kiemtruyenky {
+	background-position: -592px 0px;
+}
+.ficon_fp_vetseocuocdoi2012 {
+	background-position: -608px 0px;
+}
+.ficon_boyaatexaspoker {
+	background-position: -624px 0px;
+}
+.ficon_fp_tdmp_invite {
+	background-position: -640px 0px;
+}
+.ficon_daigiaenjoy {
+	background-position: -656px 0px;
+}
+.ficon_thankiem {
+	background-position: -672px 0px;
+}
+.ficon_nhommua {
+	background-position: -688px 0px;
+}
+.ficon_thulinhga {
+	background-position: -704px 0px;
+}
+.ficon_fp_miss_sv_vote {
+	background-position: -720px 0px;
+}
+.ficon_movie {
+	background-position: -736px 0px;
+}
+.ficon_happycastle {
+	background-position: -752px 0px;
+}
+.ficon_vanvuong {
+	background-position: -768px 0px;
+}
+.ficon_flower {
+	background-position: -784px 0px;
+}
+.ficon_longquoc {
+	background-position: -800px 0px;
+}
+.btn-viewmore {
+	background-position: -174px -701px; margin: 10px; width: 101px; height: 24px; overflow: hidden; display: block;
+}
+.btn-viewmore:hover {
+	background-position: -276px -701px;
+}
+.btn-viewmore input {
+	border: currentColor; width: 101px; height: 24px; cursor: pointer;
+}
+.btn-selapp {
+	background-position: 0px -695px; margin: 2px 10px 10px; width: 70px; height: 20px; overflow: hidden; display: block;
+}
+.btn-selapp:hover {
+	background-position: -72px -695px;
+}
+.btn-selapp input {
+	border: currentColor; width: 70px; height: 20px; cursor: pointer;
+}
+.boxusermenult {
+	padding: 10px 10px 8px; height: 35px; overflow: hidden; _padding: 8px;
+}
+.avtmenult {
+	width: 35px; float: left;
+}
+.namemenult {
+	font-weight: bold; margin-left: 40px;
+}
+.editmenult {
+	background-position: 0px -677px; padding: 0px; width: 15px; height: 10px; margin-bottom: 0px; display: inline-block;
+}
+.pointusermenult {
+	padding: 0px 0px 5px 10px; font-size: 12px;
+}
+.line.pointusermenult {
+	margin-bottom: 3px; border-bottom-color: rgb(234, 239, 244); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ctnpointmenult {
+	color: rgb(136, 136, 136); margin-left: -5px;
+}
+.txtpointusermenult {
+	color: rgb(250, 159, 0); font-weight: bold;
+}
+.l_menu_apps {
+	position: relative; background-color: rgb(255, 255, 255);
+}
+.moveLeft .fixed_pos.l_menu_apps {
+	margin-left: -95px;
+}

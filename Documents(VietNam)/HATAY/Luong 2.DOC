@@ -1,0 +1,1778 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff15\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Times;}
+{\f5\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier;}{\f7\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Geneva;}
+{\f8\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Tms Rmn;}{\f9\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helv;}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif;}
+{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}{\f12\froman\fcharset0\fprq2{\*\panose 00000000000000000000}New York;}{\f13\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}System;}
+{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f15\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnTime;}{\f16\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}
+{\f17\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnArabiaH;}{\f18\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnArialH;}{\f19\froman\fcharset0\fprq2{\*\panose 00000000000000000000}CG Times;}
+{\f20\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Univers;}{\f21\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Univers Condensed;}{\f22\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Antique Olive;}
+{\f23\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Albertus Medium;}{\f24\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Albertus Extra Bold;}{\f25\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Letter Gothic;}
+{\f26\fnil\fcharset2\fprq2{\*\panose 00000000000000000000}Marlett;}{\f27\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnArial Narrow;}{\f28\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.Vn3DH;}
+{\f29\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnArabia;}{\f30\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnArial;}{\f31\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnArial NarrowH;}
+{\f32\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnAristote;}{\f33\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnAristoteH;}{\f34\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnAvant;}
+{\f35\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnAvantH;}{\f36\fswiss\fcharset0\fprq2{\*\panose 020be200000000000000}.VnBahamasB;}{\f37\fswiss\fcharset0\fprq2{\*\panose 020be200000000000000}.VnBahamasBH;}
+{\f38\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnBlack;}{\f39\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnBlackH;}{\f40\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnBodoni;}
+{\f41\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnBodoniH;}{\f42\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnBook-Antiqua;}{\f43\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnBook-AntiquaH;}
+{\f44\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnCentury Schoolbook;}{\f45\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnCentury SchoolbookH;}{\f46\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnClarendon;}
+{\f47\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnClarendonH;}{\f48\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnCommercial Script;}{\f49\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnCommercial ScriptH;}
+{\f50\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnCooper;}{\f51\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnCooperH;}{\f52\froman\fcharset0\fprq2{\*\panose 02027200000000000000}.VnCourier New;}
+{\f53\froman\fcharset0\fprq2{\*\panose 02027200000000000000}.VnCourier NewH;}{\f54\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnCourier;}{\f55\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnExotic;}
+{\f56\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnExoticH;}{\f57\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnFree;}{\f58\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnFreeH;}
+{\f59\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnGothic;}{\f60\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnGothicH;}{\f61\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnHelvetIns;}
+{\f62\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnHelvetInsH;}{\f63\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnKoala;}{\f64\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnKoalaH;}
+{\f65\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnLincoln;}{\f66\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnLincolnH;}{\f67\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnLinus;}
+{\f68\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnLinusH;}{\f69\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnLucida sans;}{\f70\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnMemorandum;}
+{\f71\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnMemorandumH;}{\f72\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnMonotype corsiva;}{\f73\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnMonotype corsivaH;}
+{\f74\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnMystical;}{\f75\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnMysticalH;}{\f76\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnPark;}
+{\f77\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnParkH;}{\f78\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnPresent;}{\f79\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnPresentH;}
+{\f80\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnRevue;}{\f81\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnRevueH;}{\f82\fdecor\fcharset0\fprq2{\*\panose 040b7200000000000000}.VnShelley Allegro;}
+{\f83\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnSouthern;}{\f84\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnSouthernH;}{\f85\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnStamp;}
+{\f86\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnTeknical;}{\f87\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnTeknicalH;}{\f88\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnTifani Heavy;}
+{\f89\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnTifani HeavyH;}{\f90\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnTimeH;}{\f91\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnUniverse;}
+{\f92\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnUniverseH;}{\f93\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnVogue;}{\f94\fswiss\fcharset0\fprq2{\*\panose 020b7200000000000000}.VnVogueH;}
+{\f95\froman\fcharset2\fprq2{\*\panose 05050102010205020202}MT Extra;}{\f96\fswiss\fcharset0\fprq2{\*\panose 020b0506020202030204}Arial Narrow;}{\f97\fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black;}
+{\f98\froman\fcharset0\fprq2{\*\panose 02050604050505020204}Bookman Old Style;}{\f99\fnil\fcharset2\fprq2{\*\panose 01010601010101010101}Monotype Sorts;}{\f100\froman\fcharset0\fprq2{\*\panose 02020404030301010803}Garamond;}
+{\f101\fswiss\fcharset0\fprq2{\*\panose 020b0806030902050204}Impact;}{\f102\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}MS Outlook;}{\f103\fscript\fcharset0\fprq2{\*\panose 030f0702030302020204}Comic Sans MS;}
+{\f104\fswiss\fcharset0\fprq2{\*\panose 020b0706040902060204}Haettenschweiler;}{\f105\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Bookshelf Symbol 3;}{\f106\fswiss\fcharset0\fprq2{\*\panose 020b0607020203060204}BankGothic Lt BT;}
+{\f107\fswiss\fcharset0\fprq2{\*\panose 020b0807020203060204}BankGothic Md BT;}{\f108\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}CityBlueprint;}{\f109\froman\fcharset2\fprq2{\*\panose 05020102010206080802}CommercialPi BT;}
+{\f110\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Complex;}{\f111\fscript\fcharset0\fprq2{\*\panose 03030803040807090c04}CommercialScript BT;}{\f112\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}CountryBlueprint;}
+{\f113\froman\fcharset0\fprq2{\*\panose 02020603060505020304}Dutch801 Rm BT;}{\f114\froman\fcharset0\fprq2{\*\panose 02020903060505020304}Dutch801 XBd BT;}{\f115\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}EuroRoman;}
+{\f116\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}GDT;}{\f117\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}GothicI;}{\f118\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ISOCP;}
+{\f119\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ISOCP2;}{\f120\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ISOCP3;}{\f121\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ISOCT;}
+{\f122\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ISOCT2;}{\f123\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ISOCT3;}{\f124\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Italic;}
+{\f125\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ItalicC;}{\f126\fmodern\fcharset0\fprq1{\*\panose 020b0609020202020204}Monospac821 BT;}{\f127\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Monotxt;}
+{\f128\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 1;}{\f129\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 2;}{\f130\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}PanRoman;}
+{\f131\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}Romantic;}{\f132\fnil\fcharset0\fprq2{\*\panose 02000400000000000000}RomanS;}{\f133\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}SansSerif;}
+{\f134\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ScriptC;}{\f135\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ScriptS;}{\f136\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Simplex;}
+{\f137\fswiss\fcharset0\fprq2{\*\panose 020e0402020206020304}Stylus BT;}{\f138\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}SuperFrench;}{\f139\fswiss\fcharset0\fprq2{\*\panose 020b0504020202020204}Swis721 BT;}
+{\f140\fdecor\fcharset0\fprq2{\*\panose 04020705020b03040203}Swis721 BdOul BT;}{\f141\fswiss\fcharset0\fprq2{\*\panose 020b0506020202030204}Swis721 Cn BT;}{\f142\fdecor\fcharset0\fprq2{\*\panose 04020704030b03040203}Swis721 BdCnOul BT;}
+{\f143\fswiss\fcharset0\fprq2{\*\panose 020b0806030502040204}Swis721 BlkCn BT;}{\f144\fswiss\fcharset0\fprq2{\*\panose 020b0406020202030204}Swis721 LtCn BT;}{\f145\fswiss\fcharset0\fprq2{\*\panose 020b0605020202020204}Swis721 Ex BT;}
+{\f146\fswiss\fcharset0\fprq2{\*\panose 020b0907040502030204}Swis721 BlkEx BT;}{\f147\fswiss\fcharset0\fprq2{\*\panose 020b0505020202020204}Swis721 LtEx BT;}{\f148\fswiss\fcharset0\fprq2{\*\panose 020b0904030502020204}Swis721 Blk BT;}
+{\f149\fdecor\fcharset0\fprq2{\*\panose 04020905030b03040203}Swis721 BlkOul BT;}{\f150\fswiss\fcharset0\fprq2{\*\panose 020b0403020202020204}Swis721 Lt BT;}{\f151\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}TechnicBold;}
+{\f152\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}TechnicLite;}{\f153\fnil\fcharset2\fprq2{\*\panose 00000400000000000000}Technic;}{\f154\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Txt;}
+{\f155\froman\fcharset2\fprq2{\*\panose 05050102010205020602}UniversalMath1 BT;}{\f156\fdecor\fcharset0\fprq2{\*\panose 04020906050602070202}Vineta BT;}{\f157\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}GothicE;}
+{\f158\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}GothicG;}{\f159\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}GreekC;}{\f160\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}GreekS;}
+{\f161\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}ItalicT;}{\f162\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}RomanC;}{\f163\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}RomanD;}
+{\f164\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}RomanT;}{\f165\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Syastro;}{\f166\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Symap;}
+{\f167\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Symath;}{\f168\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Symeteo;}{\f169\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Symusic;}
+{\f170\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 3;}{\f171\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 4;}{\f172\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 5;}
+{\f173\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 6;}{\f174\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 7;}{\f175\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 8;}
+{\f176\fnil\fcharset0\fprq2{\*\panose 00000400000000000000}Proxy 9;}{\f177\fmodern\fcharset0\fprq1{\*\panose 020b0609040504020204}Lucida Console;}{\f178\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}
+{\f179\froman\fcharset2\fprq2{\*\panose 05030102010509060703}Webdings;}{\f180\fscript\fcharset0\fprq2{\*\panose 00000000000000000000}TypoUpright BT;}{\f181\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Humanst521 BT;}
+{\f182\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}Charlesworth;}{\f183\froman\fcharset0\fprq2{\*\panose 00000000000000000000}BernhardMod BT;}{\f184\fnil\fcharset0\fprq2{\*\panose 00000000000000000000}Lithograph;}
+{\f185\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}AvantGarde Md BT;}{\f186\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Zurich BlkEx BT;}{\f187\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Zurich Ex BT;}
+{\f188\fscript\fcharset0\fprq2{\*\panose 00000000000000000000}OzHandicraft BT;}{\f189\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}GoudyHandtooled BT;}{\f190\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Dauphin;}
+{\f191\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Serifa BT;}{\f192\froman\fcharset0\fprq2{\*\panose 00000000000000000000}PosterBodoni BT;}{\f193\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Futura Lt BT;}
+{\f194\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}FuturaBlack BT;}{\f195\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}Bremen Bd BT;}{\f196\froman\fcharset0\fprq2{\*\panose 00000000000000000000}AmerType Md BT;}
+{\f197\fswiss\fcharset2\fprq2{\*\panose 00000000000000000000}CommonBullets;}{\f198\froman\fcharset0\fprq2{\*\panose 00000000000000000000}GoudyOlSt BT;}{\f199\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Souvenir Lt BT;}
+{\f200\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Serifa Th BT;}{\f201\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Kabel Ult BT;}{\f202\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}AvantGarde Bk BT;}
+{\f203\froman\fcharset0\fprq2{\*\panose 00000000000000000000}ZapfEllipt BT;}{\f204\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}CopprplGoth Bd BT;}{\f205\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}BernhardFashion BT;}
+{\f206\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}Allegro BT;}{\f207\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Benguiat Bk BT;}{\f208\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Kabel Bk BT;}
+{\f209\fscript\fcharset0\fprq2{\*\panose 00000000000000000000}English111 Vivace BT;}{\f210\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}LithographLight;}{\f211\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Futura Md BT;}
+{\f212\fscript\fcharset0\fprq2{\*\panose 00000000000000000000}Staccato222 BT;}{\f213\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Futura XBlk BT;}{\f214\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Swiss911 XCm BT;}
+{\f215\fswiss\fcharset2\fprq2{\*\panose 050b0604020202020204}Bookshelf Symbol 4;}{\f216\fnil\fcharset2\fprq2{\*\panose 05010101010101010101}Bookshelf Symbol 5;}{\f217\froman\fcharset238\fprq2{\*\panose 00000000000000000000}Times New Roman CE;}
+{\f218\froman\fcharset204\fprq2{\*\panose 00000000000000000000}Times New Roman Cyr;}{\f219\froman\fcharset161\fprq2{\*\panose 00000000000000000000}Times New Roman Greek;}{\f220\froman\fcharset162\fprq2{\*\panose 00000000000000000000}Times New Roman Tur;}
+{\f221\froman\fcharset186\fprq2{\*\panose 00000000000000000000}Times New Roman Baltic;}{\f222\fswiss\fcharset238\fprq2{\*\panose 00000000000000000000}Arial CE;}{\f223\fswiss\fcharset204\fprq2{\*\panose 00000000000000000000}Arial Cyr;}
+{\f224\fswiss\fcharset161\fprq2{\*\panose 00000000000000000000}Arial Greek;}{\f225\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Arial Tur;}{\f226\fswiss\fcharset186\fprq2{\*\panose 00000000000000000000}Arial Baltic;}
+{\f227\fmodern\fcharset238\fprq1{\*\panose 00000000000000000000}Courier New CE;}{\f228\fmodern\fcharset204\fprq1{\*\panose 00000000000000000000}Courier New Cyr;}{\f229\fmodern\fcharset161\fprq1{\*\panose 00000000000000000000}Courier New Greek;}
+{\f230\fmodern\fcharset162\fprq1{\*\panose 00000000000000000000}Courier New Tur;}{\f231\fmodern\fcharset186\fprq1{\*\panose 00000000000000000000}Courier New Baltic;}{\f232\fnil\fcharset161\fprq2{\*\panose 00000000000000000000}Complex Greek;}
+{\f233\fscript\fcharset162\fprq2{\*\panose 00000000000000000000}TypoUpright BT Tur;}{\f234\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Humanst521 BT Tur;}{\f235\froman\fcharset162\fprq2{\*\panose 00000000000000000000}BernhardMod BT Tur;}
+{\f236\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}AvantGarde Md BT Tur;}{\f237\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Zurich BlkEx BT Tur;}{\f238\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Zurich Ex BT Tur;}
+{\f239\fscript\fcharset162\fprq2{\*\panose 00000000000000000000}OzHandicraft BT Tur;}{\f240\fdecor\fcharset162\fprq2{\*\panose 00000000000000000000}GoudyHandtooled BT Tur;}{\f241\froman\fcharset162\fprq2{\*\panose 00000000000000000000}Serifa BT Tur;}
+{\f242\froman\fcharset162\fprq2{\*\panose 00000000000000000000}PosterBodoni BT Tur;}{\f243\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Futura Lt BT Tur;}{\f244\fdecor\fcharset162\fprq2{\*\panose 00000000000000000000}FuturaBlack BT Tur;}
+{\f245\fdecor\fcharset162\fprq2{\*\panose 00000000000000000000}Bremen Bd BT Tur;}{\f246\froman\fcharset162\fprq2{\*\panose 00000000000000000000}AmerType Md BT Tur;}{\f247\froman\fcharset162\fprq2{\*\panose 00000000000000000000}GoudyOlSt BT Tur;}
+{\f248\froman\fcharset162\fprq2{\*\panose 00000000000000000000}Souvenir Lt BT Tur;}{\f249\froman\fcharset162\fprq2{\*\panose 00000000000000000000}Serifa Th BT Tur;}{\f250\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Kabel Ult BT Tur;}
+{\f251\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}AvantGarde Bk BT Tur;}{\f252\froman\fcharset162\fprq2{\*\panose 00000000000000000000}ZapfEllipt BT Tur;}{\f253\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}CopprplGoth Bd BT Tur;}
+{\f254\fdecor\fcharset162\fprq2{\*\panose 00000000000000000000}BernhardFashion BT Tur;}{\f255\fdecor\fcharset162\fprq2{\*\panose 00000000000000000000}Allegro BT Tur;}{\f256\froman\fcharset162\fprq2{\*\panose 00000000000000000000}Benguiat Bk BT Tur;}
+{\f257\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Kabel Bk BT Tur;}{\f258\fscript\fcharset162\fprq2{\*\panose 00000000000000000000}English111 Vivace BT Tur;}{\f259\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Futura Md BT Tur;}
+{\f260\fscript\fcharset162\fprq2{\*\panose 00000000000000000000}Staccato222 BT Tur;}{\f261\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Futura XBlk BT Tur;}{\f262\fswiss\fcharset162\fprq2{\*\panose 00000000000000000000}Swiss911 XCm BT Tur;}
+{\f359\fswiss\fcharset238\fprq2 Tahoma CE;}{\f360\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f362\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f363\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f364\fswiss\fcharset186\fprq2 Tahoma Baltic;}
+{\f447\fswiss\fcharset162\fprq2 .VnArial Tur;}{\f659\fswiss\fcharset238\fprq2 .VnLincolnH CE;}{\f663\fswiss\fcharset162\fprq2 .VnLincolnH Tur;}{\f759\fdecor\fcharset162\fprq2 .VnShelley Allegro Tur;}{\f807\fswiss\fcharset162\fprq2 .VnTimeH Tur;}
+{\f839\fswiss\fcharset238\fprq2 Arial Narrow CE;}{\f840\fswiss\fcharset204\fprq2 Arial Narrow Cyr;}{\f842\fswiss\fcharset161\fprq2 Arial Narrow Greek;}{\f843\fswiss\fcharset162\fprq2 Arial Narrow Tur;}{\f844\fswiss\fcharset186\fprq2 Arial Narrow Baltic;}
+{\f845\fswiss\fcharset238\fprq2 Arial Black CE;}{\f846\fswiss\fcharset204\fprq2 Arial Black Cyr;}{\f848\fswiss\fcharset161\fprq2 Arial Black Greek;}{\f849\fswiss\fcharset162\fprq2 Arial Black Tur;}{\f850\fswiss\fcharset186\fprq2 Arial Black Baltic;}
+{\f851\froman\fcharset238\fprq2 Bookman Old Style CE;}{\f852\froman\fcharset204\fprq2 Bookman Old Style Cyr;}{\f854\froman\fcharset161\fprq2 Bookman Old Style Greek;}{\f855\froman\fcharset162\fprq2 Bookman Old Style Tur;}
+{\f856\froman\fcharset186\fprq2 Bookman Old Style Baltic;}{\f863\froman\fcharset238\fprq2 Garamond CE;}{\f864\froman\fcharset204\fprq2 Garamond Cyr;}{\f866\froman\fcharset161\fprq2 Garamond Greek;}{\f867\froman\fcharset162\fprq2 Garamond Tur;}
+{\f868\froman\fcharset186\fprq2 Garamond Baltic;}{\f869\fswiss\fcharset238\fprq2 Impact CE;}{\f870\fswiss\fcharset204\fprq2 Impact Cyr;}{\f872\fswiss\fcharset161\fprq2 Impact Greek;}{\f873\fswiss\fcharset162\fprq2 Impact Tur;}
+{\f874\fswiss\fcharset186\fprq2 Impact Baltic;}{\f903\fswiss\fcharset162\fprq2 BankGothic Lt BT Tur;}{\f909\fswiss\fcharset162\fprq2 BankGothic Md BT Tur;}{\f923\fnil\fcharset238\fprq2 Complex CE;}{\f933\fscript\fcharset162\fprq2 CommercialScript BT Tur;}
+{\f945\froman\fcharset162\fprq2 Dutch801 Rm BT Tur;}{\f951\froman\fcharset162\fprq2 Dutch801 XBd BT Tur;}{\f965\fnil\fcharset238\fprq2 GothicI CE;}{\f1007\fnil\fcharset238\fprq2 Italic CE;}{\f1013\fnil\fcharset238\fprq2 ItalicC CE;}
+{\f1023\fmodern\fcharset162\fprq1 Monospac821 BT Tur;}{\f1025\fnil\fcharset238\fprq2 Monotxt CE;}{\f1055\fnil\fcharset238\fprq2 RomanS CE;}{\f1056\fnil\fcharset204\fprq2 RomanS Cyr;}{\f1058\fnil\fcharset161\fprq2 RomanS Greek;}
+{\f1059\fnil\fcharset162\fprq2 RomanS Tur;}{\f1060\fnil\fcharset186\fprq2 RomanS Baltic;}{\f1067\fnil\fcharset238\fprq2 ScriptC CE;}{\f1073\fnil\fcharset238\fprq2 ScriptS CE;}{\f1079\fnil\fcharset238\fprq2 Simplex CE;}
+{\f1089\fswiss\fcharset162\fprq2 Stylus BT Tur;}{\f1101\fswiss\fcharset162\fprq2 Swis721 BT Tur;}{\f1107\fdecor\fcharset162\fprq2 Swis721 BdOul BT Tur;}{\f1113\fswiss\fcharset162\fprq2 Swis721 Cn BT Tur;}
+{\f1119\fdecor\fcharset162\fprq2 Swis721 BdCnOul BT Tur;}{\f1125\fswiss\fcharset162\fprq2 Swis721 BlkCn BT Tur;}{\f1131\fswiss\fcharset162\fprq2 Swis721 LtCn BT Tur;}{\f1137\fswiss\fcharset162\fprq2 Swis721 Ex BT Tur;}
+{\f1143\fswiss\fcharset162\fprq2 Swis721 BlkEx BT Tur;}{\f1149\fswiss\fcharset162\fprq2 Swis721 LtEx BT Tur;}{\f1155\fswiss\fcharset162\fprq2 Swis721 Blk BT Tur;}{\f1161\fdecor\fcharset162\fprq2 Swis721 BlkOul BT Tur;}
+{\f1167\fswiss\fcharset162\fprq2 Swis721 Lt BT Tur;}{\f1187\fnil\fcharset238\fprq2 Txt CE;}{\f1203\fdecor\fcharset162\fprq2 Vineta BT Tur;}{\f1205\fnil\fcharset238\fprq2 GothicE CE;}{\f1229\fnil\fcharset238\fprq2 ItalicT CE;}
+{\f1235\fnil\fcharset238\fprq2 RomanC CE;}{\f1247\fnil\fcharset238\fprq2 RomanT CE;}{\f1325\fmodern\fcharset238\fprq1 Lucida Console CE;}{\f1326\fmodern\fcharset204\fprq1 Lucida Console Cyr;}{\f1328\fmodern\fcharset161\fprq1 Lucida Console Greek;}
+{\f1329\fmodern\fcharset162\fprq1 Lucida Console Tur;}{\f1331\fswiss\fcharset238\fprq2 Verdana CE;}{\f1332\fswiss\fcharset204\fprq2 Verdana Cyr;}{\f1334\fswiss\fcharset161\fprq2 Verdana Greek;}{\f1335\fswiss\fcharset162\fprq2 Verdana Tur;}
+{\f1336\fswiss\fcharset186\fprq2 Verdana Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\adjustright \f15 \snext0 Normal;}{
+\s1\sb240\sa60\keepn\nowidctlpar\adjustright \b\f1\fs28\kerning28 \sbasedon0 \snext0 heading 1;}{\s2\sb240\sa60\keepn\nowidctlpar\adjustright \b\i\f1 \sbasedon0 \snext0 heading 2;}{\s3\sb240\sa60\keepn\nowidctlpar\adjustright \b\f15 \sbasedon0 \snext0 
+heading 3;}{\s4\sb240\sa60\keepn\nowidctlpar\adjustright \b\i\f15 \sbasedon0 \snext0 heading 4;}{\s5\sb240\sa60\nowidctlpar\adjustright \f1\fs22 \sbasedon0 \snext0 heading 5;}{\s6\sb240\sa60\nowidctlpar\adjustright \i\f1\fs22 \sbasedon0 \snext0 
+heading 6;}{\*\cs10 \additive Default Paragraph Font;}{\s15\qc\nowidctlpar\adjustright \f18\fs28 \sbasedon0 \snext15 Title;}{\s16\nowidctlpar\adjustright \f2\fs20 \sbasedon0 \snext16 Plain Text;}{\s17\nowidctlpar\tqc\tx4320\tqr\tx8640\adjustright \f15 
+\sbasedon0 \snext17 header;}{\*\cs18 \additive \sbasedon10 page number;}{\s19\fi-360\li360\nowidctlpar\adjustright \f15 \sbasedon0 \snext19 List;}{\s20\fi-360\li720\nowidctlpar\adjustright \f15 \sbasedon0 \snext20 List 2;}{
+\s21\fi-360\li1080\nowidctlpar\adjustright \f15 \sbasedon0 \snext21 List 3;}{\s22\fi-360\li1440\nowidctlpar\adjustright \f15 \sbasedon0 \snext22 List 4;}{\s23\fi-360\li720\nowidctlpar{\*\pn \pnlvlblt\ilvl10\ls2047\pnrnot0\pnf3\pnstart1\pnindent360\pnhang
+{\pntxtb \'b7}}\ls2047\ilvl10\adjustright \f15 \sbasedon0 \snext23 \sautoupd List Bullet 2;}{\s24\fi-360\li1080\nowidctlpar{\*\pn \pnlvlblt\ilvl10\ls2047\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls2047\ilvl10\adjustright \f15 
+\sbasedon0 \snext24 \sautoupd List Bullet 3;}{\s25\li360\sa120\nowidctlpar\adjustright \f15 \sbasedon0 \snext25 List Continue;}{\s26\li720\sa120\nowidctlpar\adjustright \f15 \sbasedon0 \snext26 List Continue 2;}{\s27\li1080\sa120\nowidctlpar\adjustright 
+\f15 \sbasedon0 \snext27 List Continue 3;}{\s28\sa120\nowidctlpar\adjustright \f15 \sbasedon0 \snext28 Body Text;}{\s29\li360\sa120\nowidctlpar\adjustright \f15 \sbasedon0 \snext29 Body Text 2;}{\s30\li360\sa120\nowidctlpar\adjustright \f15 
+\sbasedon29 \snext30 Body Text 3;}{\s31\nowidctlpar\adjustright \cbpat9 \f16 \sbasedon0 \snext31 Document Map;}{\s32\nowidctlpar\tqc\tx4320\tqr\tx8640\adjustright \f15 \sbasedon0 \snext32 footer;}}{\*\listtable{\list\listtemplateid-1267064152\listsimple
+{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080 }{\listname ;}\listid-126}{\list\listtemplateid-2081271312\listsimple{\listlevel
+\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720 }{\listname ;}\listid-125}{\list\listtemplateid-1\listsimple{\listlevel\levelnfc0\leveljc0
+\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}{\listname ;}\listid-2}{\list\listtemplateid1142078866\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360
+{\leveltext\'02\'00\u-4055 ?;}{\levelnumbers\'01;}\ul \fi-360\li360 }{\listname ;}\listid75057844}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid328872674}{\list\listtemplateid1644707692\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00);}{\levelnumbers\'01;}\ul\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid472604796}{\list\listtemplateid-1657268962\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat6\levelspace0\levelindent0{\leveltext
+\'01\'00;}{\levelnumbers\'01;}\fbias0 \fi-360\li720\jclisttab\tx720 }{\listname ;}\listid983507144}{\list\listtemplateid69861399\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1962103577}}{\*\listoverridetable{\listoverride\listid-125\listoverridecount0\ls1}{\listoverride\listid-126\listoverridecount0\ls2}{\listoverride\listid-125
+\listoverridecount0\ls3}{\listoverride\listid-126\listoverridecount0\ls4}{\listoverride\listid-125\listoverridecount0\ls5}{\listoverride\listid-126\listoverridecount0\ls6}{\listoverride\listid-125\listoverridecount0\ls7}{\listoverride\listid-126
+\listoverridecount0\ls8}{\listoverride\listid-125\listoverridecount0\ls9}{\listoverride\listid-126\listoverridecount0\ls10}{\listoverride\listid-125\listoverridecount0\ls11}{\listoverride\listid-126\listoverridecount0\ls12}{\listoverride\listid-125
+\listoverridecount0\ls13}{\listoverride\listid-126\listoverridecount0\ls14}{\listoverride\listid-125\listoverridecount0\ls15}{\listoverride\listid-126\listoverridecount0\ls16}{\listoverride\listid-125\listoverridecount0\ls17}{\listoverride\listid-126
+\listoverridecount0\ls18}{\listoverride\listid-125\listoverridecount0\ls19}{\listoverride\listid-126\listoverridecount0\ls20}{\listoverride\listid-125\listoverridecount0\ls21}{\listoverride\listid-126\listoverridecount0\ls22}{\listoverride\listid-125
+\listoverridecount0\ls23}{\listoverride\listid-126\listoverridecount0\ls24}{\listoverride\listid-125\listoverridecount0\ls25}{\listoverride\listid-126\listoverridecount0\ls26}{\listoverride\listid75057844\listoverridecount0\ls27}{\listoverride\listid-2
+\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent720{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\b\f3\fbias0 \fi-720\li1080 }}\ls28}{\listoverride\listid472604796
+\listoverridecount0\ls29}{\listoverride\listid1962103577\listoverridecount0\ls30}{\listoverride\listid983507144\listoverridecount0\ls31}{\listoverride\listid328872674\listoverridecount0\ls32}}{\*\revtbl {Unknown;}}{\info{\title B\'b5i to\'b8n lu\'e5ng }{\author TDH}
+{\operator tdh}{\creatim\yr1999\mo1\dy1\hr19\min54}{\revtim\yr2000\mo4\dy6\hr12\min39}{\printim\yr1999\mo10\dy11\hr7\min28}{\version43}{\edmins452}{\nofpages35}{\nofwords6447}{\nofchars36748}{\*\company NH}{\nofcharsws45129}{\vern71}}
+\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade\viewkind1\viewscale75 \fet0\sectd \linex0\endnhere\sectdefaultcl {\header \pard\plain \s17\nowidctlpar\tqc\tx4320\tqr\tx8640\pvpara\phmrg\posxc\posy0\adjustright \f15 {\field{\*\fldinst {\cs18 PAGE  }
+}{\fldrslt {\cs18\lang1024 35}}}{\cs18 
+\par }\pard \s17\nowidctlpar\tqc\tx4320\tqr\tx8640\adjustright {\fs20\ul T\'b5i li\'d6u chuy\'aan Tin Nguy\'d4n Hu\'d6
+\par }}{\footer \pard\plain \nowidctlpar\adjustright \f15 {The flow in the network                                   TDH   }{\field{\*\fldinst { DATE \\@ "MM/dd/yy" }}{\fldrslt {\lang1024 04/06/00}}}{\v  }{   }{\field{\*\fldinst { TIME \\@ "h:mm AM/PM" }
+}{\fldrslt {\lang1024 12:38 PM}}}{\field{\*\fldinst {  TIME \\@ "h:mm AM/PM"}}{\fldrslt {\lang1024 12:38 PM}}}{ 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta ?}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}\pard\plain \s15\qc\nowidctlpar\adjustright \f18\fs28 {\b\fs36 B\'b5i to\'b8n lu\'e5ng 
+\par }\pard\plain \qc\nowidctlpar\adjustright \f15 {
+\par }\pard \qj\nowidctlpar\adjustright {\b\ul I / M\'e9t s\'e8 kh\'b8i ni\'d6m : }{
+\par {\pntext\pard\plain\f15\ul \hich\af15\dbch\af0\loch\f15 a)\tab}}\pard \qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls29\pnrnot0\pnlcltr\pnul\pnstart1\pnindent360\pnhang{\pntxta )}}\ls29\adjustright {\ul \'a7\'denh ngh\'dca m\'b9ng :
+}{ 
+\par }\pard \qj\fi360\nowidctlpar{\*\pn \pnlvlcont\ilvl12\ls0\pnrnot0\pndec }\ilvl12\adjustright {M\'b9ng l\'b5 \'ae\'e5 th\'de c\'e3 h\'ad\'edng G(V,E) , V l\'b5 t\'cbp \'ae\'d8nh , E l\'b5 t\'cbp cung tho\'b6 m\'b7n c\'b8c \'aei\'d2u ki\'d6n sau \'ae\'a9y :
+
+\par + T\'e5n t\'b9i duy nh\'cat 1 \'ae\'d8nh s kh\'abng c\'e3 cung v\'b5o ( b\'b8n b\'cbc v\'b5o  b\'bbng 0 )
+\par + T\'e5n t\'b9i duy nh\'cat 1 \'ae\'d8nh t kh\'abng c\'e3 cung ra ( b\'b8n b\'cbc ra b\'bbng 0 ) 
+\par + M\'e7i cung e thu\'e9c E t\'ad\'acng \'f8ng v\'edi 1 s\'e8 kh\'abng \'a9m A(e)
+\par {\pntext\pard\plain\f15\ul \hich\af15\dbch\af0\loch\f15 b)\tab}}\pard \qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls29\pnrnot0\pnlcltr\pnul\pnstart1\pnindent360\pnhang{\pntxta )}}\ls29\adjustright {\ul \'a7\'denh ngh\'dca lu\'e5
+ng :}{
+\par }\pard \qj\li360\nowidctlpar\adjustright {Cho m\'b9ng G(V,E) v\'edi ma tr\'cbn tr\'e4ng s\'e8 A . 
+\par Lu\'e5ng l\'b5 1 \'b8nh x\'b9 F t\'f5 t\'cbp cung E v\'b5o t\'cbp s\'e8 th\'f9c     
+\par }\pard \qj\fi360\li1800\nowidctlpar\adjustright {F  :   \tab E ---> R
+\par \tab e ---> F(e) 
+\par }\pard \qj\li360\nowidctlpar\adjustright {tho\'b6 m\'b7n c\'b8c t\'ddnh ch\'cat sau \'ae\'a9y :
+\par + F(e) }{{\field{\*\fldinst SYMBOL 179 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ 0  \tab }{{\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ e
+\par + A(e) }{{\field{\*\fldinst SYMBOL 179 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ F(e) \tab }{{\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ e     
+\par +  W(i) = }{{\field{\*\fldinst SYMBOL 229 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ F(e}{\super +}{) - }{{\field{\*\fldinst SYMBOL 229 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ F(e}{\super -}{) = 0    }{{\field{\*\fldinst SYMBOL 34 \\f "Symbol"
+ \\s 12}{\fldrslt\f3\fs24}}}{ \'ae\'d8nh i kh\'b8c s v\'b5 t ( e}{\super + }{ l\'b5 cung ra kh\'e1i \'ae\'d8nh i t\'cbp cung n\'b5y k\'fd hi\'d6u l\'b5 }{{\field{\*\fldinst SYMBOL 71 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\super  +}{ ;  c\'dfn e}{
+\super - }{ l\'b5  cung \'aei t\'edi i , t\'cbp cung n\'b5y k\'fd hi\'d6u l\'b5 }{{\field{\*\fldinst SYMBOL 71 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\super  -}{ ) . Ngo\'b5i ra n\'d5u \'ae\'c6t W(s) = W th\'d7 W(t) = -W.
+\par W(i) g\'e4i l\'b5 th\'abng l\'ad\'eeng c\'f1a lu\'e5ng t\'b9i \'ae\'d8nh i . 
+\par F(e) g\'e4i l\'b5 gi\'b8 tr\'de c\'f1a lu\'e5ng tr\'aan cung e .
+\par W = W(s) =- W(t) g\'e4i l\'b5 gi\'b8 tr\'de c\'f1a lu\'e5ng .
+\par }\pard \qj\nowidctlpar\adjustright {\b\ul 
+\par II / B\'b5i to\'b8n lu\'e5ng th\'f8 nh\'cat :}{
+\par }\pard \qj\li360\nowidctlpar\adjustright {\ul 
+\par 1 ) B\'b5i to\'b8n : }{T\'d7m lu\'e5ng c\'e3 gi\'b8 tr\'de l\'edn nh\'cat ( gi\'b8 tr\'de W \'ae\'b9t max ) trong t\'cat c\'b6 c\'b8c lu\'e5ng x\'b8c \'ae\'denh tr\'aan m\'b9ng.}{\b\ul 
+\par }{\ul 2 ) }{\f90\ul \'fd}{\ul  ngh\'dca th\'f9c t\'d5 : }{T\'d7m c\'b8ch v\'cbn chuy\'d3n \'ae\'ad\'eec nhi\'d2u h\'b5ng ho\'b8 nh\'cat tr\'aan m\'b9ng giao th\'abng , bi\'d5t \'aei\'d2u ki\'d6n v\'cbn chuy\'d3n tr\'aan m\'e7i tuy\'d5n \'ae\'ad\'eang c
+\'f1a m\'b9ng .
+\par }{\ul 3 ) \'a7\'denh ngh\'dca l\'b8t c\'bet :}{  L\'b5 m\'e9t c\'b8ch ph\'a9n chia t\'cbp \'ae\'d8nh V c\'f1a m\'b9ng th\'b5nh 2 t\'cbp con X v\'b5 Y sao cho X}{{\field{\*\fldinst SYMBOL 200 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{Y=V v\'b5 X giao Y b
+\'bbng }{{\field{\*\fldinst SYMBOL 175 \\f "SuperFrench" \\s 12}{\fldrslt\f138\fs24}}}{ . M\'e9t l\'b8t c\'bet c\'e3 s thu\'e9c X v\'b5 t thu\'e9c Y g\'e4i l\'b5 l\'b8t c\'bet ph\'a9n chia \'ae\'d8nh ph\'b8t s v\'b5 \'ae\'d8nh thu t .
+\par \tab Kh\'b6 n\'a8ng th\'abng qua c\'f1a l\'b8t c\'bet ( X,Y ) l\'b5 t\'e5ng th\'abng l\'ad\'eeng c\'f1a lu\'e5ng tr\'aan c\'b8c cung \'aei t\'f5 m\'e9t \'ae\'d8nh c\'f1a X sang m\'e9t cung c\'f1a Y . L\'b8t c\'bet c\'e3 kh\'b6 n\'a8ng th\'abng qua  nh\'e1
+ nh\'cat g\'e4i l\'b5 l\'b8t c\'bet h\'d1p nh\'cat .
+\par }{\ul 4 ) \'a7\'denh l\'fd c\'f1a Ford Fulkerson
+\par }{ \ldblquote  Gi\'b8 tr\'de c\'f1a lu\'e5ng c\'f9c \'ae\'b9i b\'bbng kh\'b6 n\'a8ng th\'abng qua c\'f1a }{\ul l\'b8t c\'bet h\'d1p nh\'cat  t\'b8ch s v\'b5 t }{\ldblquote .
+\par }\pard \qj\fi360\li360\nowidctlpar\adjustright {
+\par T\'f5 \'ae\'e3 ng\'ad\'eai ta x\'a9y d\'f9ng thu\'cbt to\'b8n t\'d7m lu\'e5ng c\'f9c \'ae\'b9i :
+\par }\pard \qj\nowidctlpar\adjustright {\b \tab }{Tr\'ad\'edc h\'d5t gi\'edi thi\'d6u kh\'b8i ni\'d6m nh\'b7n c\'f1a m\'e9t \'ae\'d8nh :
+\par }\pard \qj\li360\nowidctlpar\adjustright {+ Nh\'b7n c\'f1a \'ae\'d8nh i l\'b5  c\'c6p s\'e8  (+j , v ) ngh\'dca l\'b5 : c\'e3 th\'d3 t\'a8ng gi\'b8 tr\'de lu\'e5ng tr\'aan cung (j,i) m\'e9t l\'ad\'eeng kh\'abng v\'ad\'eet qu\'b8 v. S\'e8 +j g\'e4i l\'b5
+ nh\'b7n 1 , s\'e8 v g\'e4i l\'b5 nh\'b7n 2 .
+\par + Nh\'b7n c\'f1a \'ae\'d8nh i l\'b5 c\'c6p s\'e8 (-j,v) ngh\'dca l\'b5 : c\'e3 th\'d3 gi\'b6m gi\'b8 tr\'de c\'f1a lu\'e5ng tr\'aan cung (i,j) m\'e9t l\'ad\'eeng kh\'abng v\'ad\'eet qu\'b8 v . S\'e8 -j g\'e4i l\'b5 nh\'b7n 1 , s\'e8 v g\'e4i l\'b5 nh\'b7
+n 2 .
+\par }\pard \qj\fi360\li360\nowidctlpar\adjustright {Trong qu\'b8 tr\'d7nh th\'f9c hi\'d6n thu\'cbt to\'b8n ng\'ad\'eai ta x\'f6 d\'f4ng c\'b8c \'ae\'e9ng t\'b8c sau :
+\par }\pard \qj\li360\nowidctlpar\adjustright {\b 
+\par Kh\'ebi tr\'de  : }{t\'b9o 1 lu\'e5ng ban \'ae\'c7u tr\'aan m\'b9ng ( c\'e3 th\'d3 ch\'e4n lu\'e5ng t\'c7m th\'ad\'eang F sao cho F(e) = 0 }{{\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ e . Gi\'b8 tr\'de c\'f1a lu\'e5ng l\'b5
+ W=0 .
+\par \'a7\'c7u ti\'aan t\'cat c\'b6 c\'b8c \'ae\'d8nh ch\'ada c\'e3 nh\'b7n , v\'b5 \'ae\'b8nh d\'cau l\'b5 ch\'ada x\'d0t
+\par G\'b8n nh\'b7n s(+s, }{{\field{\*\fldinst SYMBOL 165 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ ) . Cho s v\'b5o stack . 
+\par }{\b 
+\par S\'f6a nh\'b7n :}{ d\'efng \'ae\'d8nh j ( j l\'cay t\'f5 \'ae\'d8nh stack ) \'ae\'d3 s\'f6a nh\'b7n cho c\'b8c \'ae\'d8nh i ch\'ada \'ae\'b8nh d\'cau v\'b5 i k\'d2 v\'edi j .Q\'f3a tr\'d7nh s\'f6a nh\'b7n c\'f2ng l\'b5 qu\'b8 tr\'d7nh x\'a9y d\'f9ng m\'e9
+t d\'a9y chuy\'d2n.
+\par a) Gi\'b6 s\'f6 nh\'b7n \'ae\'d8nh j (+k,v) ho\'c6c  j(-k,v) 
+\par \tab + N\'d5u  cung (j,i) }{{\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ E , F[j,i] < A[j,i]  th\'d7 nh\'b7n m\'edi c\'f1a i l\'b5 i(+j,v}{\sub 0}{) , v\'edi  v}{\sub 0}{=Min(v,A[j,i]-F[j,i] )
+\par \tab + N\'d5u  cung (i,j) }{{\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ E , F[i,j] >0 th\'d7 nh\'b7n m\'edi c\'f1a i l\'b5  i(-j,v}{\sub 0}{ ), v}{\sub 0}{ = Min ( v, F[i,j] )
+\par b) S\'f6a xong nh\'b7n th\'d7 cho \'ae\'d8nh i v\'b5o stack
+\par c) Cu\'e8i c\'efng , sau khi t\'cat c\'b6 c\'b8c \'ae\'d8nh i \'ae\'ad\'eec s\'f6a nh\'b7n , ta \'ae\'b8nh d\'cau \'ae\'d8nh j l\'b5 \'ae\'b7 \'ae\'ad\'eec d\'efng ( \'ae\'d3 s\'f6a nh\'b7n cho c\'b8c \'ae\'d8nh i ) .
+\par }\pard \qj\li360\nowidctlpar\tx720\adjustright {\b 
+\par \'a7i\'d2u ch\'d8nh lu\'e5ng :}{
+\par }\pard \qj\li720\nowidctlpar\adjustright {+ Xu\'cat ph\'b8t vi\'d6c \'aei\'d2u ch\'d8nh t\'f5 \'ae\'d8nh thu t (g\'b8n   i := t )
+\par + V\'dfng l\'c6p 
+\par \tab j  := i;
+\par             i  := nh\'b7n 1 c\'f1a j (\'ae\'e3 l\'b5  \'ae\'d8nh tr\'ad\'edc c\'f1a j );
+\par \tab N\'d5u i>0 th\'d7 F[i,j] t\'a8ng th\'aam m\'e9t l\'ad\'eeng v ( l\'b5  nh\'b7n 2 c\'f1a \'ae\'d8nh t )
+\par \tab N\'d5u i<0 th\'d7  F[j,-i] gi\'b6m m\'e9t l\'ad\'eeng  v 
+\par \tab i := Abs(i);
+\par L\'c6p cho \'ae\'d5n khi i = S ;
+\par }{\lang1024\cgrid {\shp{\*\shpinst\shpleft504\shptop200\shpright8136\shpbottom4650\shpfhdr0\shpbxcolumn\shpbypara\shpwr3\shpwrk0\shpfblwtxt0\shpz0\shplid1026{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fShadow}{\sv 0}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8192\dprect\dpx504\dpy200\dpxsize7632\dpysize4450
+\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat0\dplinew15\dplinecor0\dplinecog0\dplinecob0}}}}{
+\par }\pard \qj\li360\nowidctlpar\adjustright {
+\par }\pard \qj\fi360\li360\nowidctlpar\adjustright {\b Thu\'cbt to\'b8n t\'d7m lu\'e5ng c\'e3 gi\'b8 tr\'de l\'edn nh\'cat :
+\par }\pard \qj\li360\nowidctlpar\adjustright {\b 
+\par }\pard \qj\fi360\li360\nowidctlpar\adjustright {\fs28 Repeat
+\par }\pard \qj\li360\nowidctlpar\adjustright {\fs28       \tab Kh\'ebi_tr\'de;
+\par \tab \tab While   Stack kh\'b8c r\'e7ng th\'f9c hi\'d6n
+\par \tab \tab Begin
+\par \tab \tab \tab L\'cay j \'eb \'ae\'d8nh Stack;
+\par \tab \tab \tab N\'d5u c\'dfn \'ae\'d8nh i ch\'ada \'ae\'b8nh d\'cau th\'d7 S\'f6a_nh\'b7n\tab cho i
+\par                End;
+\par \tab \tab N\'d5u \'ae\'d8nh t \'ae\'b7 \'ae\'ad\'eec \'ae\'b8nh d\'cau th\'d7 \'a7i\'d2u_ch\'d8nh_lu\'e5ng ;
+\par }\pard \qj\fi360\li360\nowidctlpar\adjustright {\b 
+\par }{\fs28 Until  \'ae\'d8nh T kh\'abng th\'d3 \'ae\'b8nh d\'cau ;
+\par }\pard \qj\li360\nowidctlpar\adjustright {\b 
+\par }{
+\par }{\b 
+\par T\'d7m gi\'b8 tr\'de c\'f9c \'ae\'b9i c\'f1a lu\'e5ng}{ : ta t\'ddnh t\'e6ng c\'b8c gi\'b8 tr\'de c\'f1a lu\'e5ng tr\'aan c\'b8c cung xu\'cat ph\'b8t t\'f5 s ( ngh\'dca l\'b5 ta x\'d0t lu\'e5ng ch\'b6y qua 1 l\'b8t c\'bet h\'d1p nh\'cat ,trong l\'b8t c
+\'bet n\'b5y t\'cbp \'ae\'d8nh \'ae\'ad\'eec chia th\'b5nh 2 t\'cbp : t\'cbp 1 g\'e5m 1 \'ae\'d8nh duy nh\'cat l\'b5 S , t\'cbp 2 g\'e5m c\'b8c \'ae\'d8nh c\'dfn l\'b9i .)
+\par }\pard\plain \s16\nowidctlpar\adjustright \f2\fs20 {\fs24 
+\par 
+\par }{\f15\fs24\ul C\'b8ch tr\'d7nh b\'b5y 1 :
+\par }{\fs24 uses  crt;
+\par const max    = 101;
+\par       fi     = 'luong.inp';
+\par       fo     = 'luong.tdh';
+\par 
+\par type  mang   = array[0..max,0..max] of integer;
+\par       mang2  = array[0..max] of integer;
+\par       rec    = record
+\par                     delta,toi:integer;
+\par                end;
+\par       mang3  = array[0..max] of rec;
+\par 
+\par var   a,F    : mang;
+\par       nh     : mang3;
+\par       s,dx   : mang2;
+\par       n,top  : integer;
+\par 
+\par procedure docf;
+\par var i,j:integer;
+\par     f : text;
+\par begin
+\par      assign(f,fi);
+\par      reset(f);
+\par      readln(f,n);
+\par      for i:=1 to n do
+\par          begin
+\par               for j:=1 to n do
+\par                   read(f,a[i,j]);
+\par               readln(f);
+\par          end;
+\par      close(f);
+\par end;
+\par 
+\par procedure nap(p:integer);
+\par begin
+\par      inc(top);
+\par      s[top]:=p;
+\par end;
+\par 
+\par function lay:integer;
+\par begin
+\par      lay:=s[top];
+\par      dec(top);
+\par end;
+\par 
+\par function min(a,b:integer):integer;
+\par begin
+\par      if a<b then min:=a
+\par      else min:=b;
+\par end;
+\par 
+\par procedure init;
+\par begin
+\par      fillchar(dx,sizeof(dx),0);
+\par      top:=1;
+\par      s[top]:=1;
+\par      nh[1].delta:=maxint;
+\par      nh[1].toi:=1;
+\par end;
+\par 
+\par procedure suanhan(j:integer);
+\par var i:integer;
+\par begin
+\par      for i:=1 to n do
+\par          if dx[i]=0 then
+\par             begin
+\par                  if (a[j,i]<>0) and (F[j,i]<a[j,i]) then
+\par                     begin
+\par                          dx[i]:=1;
+\par                          nh[i].toi:=+j;
+\par                          nh[i].delta:=
+\par                             min(nh[j].delta,a[j,i]-F[j,i]);
+\par                          nap(i);
+\par                     end
+\par                  else
+\par                      if (a[i,j]<>0) and (F[i,j]>0) then
+\par                         begin
+\par                              dx[i]:=1;
+\par                              nh[i].toi:=-j;
+\par }\pard \s16\li3600\nowidctlpar\adjustright {\fs24     nh[i].delta:=
+\par           min(nh[j].delta,F[i,j]);
+\par }\pard \s16\nowidctlpar\adjustright {\fs24                              nap(i);
+\par                         end
+\par             end;
+\par end;
+\par 
+\par procedure tangluong;
+\par var z,x:integer;
+\par begin
+\par      z:=n;
+\par      repeat
+\par            x := z;
+\par            z := nh[x].toi;
+\par            if z>0 then inc(F[z,x],nh[n].delta)
+\par            else        dec(F[x,z],nh[n].delta);
+\par            z:=abs(z);
+\par      until z=1;
+\par end;
+\par 
+\par procedure hienkq;
+\par var i,j,gt : integer;
+\par     g      : text;
+\par begin
+\par      gt := 0;
+\par      for i:=2 to n do
+\par          if F[1,i]>0 then gt:=gt+F[1,i];
+\par      assign(g,fo);
+\par      rewrite(g);
+\par      writeln(g,gt);
+\par      for i:=1 to n do
+\par          for j:=1 to n do
+\par              if F[i,j]>0 then
+\par              writeln(g,i,' ',j,' ',F[i,j]);
+\par      close(g);
+\par end;
+\par 
+\par procedure timluong;
+\par var v:integer;
+\par begin
+\par      repeat
+\par            init;
+\par            while top>0 do
+\par                  begin
+\par                     v:=lay;
+\par                     suanhan(v);
+\par }\pard \s16\li2880\nowidctlpar\adjustright {\fs24 if dx[n]<>0 then 
+\par begin
+\par }\pard \s16\fi720\li2880\nowidctlpar\adjustright {\fs24 tangluong;
+\par break;}{\i \{}{\i\f15 l\'d6nh ng\'bet n\'b5y l\'b5m ch/tr\'d7nh ch\'b9y t\'e8t h\'acn nhi\'d2u \}
+\par }\pard \s16\nowidctlpar\adjustright {\fs24 \tab \tab \tab \tab end;
+\par                  end;
+\par  \tab until dx[n]=0;
+\par end;
+\par 
+\par BEGIN
+\par      clrscr;
+\par      docf;
+\par      timluong;
+\par      hienkq;
+\par END.
+\par }{\f15\fs24\ul C\'b8ch tr\'d7nh b\'b5y 2 :
+\par 
+\par }{\fs22 uses   crt;
+\par const  fi  = 'luong.inp';
+\par        fo  = 'luong1.tdh';
+\par 
+\par var    n,a,v,z,k  : byte;
+\par        c,f        : array[0..100,0..100] of integer;
+\par        pre,val,kq : array[0..100] of integer;
+\par        u          : set of byte;
+\par 
+\par procedure docfile;
+\par        var f : text;
+\par            i,j : integer;
+\par        begin
+\par             assign(f,fi);
+\par             reset(f);
+\par             readln(f,n,a,z);
+\par             for i:=1 to n do
+\par             begin
+\par                  for j:=1 to n do read(f,c[i,j]);
+\par                  readln(f);
+\par             end;
+\par             close(f);
+\par        end;
+\par 
+\par function chon : byte;
+\par        var i : byte;
+\par        begin
+\par             chon := 0;
+\par             for i:=1 to n do
+\par                if i in u then
+\par                begin
+\par                    chon := i;
+\par                    exit;
+\par                end;
+\par        end;
+\par 
+\par function min(a,b : integer) : integer;
+\par        begin
+\par             if a<b then min := a else min := b;
+\par        end;
+\par 
+\par procedure max_flow;
+\par        var i,j,d,w : integer;
+\par begin
+\par        for i:=1 to n do
+\par        for j:=1 to n do f[i,j] := 0;
+\par 
+\par        while true do
+\par        begin
+\par }{\f15\fs22 \{ Kh\'ebi tr\'de \}}{\fs22     
+\par        for i:= 1 to n do
+\par                begin
+\par                      pre[i] := 0;
+\par                      val[i] := 0;
+\par                end;
+\par            pre[a] := a;
+\par            val[a] := Maxint;
+\par            u      := [a];
+\par 
+\par }{\f15\fs22 \{ S\'f6a nh\'b7n \}
+\par }{\fs22            while val[z]=0 do
+\par            begin
+\par                 if u=[] then exit;
+\par                 v := chon;
+\par                 u := u-[v];
+\par                 d := val[v];
+\par                 for w:=1 to n do
+\par                 if val[w]=0 then
+\par                 if f[v,w]<c[v,w] then
+\par                 begin
+\par                      pre[w] := v;
+\par                      val[w] := min(d,c[v,w]-f[v,w]);
+\par                      u      := u+[w];
+\par                 end;
+\par                 for w:=1 to n do
+\par                 if val[w]=0 then
+\par                 if c[w,v]>0 then
+\par                 if f[w,v]>0 then
+\par                 begin
+\par                      pre[w] := v;
+\par                      val[w] := min(d,f[w,v]);
+\par                      u      := u+[w];
+\par                 end;
+\par            end;
+\par 
+\par }{\f15\fs22 \{ T\'d7m d\'a9ychuy\'d2n \}
+\par 
+\par }{\fs22            w := z;
+\par            k := 0;
+\par            while w<>a do
+\par            begin
+\par                  kq[k] := w;
+\par                  w     := pre[w];
+\par                  inc(k);
+\par            end;
+\par            kq[k] := a;
+\par 
+\par            d := val[z];
+\par            if d= 0 then exit;
+\par }{\f15\fs22 
+\par \{ T\'a8ng lu\'e5ng \}
+\par }{\fs22            for i:= k downto 1 do
+\par            begin
+\par 
+\par                 if c[kq[i],kq[i-1]]>0 then
+\par                     f[kq[i],kq[i-1]] := f[kq[i],kq[i-1]] + d;
+\par 
+\par                 if c[kq[i-1],kq[i]]>0 then
+\par                     f[kq[i-1],kq[i]] := f[kq[i-1],kq[i]] - d;
+\par            end;
+\par 
+\par        end;
+\par end;
+\par 
+\par procedure hien;
+\par        var i,j,gt : integer;
+\par            g      : text;
+\par        begin
+\par             assign(g,fo);
+\par             rewrite(g);
+\par             gt := 0;
+\par             for i:= 2 to n do
+\par                 gt := gt + f[1,i];
+\par             writeln(g,gt);
+\par             for i:= 1 to n do
+\par             for j:=1 to n do
+\par                if f[i,j] >0 then
+\par                    writeln(g,i,' ',j,' ',f[i,j]);
+\par             close(g);
+\par        end;
+\par 
+\par BEGIN
+\par        clrscr;
+\par        docfile;
+\par        max_flow;
+\par        hien;
+\par END.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\b\f15\fs24\ul III / B\'b5i to\'b8n lu\'e5ng th\'f8 2 :}{\f15\fs24 
+\par 
+\par }\pard \s16\qj\nowidctlpar\adjustright {\f35\fs22\ul 1 ) B\'b5i to\'b8n : }{\f15\fs24 Cho \'ae\'e5 th\'de N \'ae\'d8nh , th\'abng l\'ad\'eeng h\'b5ng ho\'b8 t\'e8i \'aea tr\'aan cung e(i,j) l\'b5 A[i,j] (hay vi\'d5t cho g\'e4n l\'b5 A[e] ), s\'f8c ch\'f8
+a h\'b5ng ho\'b8 c\'f1a \'ae\'d8nh i l\'b5 P[i] v\'edi quy \'ae\'denh : n\'d5u P[i]>0 th\'d7 \'ae\'d8nh i g\'e4i l\'b5 \'ae\'d8nh thu , P[i] <0 th\'d7 i g\'e4i l\'b5 \'ae\'d8nh ph\'b8t , c\'dfn khi P[i]=0 th\'d7 \'ae\'d8nh i g\'e4i l\'b5 \'ae\'d8
+nh trung gian ( kh\'abng ph\'b8t , kh\'abng thu ) . T\'d7m c\'b8ch v\'cbn chuy\'d3n \'ae\'ad\'eec nhi\'d2u h\'b5ng ho\'b8 nh\'cat .
+\par }\pard \s16\nowidctlpar\adjustright {\f15\fs24 File input Luong2.inp
+\par + D\'dfng \'ae\'c7u l\'b5 s\'e8 N
+\par + N d\'dfng ti\'d5p theo l\'b5 ma tr\'cbn A(N,N)
+\par + D\'dfng cu\'e8i c\'efng l\'b5 N s\'e8  P[i]   ( i = 1,2,.. N)
+\par File Output : Luong2.out
+\par Hi\'d6n l\'c7n l\'ad\'eet c\'b8c d\'dfng , m\'e7i d\'dfng 3 s\'e8  i,j,F[i,j] ( \'fd ngh\'dca : chuy\'d3n F[i,j] h\'b5ng t\'f5 i t\'edi j )
+\par D\'dfng cu\'e8i c\'efng l\'b5 t\'e6ng s\'e8 h\'b5ng \'ae\'ad\'eec v\'cbn chuy\'d3n 
+\par 
+\par }{\f35\fs22\ul 2 ) \'fd ngh\'dca :}{\f15\fs24  Trong th\'ad\'acng m\'b9i th\'ad\'eang g\'c6p b\'b5i to\'b8n t\'d7m c\'b8ch \'aei\'d2u ho\'b5 h\'b5ng ho\'b8 t\'f5 n\'aci n\'b5y \'ae\'d5n n\'aci kh\'b8c sao cho s\'f9 l\'adu th\'abng h\'b5ng ho\'b8 trong to
+\'b5n th\'d3 khu v\'f9c chuy\'d3n t\'f5 c\'b8c n\'aci ph\'b8t \'ae\'d5n c\'b8c n\'aci thu l\'b5 t\'e8i \'aea trong \'aei\'d2u ki\'d6n cho ph\'d0p . B\'b5i to\'b8n lu\'e5ng th\'f8 2 n\'b5y kh\'b8c b\'b5i to\'b8n lu\'e5ng th\'f8 nh\'cat \'eb ch\'e7 : 
+
+\par \tab + C\'e3 nhi\'d2u \'ae\'d8nh thu v\'b5 nhi\'d2u \'ae\'d8nh ph\'b8t
+\par \tab + T\'b9i m\'e7i \'ae\'d8nh c\'e3 ch\'d8 s\'e8 dung l\'ad\'eeng ph\'b8t ho\'c6c dung l\'ad\'eeng thu t\'e8i \'aea
+\par C\'dfn \'aei\'d3m gi\'e8ng nhau l\'b5 tr\'aan m\'e7i cung t\'f5 \'ae\'d8nh n\'b5y sang \'ae\'d8nh kh\'b8c v\'c9n quy \'ae\'denh th\'abng l\'ad\'eeng t\'e8i \'aea
+\par 
+\par }{\f35\fs22\ul 3 ) Thu\'cbt to\'b8n :}{\f35\fs22 
+\par }{\f15\fs24 
+\par }{\i\f15\fs24 a ) M\'e9t s\'e8 \'ae\'denh ngh\'dca : 
+\par }{\f15\fs24 + Th\'abng l\'ad\'eeng t\'b9i \'ae\'d8nh i l\'b5  W[i] =  }{\f15\fs24 {\field{\*\fldinst SYMBOL 229 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f15\fs24  F[j,i]-}{\f15\fs24 {\field{\*\fldinst SYMBOL 229 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{
+\f15\fs24  F[i,j] : T\'e6ng h\'b5ng ho\'b8 \'ae\'d5n i - T\'e6ng h\'b5ng ho\'b8 ra kh\'e1i i 
+\par + \'a7\'d8nh tho\'b6 m\'b7n l\'b5 \'ae\'d8nh i n\'d5u | W[i] | = | P[i] |
+\par + \'a7\'d8nh ch\'ada tho\'b6 m\'b7n l\'b5 \'ae\'d8nh i n\'d5u | W[i] | < | P[i] |
+\par + Lu\'e5ng t\'ad\'acng th\'ddch tr\'aan m\'b9ng l\'b5 lu\'e5ng tho\'b6  m\'b7n c\'b8c t\'ddnh ch\'cat sau :
+\par \tab 1 - \tab 0 <= F(e) <= A(e)  v\'edi m\'e4i cung e c\'f1a m\'b9ng
+\par \tab 2 - \tab W[i].P[i] >= 0
+\par \tab 3 - \tab | W[i] | <= | P[i] |
+\par }\pard \s16\qj\nowidctlpar\adjustright {\f15\fs24 + M\'e9t d\'a9y chuy\'d2n ch\'ada b\'b7o ho\'b5 l\'b5  d\'a9y chuy\'d2n \'aei t\'f5 m\'e9t \'ae\'d8nh ph\'b8t ch\'ada tho\'b6 m\'b7n t\'edi m\'e9t \'ae\'d8nh thu ch\'ada tho\'b6 m\'b7n , \'ae\'e5ng th\'ea
+i tr\'aan c\'b8c cung thu\'cbn ( h\'ad\'edng tr\'aan d\'a9y chuy\'d2n \'aei t\'f5 \'ae\'d8nh ph\'b8t t\'edi thu ) gi\'b8 tr\'de c\'f1a lu\'e5ng < gi\'b8 tr\'de dung l\'ad\'eeng t\'e8i \'aea c\'f1a cung , c\'dfn tr\'aan c\'b8c cung ng\'ad\'eec ( h\'ad\'ed
+ng \'aei ng\'ad\'eec l\'b9i ) th\'d7 gi\'b8 tr\'de c\'f1a lu\'e5ng > 0 .
+\par }\pard \s16\nowidctlpar\adjustright {\f15\fs24 
+\par }{\i\f15\fs24 b) C\'ac s\'eb thu\'cbt to\'b8n : D\'f9a tr\'aan \'ae\'denh l\'fd Lu\'e5ng t\'ad\'acng th\'ddch \'ae\'b9t c\'f9c \'ae\'b9i khi kh\'abng c\'dfn d\'a9y chuy\'d2n ch\'ada b\'b7o ho\'b5 \'aei t\'f5 \'ae\'d8nh ph\'b8t ch\'ada tho\'b6 m\'b7n \'ae
+\'d5n \'ae\'d8nh thu ch\'ada tho\'b6 m\'b7n .
+\par   
+\par 
+\par 
+\par 
+\par 
+\par 
+\par c) Thu\'cbt to\'b8n :}{\f15\fs24  
+\par }{\lang1024\cgrid {\shp{\*\shpinst\shpleft216\shptop148\shpright8569\shpbottom2597\shpfhdr0\shpbxcolumn\shpbypara\shpwr3\shpwrk0\shpfblwtxt0\shpz1\shplid1027{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fShadow}{\sv 0}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8193\dprect\dpx216\dpy148\dpxsize8353\dpysize2449
+\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat0\dplinew15\dplinecor0\dplinecog0\dplinecob0}}}}{\f15\fs24 
+\par }{\b\f15\fs24 \tab Repeat
+\par \tab \tab Kh\'ebi tr\'de : c\'b8c \'ae\'d8nh ch\'ada \'ae\'b8nh d\'cau ( D[i] := - v\'ab c\'efng )
+\par \tab \tab T\'d7m \'ae\'d8nh i  l\'b5 \'ae\'d8nh ph\'b8t ch\'ada tho\'b6 m\'b7n
+\par \tab \tab N\'d5u t\'d7m \'ae\'ad\'eec i  (ngh\'dca l\'b5 i <>0) th\'d7 
+\par \tab \tab \tab T\'d7m d\'a9y chuy\'d2n ch\'ada b\'b7o ho\'b5 xu\'cat ph\'b8t t\'f5 i
+\par \tab \tab N\'d5u t\'d7m \'ae\'ad\'eec d\'a9y chuy\'d2n th\'d7 \'a7i\'d2u ch\'d8nh lu\'e5ng 
+\par \tab Until  Kh\'abng t\'d7m \'ae\'ad\'eec d\'a9y chuy\'d2n ch\'ada b\'b7o ho\'b5
+\par }{\f15\fs24 
+\par 
+\par 
+\par Hai \'ae\'e9ng t\'b8c ch\'ddnh trong thu\'cbt to\'b8n l\'b5 : T\'d7m d\'a9y chuy\'d2n , \'a7i\'d2u ch\'d8nh lu\'e5ng}{\f15\fs24\ul 
+\par 
+\par T\'d7m d\'a9y chuy\'d2n  xu\'cat ph\'b8t t\'f5 \'ae\'d8nh i :
+\par }{\f15\fs24 + \'a7\'b8nh d\'cau \'ae\'d8nh i \'ae\'b7 x\'d0t  ( D[i] := 0 )
+\par + Cho i v\'b5o Stack
+\par + While Stack ch\'ada r\'e7ng v\'b5 
+\par  \tab   d\'a9y chuy\'d2n ch\'ada k\'d5t th\'f3c (ngh\'dca l\'b5 ch\'ada g\'c6p \'ae\'d8nh thu ch\'ada tho\'b6 m\'b7n ) th\'d7 
+\par \tab Begin
+\par \tab \tab + L\'cay \'ae\'d8nh k t\'f5 \'ae\'d8nh Stack
+\par \tab \tab + V\'dfng l\'c6p For  : x\'d0t c\'b8c \'ae\'d8nh j ch\'ada \'ae\'ad\'eec \'ae\'b8nh d\'cau  
+\par \tab \tab     N\'d5u vi\'d6c t\'d7m d\'a9y chuy\'d2n ch\'ada k\'d5t th\'f3cth\'d7 
+\par \tab \tab     Begin
+\par                             \tab N\'d5u (k,j) l\'b5 cung thu\'cbn  ch\'ada b\'b7o ho\'b5 th\'d7 
+\par \tab \tab \tab Begin
+\par \tab \tab \tab \tab + N\'b9p j v\'b5o Stack
+\par \tab \tab \tab \tab + \'a7\'b8nh d\'cau \'ae\'b7 x\'d0t j   ( D[j] := k )
+\par \tab \tab \tab \tab + N\'d5u j l\'b5 \'ae\'d8nh thu ch\'ada tho\'b6 m\'b7n th\'d7 k\'d5t th\'f3c d\'a9y chuy\'d2n\tab \tab \tab \tab End;
+\par \tab \tab \tab N\'d5u (j,k) l\'b5 cung ng\'ad\'eec  ch\'ada b\'b7o ho\'b5 th\'d7 
+\par \tab \tab \tab Begin
+\par \tab \tab \tab \tab + N\'b9p j v\'b5o Stack
+\par \tab \tab \tab \tab + \'a7\'b8nh d\'cau \'ae\'b7 x\'d0t j   ( D[j] := - k )
+\par \tab \tab \tab \tab + N\'d5u j l\'b5 \'ae\'d8nh thu ch\'ada tho\'b6 m\'b7n th\'d7 k\'d5t th\'f3c d\'a9y chuy\'d2n\tab \tab \tab \tab End;
+\par \tab \tab     End;
+\par \tab End;
+\par }{\f15\fs24\ul 
+\par \'a7i\'d2u ch\'d8nh lu\'e5ng :
+\par }{\f15\fs24 L\'cay m\'e9t \'ae\'d8nh i t\'f5 Stack 
+\par Repeat
+\par \tab j  := i;
+\par \tab i  := D[i]    ( \'a7\'d8nh k\'d2 tr\'ad\'edc c\'f1a i trong d\'a9y chuy\'d2n  l\'b5 D[i] )
+\par \tab N\'d5u i>0 th\'d7 t\'a8ng lu\'e5ng tr\'aan cung thu\'cbn (i,j) 1 \'ae\'acn v\'de
+\par \tab N\'d5u i<0 th\'d7 gi\'b6m lu\'e5ng tr\'aan cung ng\'ad\'eec (j,i) 1 \'ae\'acn v\'de
+\par Until L\'cay h\'d5t c\'b8c \'ae\'d8nh c\'f1a d\'a9y chuy\'d2n ch\'ada b\'b7o ho\'b5 ( ch\'f8a trong Stack )
+\par }{\fs24 uses crt;
+\par const  \tab max   \tab = 100;
+\par        \tab fi    \tab = 'luong2.inp';
+\par        \tab fo    \tab = 'luong2b.out';
+\par type   \tab ta    \tab = array[1..max,1..max] of integer;
+\par        \tab tb    \tab = array[1..max] of integer;
+\par var    \tab a     \tab : ta; }{\i\fs24 \{ }{\i\f15\fs24 th\'abng l\'ad\'eeng max tr\'aan c\'b8c cung}{\i\fs24  \}
+\par }{\fs24        \tab f     \tab : ta; }{\i\fs24 \{ }{\i\f15\fs24 lu\'e5ng}{\i\fs24  \}
+\par }{\fs24        \tab p     \tab : tb; }{\i\fs24 \{ }{\i\f15\fs24 s\'f8c ch\'f8a t\'b9i m\'e7i \'ae\'d8nh}{\i\fs24 \}
+\par }{\fs24        \tab s     \tab : tb; }{\i\fs24 \{ stack \}
+\par }{\fs24        \tab d     \tab : tb; }{\i\fs24 \{ }{\i\f15\fs24 \'ae\'b8nh d\'cau \'ae\'e5ng th\'eai theo d\'e2i \'ae\'d8nh tr\'ad\'edc}{\i\fs24  \}
+\par }{\fs24        \tab n,top \tab : integer;
+\par        \tab out   \tab : text;
+\par        \tab ok    \tab : boolean;
+\par procedure taotest;
+\par         const  n = 100;
+\par         var f : text;
+\par             i,j,x : integer;
+\par         begin
+\par              assign(f,fi);
+\par              rewrite(f);
+\par              writeln(f,n);
+\par              randomize;
+\par              for i:=1 to n do
+\par              begin
+\par                  for j:=1 to n do
+\par                  begin
+\par                       x := random(20);
+\par                       if j=i then x:= 0;
+\par                       write(f,x,' ');
+\par                  end;
+\par                  writeln(f);
+\par              end;
+\par              for i:=1 to n do
+\par              begin
+\par                  x := random(20);
+\par                  x := x-random(20);
+\par                  write(f,x,' ');
+\par              end;
+\par              close(f);
+\par         end;
+\par 
+\par procedure nhap;
+\par        var \tab i,j \tab : byte;
+\par          \tab \tab f   \tab : text;
+\par        begin
+\par              assign(f,fi);
+\par              reset(f);
+\par              readln(f,n);
+\par              for i:=1 to n do
+\par              begin
+\par                   for j:=1 to n do read(f,a[i,j]);
+\par                   readln(f);
+\par              end;
+\par              for i:=1 to n do
+\par                   read(f,p[i]);
+\par              close(f);
+\par        end;
+\par 
+\par function giatri : integer;
+\par       var i,j,gt : integer;
+\par       begin
+\par             gt := 0;
+\par             for i:=1 to n do
+\par                for j:=1 to n do
+\par                    if p[j]<>0 then inc(gt,f[i,j]);
+\par             giatri := gt;
+\par       end;
+\par 
+\par procedure hienkq;
+\par       var i,j : byte;
+\par       begin
+\par            for i:=1 to n do
+\par            begin
+\par                 for j:=1 to n do
+\par                     if f[i,j]<>0 then 
+\par                       writeln(out,i,'->',j,' : ',f[i,j]:4)
+\par            end;
+\par            writeln(out,'gia tri luong : ',giatri);
+\par       end;
+\par 
+\par function thongluong(i : byte) : integer;
+\par       var j    : byte;
+\par           thlg : integer;
+\par       begin
+\par            thlg := 0;
+\par            for j:=1 to n do
+\par            begin
+\par                 if a[i,j]>=0 then inc(thlg,f[i,j]);
+\par                 if a[j,i]>0 then dec(thlg,f[j,i]);
+\par            end;
+\par            thongluong := thlg;
+\par       end;
+\par 
+\par function thoaman(i : byte) : boolean;
+\par       begin
+\par            if abs(thongluong(i))<abs(p[i]) then 
+\par }\pard \s16\fi720\li720\nowidctlpar\adjustright {\fs24     thoaman := false
+\par }\pard \s16\nowidctlpar\adjustright {\fs24                 else thoaman := true;
+\par       end;
+\par 
+\par function timphat : byte;
+\par       var i,j : byte;
+\par       begin
+\par            timphat := 0;
+\par            for i:=1 to n do
+\par            if d[i]=-maxint then
+\par            if p[i]<0 then
+\par            if not thoaman(i) then
+\par            begin
+\par                   timphat := i;
+\par                   exit;
+\par            end;
+\par       end;
+\par 
+\par procedure daychuyen(i : byte);
+\par       var j,k : byte;
+\par       begin
+\par           d[i] := 0;
+\par           top  := 1;
+\par           s[top] := i;}{\i\fs24  \{}{\i\f15\fs24 L\'c7n l\'ad\'eet cho c\'b8c \'ae\'d8nh c\'f1a d\'a9y chuy\'d2n v\'b5o stack}{\i\fs24  \}
+\par }{\fs24           while (top<>0) and (not ok) do
+\par           begin
+\par                k := s[top];
+\par                dec(top);
+\par                for j:=1 to n do
+\par                if (d[j]=-maxint) then
+\par                begin
+\par                    if not ok then }{\i\fs24 \{}{\i\f15\fs24 ch\'ada k\'d5t th\'f3c d\'a9y chuy\'d2n \}}{\fs24 
+\par                    begin
+\par                        if (a[k,j]>f[k,j]) then
+\par                        begin
+\par                            d[j] := k;
+\par                            inc(top);
+\par                            s[top] := j;
+\par                            ok:=(p[j]>0)and(not thoaman(j));
+\par                        end
+\par                        else
+\par                        if (a[j,k]>=0) and (f[j,k]>0) then
+\par                        begin
+\par                             d[j] := -k;
+\par                            inc(top);
+\par                            s[top] := j;
+\par                            ok:=(p[j]>0)and(not thoaman(j));
+\par                        end;
+\par                    end;
+\par                end;
+\par           end;
+\par       end;
+\par 
+\par procedure dieuchinh;
+\par       var i,j : byte;
+\par       begin
+\par            i := s[top]; }{\i\fs24 \{ }{\i\f15\fs24 l\'c7n ng\'ad\'eec d\'a9y chuy\'d2n b\'bet \'ae\'c7u t\'f5 \'ae\'d8nh stack}{\i\fs24  \}
+\par }{\fs24            repeat
+\par                  j := i;
+\par                  i := d[i];
+\par                  if i>0 then inc(f[i,j]);
+\par                  if i<0 then dec(f[j,-i]);
+\par                  i := abs(i);
+\par            until i=0;
+\par       end;
+\par 
+\par procedure luongl2;
+\par       var i : byte;
+\par       begin
+\par            repeat
+\par                 ok := false;
+\par                 for i:=1 to n do d[i]:=-maxint;
+\par                 i := timphat;}{\i\f15\fs24 \{ T\'d7m \'ae\'d8nh ph\'b8t ch\'ada tho\'b7 m\'b7n \}
+\par }{\fs24                 if i<>0 then
+\par                 begin
+\par                   daychuyen(i);}{\i\f15\fs24 \{ok = t\'d7m \'ae\'ad\'eec d\'a9y chuy\'d2n ch\'ada b\'b7o ho\'b5 \}
+\par }{\fs24                       if ok then dieuchinh;
+\par                 end;
+\par             until not ok;
+\par             hienkq;
+\par       end;
+\par begin
+\par        clrscr;
+\par        taotest;
+\par        nhap;
+\par        assign(out,fo);
+\par        rewrite(out);
+\par        luongl2;
+\par        close(out);
+\par        writeln('da xong ');
+\par end.
+\par }\pard \s16\qc\nowidctlpar\adjustright {\b\f35\fs28 B\'b5i t\'cbp}{\b\f15\fs24 
+\par }{\f15\fs24 
+\par }\pard \s16\qj\nowidctlpar\adjustright {\f15\fs24 1 ) C\'e3 N ng\'ad\'eai th\'ee v\'b5 M c\'abng vi\'d6c . M\'e7i ng\'ad\'eai th\'ee bi\'d5t m\'e9t s\'e8 c\'abng vi\'d6c n\'b5o \'ae\'e3 . H\'b7y ph\'a9n c\'abng c\'abng vi\'d6c cho th\'ee theo nguy\'aan t
+\'bec : m\'e7i th\'ee l\'b5m kh\'abng qu\'b8 m\'e9t vi\'d6c , m\'e7i vi\'d6c kh\'abng qu\'b8 m\'e9t th\'ee l\'b5m , sao cho c\'b5ng nhi\'d2u th\'ee \'ae\'ad\'eec ph\'a9n c\'abng c\'abng vi\'d6c c\'b5ng t\'e8t .
+\par }{\i\f15\fs24 G\'eei \'fd : B\'b5i n\'b5y tr\'ad\'edc \'ae\'a9y \'ae\'b7 gi\'b6i b\'bbng \'ae\'e5 th\'de hai ph\'dda ( lo\'b9i 1 : t\'d7m c\'c6p gh\'d0p c\'e3 l\'f9c l\'ad\'eeng c\'f9c \'ae\'b9i ) . Song c\'f2ng c\'e3 th\'d3 gi\'b6i b\'bbng lu\'e5ng ( lo
+\'b9i 1 ) b\'bbng c\'b8ch : t\'b9o ra m\'e9t \'ae\'d8nh ph\'b8t k\'fd hi\'d6u l\'b5 1 c\'e3 cung n\'e8i t\'edi c\'b8c \'ae\'d8nh "b\'aan th\'ee" \'ae\'b8nh s\'e8 t\'f5 2 \'ae\'d5n n+1,c\'b8c cung n\'b5y c\'e3 th\'abng l\'ad\'eeng l\'b5 1 ;  \'ae\'e5ng th
+\'eai t\'b9o ra m\'e9t \'ae\'d8nh thu k\'fd hi\'d6u l\'b5 \'ae\'d8nh s\'e8 (m+n+2) , m \'ae\'d8nh c\'abng vi\'d6c \'ae\'b8nh s\'e8 l\'b5 (n+2) \'ae\'d5n (n+m+1) , t\'f5 c\'b8c \'ae\'d8nh "b\'aan c\'abng vi\'d6c" t\'edi \'ae\'d8nh thu c\'e3 c\'b8c cung v
+\'edi th\'abng l\'ad\'eeng t\'e8i \'aea l\'b5 1. Th\'ee  i l\'b5m \'ae\'ad\'eec c\'abng vi\'d6c j th\'d7  c\'e3 cung t\'f5 \'ae\'d8nh (i+1) t\'edi \'ae\'d8nh (n+j+1) v\'edi th\'abng l\'ad\'eeng t\'e8i \'aea l\'b5 1.
+\par }{\f15\fs24 
+\par 2 ) }{\b\f15\fs24  Ph\'a9n ph\'e8i ph\'c7n m\'d2m m\'b8y t\'ddnh - sotfware allocation 
+\par }{\f15\fs24 \tab M\'e9t trung t\'a9m m\'b8y t\'ddnh c\'e3 N m\'b8y t\'ddnh kh\'b8c nhau ( \'ae\'b8nh s\'e8 t\'f5 1 ..N ) m\'e7i m\'b8y t\'ddnh c\'e3 th\'d3 ch\'b9y \'ae\'ad\'eec m\'e9t s\'e8 ch\'ad\'acng tr\'d7nh n\'b5o \'ae\'e3 . T\'b9i m\'e9t th\'eai 
+\'aei\'d3m m\'e7i m\'b8y t\'ddnh ch\'d8 c\'e3 th\'d3 ch\'b9y \'ae\'ad\'eec m\'e9t ch\'ad\'acng tr\'d7nh v\'b5 kh\'abng \'ae\'ad\'eec ng\'bet qu\'b7ng . C\'e3 m\'e9t s\'e8 ch\'ad\'acng tr\'d7nh ( t\'aan m\'e7i ch\'ad\'acng tr\'d7nh l\'b5 m\'e9t x\'a9u k
+\'fd t\'f9 g\'e5m c\'b8c ch\'f7 c\'b8i ti\'d5ng Anh vi\'d5t hoa , kh\'abng qu\'b8 8 k\'fd t\'f9) . M\'e9t ch\'ad\'acng tr\'d7nh ch\'d8 c\'e3 th\'d3 ch\'b9y tr\'aan m\'e9t s\'e8 m\'b8y t\'ddnh n\'b5o \'ae\'e3 theo b\'b6n b\'b8o c\'b8o c\'f1a ng\'ad\'eai th
+\'ad k\'fd .
+\par \tab V\'b5o m\'e9t bu\'e6i s\'b8ng , kh\'b8ch h\'b5ng mang \'ae\'d5n trung t\'a9m m\'b8y t\'ddnh nh\'f7ng ch\'ad\'acng tr\'d7nh c\'f1a h\'e4 c\'c7n ch\'b9y trong ng\'b5y h\'abm \'ae\'e3 . C\'e3 th\'d3 x\'b6y ra tr\'ad\'eang h\'eep hai ng\'ad\'eai kh\'b8
+c nhau mang \'ae\'d5n c\'efng m\'e9t ch\'ad\'acng tr\'d7nh , trong tr\'ad\'eang h\'eep \'ae\'e3 ch\'f3ng \'ae\'ad\'eec coi l\'b5 hai ch\'ad\'acng tr\'d7nh kh\'b8c nhau . M\'e9t m\'b8y t\'ddnh \'ae\'e9c l\'cbp s\'cf \'ae\'ad\'eec ch\'d8 \'ae\'denh ch\'b9
+y ch\'ad\'acng tr\'d7nh \'ae\'e3 .
+\par \tab M\'e9t ng\'ad\'eai th\'ad k\'fd t\'cbp h\'eep l\'b9i c\'b8c ch\'ad\'acng tr\'d7nh v\'b5 ghi l\'b9i c\'b8c th\'abng tin trong b\'b6n b\'b8o c\'b8o , v\'edi m\'e7i ch\'ad\'acng tr\'d7nh anh ta l\'cbp m\'e9t danh s\'b8ch c\'b8c m\'b8y t\'ddnh c\'e3 th
+\'d3 th\'f9c hi\'d6n \'ae\'ad\'eec c\'f1a ch\'ad\'acng tr\'d7nh \'ae\'e3 . Sau \'ae\'e3 anh ta ph\'a9n ph\'e8i ch\'ad\'acng tr\'d7nh cho c\'b8c m\'b8y t\'ddnh th\'f9c hi\'d6n . Ch\'f3 \'fd c\'b8c m\'b8y t\'ddnh kh\'abng th\'d3 th\'f9c hi\'d6n nhi\'d2u ch
+\'ad\'acng tr\'d7nh trong c\'efng m\'e9t l\'f3c , v\'d7 v\'cby m\'e7i m\'b8y t\'ddnh ch\'d8 c\'e3 th\'d3 th\'f9c hi\'d6n nhi\'d2u nh\'cat l\'b5 m\'e9t ch\'ad\'acng tr\'d7nh (m\'e7i ch\'ad\'acng tr\'d7nh c\'c7n m\'e9t ng\'b5y \'ae\'d3 ch\'b9y ) 
+\par \tab M\'e9t b\'b6n b\'b8o c\'b8o g\'e5m M d\'dfng ( M l\'b5 s\'e8 l\'ad\'eeng c\'b8c ch\'ad\'acng tr\'d7nh ) , m\'e7i d\'dfng cho m\'e9t ch\'ad\'acng tr\'d7nh . D\'dfng th\'f8 i g\'e5m :
+\par + t\'aan ch\'ad\'acng tr\'d7nh 
+\par + ti\'d5p theo l\'b5 m\'e9t ho\'c6c nhi\'d2u s\'e8 nguy\'aan d\'ad\'acng \'ae\'b8nh s\'e8 t\'f5 1 \'ae\'d5n N ch\'d8 ra c\'b8c m\'b8y c\'e3 th\'d3 th\'f9c hi\'d6n ch\'ad\'acng tr\'d7nh \'ae\'e3 .
+\par INPUT  : Trong file text "SOFTWARE.INP" g\'e5m :
+\par + D\'dfng \'ae\'c7u ch\'f8a s\'e8 N l\'b5 s\'e8 l\'ad\'eeng m\'b8y t\'ddnh
+\par + D\'dfng ti\'d5p theo ch\'f8a s\'e8 k l\'b5 s\'e8 l\'ad\'eeng kh\'b8ch h\'b5ng \'ae\'d5n trung t\'a9m
+\par + k d\'dfng ti\'d5p theo m\'e7i d\'dfng g\'e5m t\'aan c\'b8c ch\'ad\'acng tr\'d7nh m\'b5 ng\'ad\'eai th\'f8 k mang \'ae\'d5n . C\'b8c t\'aan \'ae\'ad\'eec vi\'d5t c\'b8ch nhau \'ae\'f3ng m\'e9t d\'cau c\'b8ch (#32)
+\par + Ti\'d5p theo l\'b5 b\'b6n b\'b8o c\'b8o c\'f1a ng\'ad\'eai th\'ad k\'fd
+\par OUTPUT Ghi ra file text "SOFTWARE.OUT"
+\par N\'d5u kh\'abng s\'bep x\'d5p th\'f9c hi\'d6n \'ae\'ad\'eec t\'cat c\'b6 c\'b8c ch\'ad\'acng tr\'d7nh th\'d7 ghi s\'e8 0
+\par N\'d5u th\'f9c hi\'d6n th\'d7 ghi ra k d\'dfng , m\'e7i d\'dfng cho m\'e9t kh\'b8ch h\'b5ng th\'d3 hi\'d6n ch\'ad\'acng tr\'d7nh th\'f8 i c\'f1a ng\'ad\'eai \'ae\'e3 mang \'ae\'d5n \'ae\'ad\'eec th\'f9c hi\'d6n tr\'aan m\'b8y n\'b5o .
+\par H\'b9n ch\'d5 : N<50 , M<50 .
+\par 
+\par 3 ) }{\b\f15\fs24 \'a7\'d2 thi h\'e4c sinh gi\'e1i qu\'e8c gia 1995-1996
+\par }\pard \s16\qj\fi720\nowidctlpar\adjustright {\f15\fs24 Cho m\'e9t h\'d7nh ch\'f7 nh\'cbt k\'ddch th\'ad\'edc m*n \'ab vu\'abng , trong \'ae\'e3 c\'e3 m\'e9t s\'e8 \'ab t\'ab m\'b5u \'aeen ( g\'e4i l\'b5 \'ab \'aeen ) , c\'b8c \'ab c\'dfn l\'b9i t\'ab m
+\'b5u tr\'beng ( g\'e4i l\'b5 \'ab tr\'beng ) . Gi\'b6 thi\'d5t r\'bbng m\'e7i d\'dfng c\'e3 \'ddt nh\'cat hai \'ab \'aeen v\'b5 m,n <100.
+\par }\pard \s16\qj\nowidctlpar\adjustright {\f15\fs24 \tab }{\i\f15\fs24 Y\'aau c\'c7u :
+\par }\pard \s16\qj\fi360\nowidctlpar\adjustright {\f15\fs24 C\'c7n ph\'b6i ch\'e4n ra 2m \'ab \'aeen c\'f1a l\'ad\'edi sao cho :
+\par {\pntext\pard\plain\s16 \f15 \hich\af15\dbch\af0\loch\f15 a)\tab}}\pard \s16\qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls30\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta )}}\ls30\adjustright {\f15\fs24 trong m\'e7i d\'dfng c
+\'f1a l\'ad\'edi c\'e3 \'ae\'f3ng hai \'ab \'aeen \'ae\'ad\'eec ch\'e4n.
+\par {\pntext\pard\plain\s16 \f15 \hich\af15\dbch\af0\loch\f15 b)\tab}}\pard \s16\qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls30\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta )}}\ls30\adjustright {\f15\fs24 s\'e8 \'ab \'ae\'ad
+\'eec ch\'e4n trong c\'e9t c\'e3 nhi\'d2u \'ab \'ae\'ad\'eec ch\'e4n nh\'cat l\'b5 nh\'e1 nh\'cat .
+\par }\pard \s16\qj\fi360\nowidctlpar\adjustright {\f15\fs24 D\'f7 li\'d6u v\'b5o \'ae\'ad\'eec cho trong file v\'a8n b\'b6n l\'b5 BL1_95.INP , trong \'ae\'e3 d\'dfng \'ae\'c7u ti\'aan ghi c\'b8c gi\'b8 tr\'de m,n ( c\'b8ch nhau b\'ebi d\'cau c\'b8ch ) , m d
+\'dfng ti\'d5p theo , m\'e7i d\'dfng ghi th\'abng tin  v\'d2 m\'b5u c\'b8c \'e6tong m\'e9t d\'dfng c\'f1a l\'ad\'edi d\'ad\'edi d\'b9ng m\'e9t x\'a9u nh\'de ph\'a9n \'ae\'e9 d\'b5i n ( c\'b8c k\'dd t\'f9 0,1 vi\'d5t li\'d2n nhau ), v\'edi quy \'ad\'edc k
+\'dd t\'f9 1 ghi nh\'cbn m\'b5u \'aeen , k\'dd t\'f9 0 ghi nh\'cbn m\'b5u tr\'beng .
+\par V\'dd d\'f4 th\'abng tin v\'d2 m\'b5u c\'f1a c\'b8c \'ab trong l\'ad\'edi 6x8 cho trong h\'d7nh d\'ad\'edi \'ae\'a9y :
+\par 
+\par \sect }\sectd \sbknone\linex0\cols2\linebetcol\endnhere\colno1\colw3960\colsr720\colno2\colw3960\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}\pard\plain 
+\s16\qj\fi360\nowidctlpar\adjustright \f2\fs20 {\f15\fs24 
+\par }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx180\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx468\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx756\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1044\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1332\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1620\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1908\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx2196\pard \s16\qj\nowidctlpar\intbl\adjustright {\f15\fs24 \cell \cell 
+\cell \cell \cell \cell \cell \cell }\pard\plain \nowidctlpar\widctlpar\intbl\adjustright \f15 {\row }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv
+\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx180\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\clcbpat2\cltxlrtb \cellx468\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx756\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb \cellx1044\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1332\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1620\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1908\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx2196\pard\plain \s16\qj\nowidctlpar\intbl\adjustright \f2\fs20 {\f15\fs24 \cell \cell \cell \cell \cell \cell \cell \cell }\pard\plain \nowidctlpar\widctlpar\intbl\adjustright \f15 {\row }\trowd 
+\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx180\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx468\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx756\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1044\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1332\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1620\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1908\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx2196\pard\plain \s16\qj\nowidctlpar\intbl\adjustright \f2\fs20 {\f15\fs24 \cell \cell \cell 
+\cell \cell \cell \cell \cell }\pard\plain \nowidctlpar\widctlpar\intbl\adjustright \f15 {\row }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv
+\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx180\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\clcbpat2\cltxlrtb \cellx468\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx756\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb \cellx1044\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1332\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1620\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1908\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx2196\pard\plain \s16\qj\nowidctlpar\intbl\adjustright \f2\fs20 {\f15\fs24 \cell \cell \cell \cell \cell \cell \cell \cell }\pard\plain \nowidctlpar\widctlpar\intbl\adjustright \f15 {\row }\trowd 
+\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx180\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx468\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx756\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1044\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1332\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1620\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1908\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx2196\pard\plain \s16\qj\nowidctlpar\intbl\adjustright \f2\fs20 {\f15\fs24 
+\cell \cell \cell \cell \cell \cell \cell \cell }\pard\plain \nowidctlpar\widctlpar\intbl\adjustright \f15 {\row }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh
+\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx180\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb \cellx468\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx756\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1044\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1332\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \clcbpat2\cltxlrtb \cellx1620\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx1908\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx2196\pard\plain \s16\qj\nowidctlpar\intbl\adjustright \f2\fs20 {\f15\fs24 \cell \cell \cell \cell \cell \cell \cell \cell }\pard\plain \nowidctlpar\widctlpar\intbl\adjustright \f15 {\row }\pard\plain 
+\s16\qj\fi360\nowidctlpar\adjustright \f2\fs20 {\f15\fs24  
+\par }\pard \s16\qj\nowidctlpar\adjustright {\f15\fs24 \'ae\'ad\'eec m\'ab t\'b6 trong file v\'a8n b\'b6n c\'e3 t\'aan BL1_95.INP c\'e3 n\'e9i dung nh\'ad sau
+\par }\pard \s16\qj\fi360\nowidctlpar\adjustright {\f15\fs24 
+\par {\pntext\pard\plain\s16 \f15 \hich\af15\dbch\af0\loch\f15 6\tab}}\pard \s16\qj\fi-360\li720\nowidctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls31\pnrnot0\pndec\pnstart6\pnindent720\pnhang}\ls31\adjustright {\f15\fs24 8
+\par }\pard \s16\qj\li360\nowidctlpar\adjustright {\fs24 11011011
+\par 01101101
+\par 10101010
+\par 01101101
+\par 11100111
+\par 00011100}{\f15\fs24 
+\par 
+\par }\pard \s16\qj\nowidctlpar\adjustright {\f15\fs24 K\'d5t qu\'b6 \'ae\'ada ra file v\'a8n b\'b6n c\'e3 t\'aan l\'b5 BL1_95.OUT , trong \'ae\'e3 d\'dfng \'ae\'c7u ti\'aan ghi s\'e8 \'ab \'ae\'ad\'eec ch\'e4n trong c\'e9t c\'e3 nhi\'d2u \'ab \'ae\'ad\'eec ch
+\'e4n nh\'cat , m d\'dfng ti\'d5p theo , m\'e7i d\'dfng th\'f8 i ghi m\'e9t x\'a9u \'ae\'e9 d\'b5i n g\'e5m c\'b8c k\'fd t\'f9 0 ,1 vi\'d5t li\'d2n nhau v\'edi quy \'ad\'edc k\'fd t\'f9 1 ghi nh\'cbn v\'de tr\'dd \'ab \'ae\'ad\'eec ch\'e4n , k\'dd t\'f9
+ 0 ghi nh\'cbn v\'de tr\'dd \'ab kh\'abng \'ae\'ad\'eec ch\'e4n ( i= 1,2,..,m )
+\par }\pard \s16\qj\fi360\nowidctlpar\adjustright {\f15\fs24 Ch\'bcng h\'b9n file BL1_95.OUT c\'e3 th\'d3 c\'e3 n\'e9i dung sau :
+\par 
+\par }\pard \s16\nowidctlpar\adjustright {\fs24 2
+\par 10000001
+\par 01000001
+\par 00101000
+\par 01000100
+\par 00100100
+\par 00011000}{\f15\fs24 
+\par }\pard \s16\qj\fi360\nowidctlpar\adjustright {\f15\fs24 \sect }\sectd \sbknone\linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}\pard\plain 
+\s16\qj\fi360\nowidctlpar\adjustright \f2\fs20 {\f15\fs24 
+\par \sect }\sectd \sbknone\linex0\endnhere\sectdefaultcl {\footer \pard\plain \s32\nowidctlpar\tqc\tx4320\tqr\tx8640\pvpara\phmrg\posxr\posy0\adjustright \f15 {\field{\*\fldinst {\cs18 PAGE  }}{\fldrslt {\cs18\lang1024 35}}}{\cs18 
+\par }\pard \s32\ri360\nowidctlpar\tqc\tx4320\tqr\tx8640\adjustright {
+\par }}\pard\plain \s16\qj\fi360\nowidctlpar\adjustright \f2\fs20 {\f15\fs24 
+\par 
+\par 3 ) Cho \'ae\'e5 th\'de 2 ph\'dda , tr\'aan m\'e7i \'ae\'d8nh g\'ben 1 gi\'b8 tr\'de nguy\'aan . H\'b7y ch\'e4n m\'e9t t\'cbp \'ae\'d8nh sao cho m\'e9t c\'b9nh b\'cat k\'fa n\'b5o c\'f1a \'ae\'e5 th\'de c\'f2ng ch\'f8a \'ddt nh\'cat m\'e9t \'ae\'d8
+nh trong t\'cbp \'ae\'b7 ch\'e4n , \'ae\'e5ng th\'eai t\'e6ng gi\'b8 tr\'de c\'f1a c\'b8c \'ae\'d8nh trong t\'cbp \'ae\'b7 ch\'e4n l\'b5 nh\'e1 nh\'cat .
+\par }{\i\f15\fs24 
+\par G\'eei \'fd : th\'abng l\'ad\'eeng max tr\'aan c\'b8c cung t\'f5 ph\'b8t ( s\'e8 1 ) \'ae\'d5n c\'b8c \'ae\'d8nh ph\'dda A cho b\'bbng s\'e8 t\'b9i \'ae\'d8nh c\'f1a A, th\'abng l\'ad\'eeng max tr\'aan c\'b8c cung t\'f5 c\'b8c \'ae\'d8nh ph\'dda B \'ae
+\'d5n \'ae\'d8nh ph\'b8t ( s\'e8 m+n+2 ) cho b\'bbng s\'e8 t\'b9i \'ae\'d8nh c\'f1a B, th\'abng l\'ad\'eeng max tr\'aan c\'b8c cung c\'f1a \'ae\'e5 th\'de A- B cho b\'bbng v\'ab c\'efng (MaxInt) . T\'d7m lu\'e5ng nh\'e1 nh\'cat tr\'aan m\'b9ng . (N\'d5u c
+\'e3 1 c\'b9nh c\'f1a \'ae\'e5 th\'de 2 ph\'dda m\'b5 2 \'ae\'c7u kh\'abng thu\'e9c t\'cbp ch\'e4n th\'d7  c\'dfn t\'a8ng lu\'e5ng qua cung n\'b5y . \'a7i\'d2u n\'b5y m\'a9u thu\'c9n !
+\par }{\f15\fs24 
+\par 
+\par 
+\par 4 ) T\'f5 4 \'ae\'dea \'aei\'d3m A\-}{\f15\fs24\sub 1}{\f15\fs24 , A\-}{\f15\fs24\sub 2}{\f15\fs24 , A\-}{\f15\fs24\sub 3}{\f15\fs24 , A\-}{\f15\fs24\sub 4}{\f15\fs24  c\'e3 nh\'f7ng \'aeo\'b5n ng\'ad\'eai c\'c7n t\'cbp trung v\'d2 m\'e9t \'ae\'dea \'aei
+\'d3m duy nh\'cat l\'b5 A}{\f15\fs24\sub 5}{\f15\fs24  trong th\'eai h\'b9n 3 gi\'ea . }{\f18\fs24 \'eb}{\f15\fs24  A}{\f15\fs24\sub 1 }{\f15\fs24 c\'e3 500 ng\'ad\'eai, \'eb A}{\f15\fs24\sub 2 }{\f15\fs24 c\'e3 400 ng\'ad\'eai , \'eb A}{\f15\fs24\sub 3 }
+{\f15\fs24 c\'e3 600 ng\'ad\'eai , \'eb A}{\f15\fs24\sub 4 }{\f15\fs24 c\'e3 400 ng\'ad\'eai . T\'f5ng gi\'ea , tr\'aan tuy\'d5n \'ae\'ad\'eang \'ae\'d2u c\'e3 chuy\'d5n xe ch\'b9y . Cho bi\'d5t: 
+\par a ) Th\'eai gian \'ae\'d3 \'aei t\'f5 m\'e9t \'ae\'dea \'aei\'d3m \'ae\'d5n m\'e9t \'ae\'dea \'aei\'d3m g\'c7n \'ae\'e3 ( s\'e8 ghi trong d\'cau ngo\'c6c tr\'aan m\'e7i c\'b9nh \'ae\'e5 th\'de )
+\par b ) S\'e8 ng\'ad\'eai t\'e8i \'aea m\'b5 m\'e7i chuy\'d5n xe c\'e3 th\'d3 ch\'eb tr\'aan m\'e7i tuy\'d5n \'ae\'ad\'eang ( s\'e8 ghi tr\'aan c\'b9nh ngo\'b5i d\'cau ngo\'c6c , \'ae\'acn v\'de l\'b5 tr\'a8m  ) .
+\par c ) S\'e8 ng\'ad\'eai t\'e8i \'aea c\'e3 th\'d3 \'ae\'f8ng l\'b9i c\'efng m\'e9t l\'f3c \'eb m\'e7i \'ae\'dea \'aei\'d3m ( s\'e8 ghi \'eb m\'e7i \'ae\'d8nh )
+\par H\'b7y l\'cbp ph\'ad\'acng \'b8n v\'cbn chuy\'d3n \'ae\'d3 trong th\'eai gian quy \'ae\'denh ( 3 gi\'ea ) c\'e3 th\'d3 t\'cbp trung v\'d2 A}{\f15\fs24\sub 5}{\f15\fs24  nhi\'d2u ng\'ad\'eai nh\'cat .
+\par 
+\par }{\i\f15\fs24 G\'eei \'fd}{\f15\fs24  : L\'cbp m\'b9ng 20 \'ae\'d8nh , m\'e7i \'ae\'d8nh t\'ad\'acng \'f8ng v\'edi c\'c6p s\'e8 (A}{\f15\fs24\sub i}{\f15\fs24  , T}{\f15\fs24\sub k}{\f15\fs24  )  i=1..5, k=0..3 l\'b5 t\'d7nh tr\'b9ng \'ae\'dea \'aei\'d3
+m A}{\f15\fs24\sub i}{\f15\fs24  t\'b9i th\'eai \'aei\'d3m T}{\f15\fs24\sub k}{\f15\fs24  . N\'d5u th\'eai gian \'aei t\'f5 \'ae\'d8nh A}{\f15\fs24\sub i}{\f15\fs24  t\'edi \'ae\'d8nh k\'d2 A}{\f15\fs24\sub m}{\f15\fs24  l\'b5 T}{\f15\fs24\sub im}{
+\f15\fs24  th\'d7 c\'e3 cung t\'f5 \'ae\'d8nh (A}{\f15\fs24\sub i}{\f15\fs24  ,T}{\f15\fs24\sub k}{\f15\fs24 ) v\'edi \'ae\'d8nh (A}{\f15\fs24\sub m}{\f15\fs24 , T}{\f15\fs24\sub k}{\f15\fs24 +T}{\f15\fs24\sub mk }{\f15\fs24 ) v\'edi th\'abng l\'ad\'ee
+ng max l\'b5 s\'e8 ng\'ad\'eai cho ph\'d0p t\'e8i \'aea c\'e3 th\'d3 di chuy\'d3n tr\'aan cung A}{\f15\fs24\sub i }{\f15\fs24 A}{\f15\fs24\sub m}{\f15\fs24  c\'f1a \'ae\'e5 th\'de cho ban \'ae\'c7u .N\'d5u s\'e8 ng\'ad\'eai t\'e8i \'aea c\'e3 th\'d3 \'ae
+\'f8ng l\'b9i c\'efng m\'e9t l\'f3c t\'b9i A}{\f15\fs24\sub i}{\f15\fs24  l\'b5 P}{\f15\fs24\sub i}{\f15\fs24  th\'d7 ta cho cung n\'e8i \'ae\'d8nh (A}{\f15\fs24\sub i}{\f15\fs24  , T}{\f15\fs24\sub k}{\f15\fs24  ) c\'f1a m\'b9ng v\'edi \'ae\'d8nh (A}{
+\f15\fs24\sub i}{\f15\fs24  , T}{\f15\fs24\sub k}{\f15\fs24  +1) c\'e3 th\'abng l\'ad\'eeng max l\'b5 P}{\f15\fs24\sub i}{\f15\fs24  ( v\'d7 "\'ae\'f8ng" = "\'aei t\'b9i ch\'e7 v\'edi v\'cbn t\'e8c 0" ! )
+\par V\'can \'ae\'d2 quy l\'b9i l\'b5 : tr\'aan m\'b9ng n\'b5y , h\'b7y t\'d7m lu\'e5ng t\'ad\'acng th\'ddch l\'edn nh\'cat v\'b5 ch\'f3 \'fd :
+\par P\-1 = -5 ;  P2 = -4 ; P3 = -6 ; P4 = -4 ; P5 = + 19.
+\par \'a7\'b8p s\'e8 : 1500 ng\'ad\'eai .
+\par }{\f15\fs24\sub 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\f15\fs24  }{\f15\fs24\sub 
+\par }{\f15\fs24 
+\par }\pard \s16\qc\fi360\nowidctlpar\adjustright {\b\f35\fs28 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par B\'b5i ch\'f7a}{\f15\fs24 
+\par }{\f15\fs28 
+\par }\pard \s16\nowidctlpar\adjustright {\b\f15\fs28\ul B\'b5i 3 :}{\f15\fs28    C\'b8ch 1 
+\par }{\fs24 
+\par uses    crt;
+\par const   max \tab = 100;
+\par         fi     = 'input.txt';
+\par         fo     = 'qg_95b1.out';
+\par type    kpt    = record
+\par                         truoc : integer;
+\par                         delta : byte;
+\par                   end;
+\par         knhan      = array[1..2*max+2] of kpt;
+\par         kstack     = array[1..2*max+2] of byte;
+\par         kdagannhan = array[1..2*max+2] of boolean;
+\par 
+\par         kmang      = array[1..2*max+2,1..2*max+2] of byte;
+\par 
+\par var     nh         : knhan;
+\par         s          : kstack;
+\par         c          : kmang;
+\par         d          : kdagannhan;
+\par         m,n,k,lk,i,top,xp,dich,maxtc,mintc,sc : byte;
+\par         ok : boolean;
+\par         time:longint absolute 0:$46c;
+\par         ltime:longint;
+\par 
+\par procedure taof;
+\par var i,j,k : byte;
+\par     f:text;
+\par begin
+\par      assign(f,fi);
+\par      rewrite(f);
+\par      randomize;
+\par      writeln(f,max,' ',max div 10);
+\par      for i:=1 to max do
+\par          begin
+\par               write(f,1,1);
+\par               for j:=3 to max do
+\par               begin
+\par                   k := random(5);
+\par                   if k<>1 then k := 0;
+\par                   write(f,k);
+\par               end;
+\par               writeln(f);
+\par          end;
+\par      close(f);
+\par end;
+\par 
+\par procedure docf;
+\par var i,j : byte; f : text; ch : char;
+\par     tc : array[1..max] of byte;
+\par begin
+\par      fillchar(tc,sizeof(tc),0);
+\par      fillchar(c,sizeof(c),0);
+\par      assign(f,fi);
+\par      reset(f);
+\par      if ioresult<>0 then
+\par         begin
+\par \tab      writeln('khong tim thay file ',fi);
+\par \tab      readln;
+\par \tab      halt;
+\par \tab end;
+\par      readln(f,m,n);
+\par      xp   \tab := 1;
+\par      dich \tab := m+n+2;
+\par      maxtc \tab := 0;
+\par      mintc \tab := 0;
+\par      for i:=1 to m do
+\par      begin
+\par \tab       for j:=1 to n do
+\par \tab       begin
+\par \tab \tab        read(f,ch);
+\par \tab \tab        if ch='1' then
+\par                  begin
+\par                     c[i+1,j+m+1]:=1;
+\par                     inc(tc[j]);
+\par                     if maxtc<tc[j] then maxtc := tc[j];
+\par                     if mintc>tc[j] then mintc := tc[j];
+\par                  end;
+\par \tab \tab  end;
+\par \tab       readln(f);
+\par \tab end;
+\par      close(f);
+\par      sc:=0;
+\par      for i:=1 to n do
+\par          if tc[i]>0 then sc:=sc+1;
+\par end;
+\par 
+\par procedure lamvoi(k : byte);
+\par var i,j : byte;
+\par begin
+\par      for i:=2 to m+1  do c[1,i] := 2;
+\par      for i:=m+2 to dich-1 do c[i,dich] := k;
+\par 
+\par end;
+\par 
+\par function min(a,b : integer): integer;
+\par begin
+\par      if a<b then min:=a else min:=b;
+\par end;
+\par 
+\par procedure khoitao;
+\par begin
+\par      fillchar(d,sizeof(d),false);
+\par      with nh[xp] do
+\par           begin
+\par                truoc := +1;
+\par                delta :=  255;
+\par           end;
+\par      d[xp] \tab := true;
+\par      top \tab \tab := 1;
+\par      s[top] \tab := xp;
+\par end;
+\par 
+\par var f : ^kmang;
+\par 
+\par procedure gannhan(j : byte);
+\par var i,td,tc : integer;
+\par begin
+\par     if (j<=m+1) and (j<>1) then
+\par         begin
+\par              td:=m+2;
+\par              tc:=dich;
+\par         end
+\par     else
+\par     begin
+\par       td:=2;
+\par       tc:=m+1;
+\par       if (c[j,dich]>0)and(f^[j,dich]<c[j,dich])
+\par                       and(not d[dich]) then 
+\par       begin
+\par         with nh[dich] do
+\par          begin
+\par             truoc := +j;
+\par             delta := min(nh[j].delta,c[j,dich]-f^[j,dich]);
+\par          end;
+\par          d[dich] := true;
+\par          inc(top);
+\par          s[top] := dich;
+\par       end
+\par     end;
+\par     for i:=td to tc do
+\par     begin
+\par       if (c[j,i]>0) and (f^[j,i]<c[j,i])
+\par                  and (not d[i]) then
+\par       begin
+\par            with nh[i] do
+\par            begin
+\par                truoc := +j;
+\par                delta := min(nh[j].delta,c[j,i]-f^[j,i]);
+\par            end;
+\par            d[i] := true;
+\par            inc(top);
+\par            s[top] := i;
+\par       end
+\par       else
+\par       if (c[i,j]>0) and (f^[i,j]>0) and (not d[i]) then
+\par       begin
+\par          with nh[i] do
+\par              begin
+\par                  truoc := -j;
+\par                  delta := min(nh[j].delta,f^[i,j]);
+\par              end;
+\par          d[i] := true;
+\par          inc(top);
+\par          s[top] := i;
+\par       end
+\par   end;
+\par end;
+\par 
+\par procedure dieuchinh;
+\par var i,j : integer;
+\par begin
+\par      i := dich;
+\par      repeat
+\par      j := i;
+\par      i := nh[j].truoc;
+\par      if i>0 then f^[i,j] := f^[i,j]+nh[dich].delta
+\par      else
+\par      if i<0 then f^[j,-i] := f^[j,-i]-nh[dich].delta;
+\par      i := abs(i);
+\par      until i= xp;
+\par end;
+\par 
+\par function xaydung: boolean;
+\par var i,j : integer; 
+\par begin
+\par      repeat
+\par      khoitao;
+\par      while (top>0) do
+\par            begin
+\par                 j := s[top];
+\par                 dec(top);
+\par                 gannhan(j);
+\par                 if d[dich] then
+\par         \tab \tab  begin
+\par              \tab \tab dieuchinh ;
+\par              \tab \tab break;
+\par         \tab \tab  end
+\par            end;
+\par      until not d[dich];
+\par }\pard \s16\fi720\nowidctlpar\adjustright {\fs24 j:=0;
+\par }\pard \s16\nowidctlpar\adjustright {\fs24      for i:=m+2 to dich-1 do
+\par          if f^[i,dich]>0 then j:=j+f^[i,dich];
+\par      xaydung:=j=m*2;
+\par end;
+\par 
+\par procedure hienkq;
+\par 
+\par var i,j ,t  : integer;
+\par     out     : text;
+\par     ok      : boolean;
+\par begin
+\par      assign(out,fo);
+\par      rewrite(out);
+\par      writeln(out,k);
+\par      for i:=2 to m+1 do
+\par          begin
+\par               ok := false;
+\par               for j:=m+2 to dich-1 do
+\par                   if f^[i,j]>0 then
+\par                      begin
+\par                           \{write(out,(j-m-1):4);\}
+\par                           write(out,1);
+\par                           ok := true;
+\par                      end
+\par                   else write(out,0);
+\par               if not ok then write(out,0:4);
+\par               writeln(out);
+\par           end;
+\par      close(out);
+\par end;
+\par 
+\par begin
+\par         clrscr;
+\par         new(f);
+\par         taof;
+\par         docf;
+\par         \{k:=maxtc;\}k:=m*2 div sc;
+\par         ltime:=time;
+\par         repeat
+\par               lamvoi(k);
+\par               fillchar(f^,sizeof(f^),0);
+\par               if xaydung then
+\par               begin
+\par                    \{lk := k;
+\par                    k:= (maxtc+mintc) div 2 ;
+\par                    maxtc := k;\}
+\par                    hienkq;
+\par                    writeln((time-ltime) /18.2:8:2);
+\par                    halt;
+\par               end
+\par               else \{mintc := k\} inc(k);
+\par         until \{(k*n<2*m) or (k=mintc)\} k=maxtc;
+\par         k := lk;
+\par         hienkq;
+\par         writeln((time-ltime) /18.2:8:2);
+\par end.
+\par }\pard \s16\qj\fi360\nowidctlpar\adjustright {\f15\fs24 
+\par }\pard \s16\nowidctlpar\adjustright {\b\f15\fs28\ul B\'b5i 3 :}{\f15\fs28    C\'b8ch 2
+\par }{\fs24 
+\par program luong2p;
+\par uses crt;
+\par const max\tab = 100;
+\par       fi\tab = 'input.txt';
+\par       fo\tab = 'output.txt';
+\par 
+\par type mang\tab = array[1..max,1..max] of byte;
+\par      mang2= array[1..max*2] of integer;
+\par 
+\par var \tab a,l,ll \tab \tab : mang;
+\par     \tab b1,b2,c1,c2 \tab : mang2;
+\par     \tab tr1,tr2,nh \tab : mang2;
+\par     \tab sc \tab \tab \tab : mang2;
+\par     \tab m,n \tab \tab \tab : integer;
+\par     \tab tren,duoi \tab : integer;
+\par     \tab schon,ls \tab \tab : integer;
+\par     \tab li,lj \tab \tab : integer;
+\par     \tab lmin \tab \tab : integer;
+\par     \tab f \tab \tab \tab : text;
+\par 
+\par procedure read_inp;
+\par var i,j \tab : integer;
+\par     ch \tab : char;
+\par begin
+\par      assign(f,fi); reset(f);
+\par      readln(f,m,n);
+\par      for i:=1 to m do
+\par          begin
+\par               for j:=1 to n do
+\par                   begin
+\par                        read(f,ch);
+\par                        a[i,j]:=ord(ch)-ord('0');
+\par                   end;
+\par               readln(f);
+\par          end;
+\par      close(f);
+\par end;
+\par 
+\par procedure write_out;
+\par var i,j : integer;
+\par begin
+\par      assign(f,fo); rewrite(f);
+\par      writeln(f,ls);
+\par      for i:=1 to m do
+\par          begin
+\par               for j:=1 to n do write(f,ll[i,j]);
+\par               writeln(f);
+\par          end;
+\par      close(f);
+\par end;
+\par 
+\par procedure init_data;
+\par var i,j : integer;
+\par begin
+\par      for i:=1 to m do
+\par          for j:=1 to n do
+\par              if a[i,j]=1 then inc(sc[j]);
+\par end;
+\par 
+\par function min(a,b : integer) : integer;
+\par begin
+\par      if a<b then min:=a
+\par      else min:=b;
+\par end;
+\par 
+\par procedure gan;
+\par var i : integer;
+\par begin
+\par      for i:=1 to m do b1[i]:=2;
+\par      for i:=1 to n do b2[i]:=min(schon,sc[i]);
+\par end;
+\par 
+\par function find_path( k : integer) : boolean;
+\par var q \tab \tab : mang2;
+\par     dau,cuoi \tab : integer;
+\par     i,j \tab \tab : integer;
+\par begin
+\par      fillchar(tr1,sizeof(tr1),0);
+\par      fillchar(tr2,sizeof(tr2),0);
+\par      fillchar(nh,sizeof(nh),0); tr1[k]:=-1;
+\par      dau:=0; cuoi:=1;q[cuoi]:=k; nh[1]:=maxint;
+\par      find_path:=true;
+\par      while dau<cuoi do
+\par      begin
+\par          inc(dau); i:=q[dau];
+\par          if i<=m then
+\par          begin
+\par               for j:=1 to n do
+\par               if (a[i,j]>l[i,j]) and (tr2[j]=0) then
+\par               begin
+\par                   inc(cuoi); q[cuoi]:=j+m;
+\par                   nh[cuoi]:=min(nh[dau],a[i,j]-l[i,j]);
+\par                   tr2[j]:=i;
+\par                   if c2[j]<b2[j] then
+\par                   begin
+\par                        li:=i; lj:=j;lmin:=nh[cuoi];
+\par                        exit;
+\par                   end;
+\par               end;
+\par          end
+\par          else
+\par          begin
+\par               j:=i-m;
+\par               for i:=1 to m do
+\par               if (l[i,j]>0) and (tr1[i]=0) then
+\par               begin
+\par                   inc(cuoi); q[cuoi]:=i;
+\par                   tr1[i]:=j;
+\par                   nh[cuoi]:=min(nh[dau],l[i,j]);
+\par               end;
+\par          end;
+\par      end;
+\par      find_path:=false;
+\par end;
+\par 
+\par procedure change_path;
+\par var i,j,k : integer;
+\par begin
+\par      i:=li; j:=lj;
+\par      inc(c2[j],lmin);
+\par      inc(l[i,j],lmin);
+\par      if tr1[i]>0 then
+\par         repeat
+\par               j:=tr1[i];
+\par               k:=tr2[j];
+\par               dec(l[i,j],lmin);
+\par               inc(l[k,j],lmin);
+\par               i:=k;
+\par         until tr1[i]<=0;
+\par      inc(c1[i]);
+\par end;
+\par 
+\par function ok : boolean;
+\par var i : integer;
+\par begin
+\par      ok:=false;
+\par      fillchar(c1,sizeof(c1),0);
+\par      fillchar(c2,sizeof(c2),0);
+\par      fillchar(l,sizeof(l),0);
+\par      for i:=1 to m do
+\par          begin
+\par               while b1[i]>c1[i] do
+\par                     begin
+\par                          if find_path(i) then
+\par                             change_path
+\par                          else break;
+\par                     end;
+\par               if b1[i]>c1[i] then exit;
+\par          end;
+\par      ok:=true;
+\par end;
+\par 
+\par procedure solution;
+\par var giua : integer;
+\par begin
+\par      init_data;
+\par      tren:=m; duoi:=0;
+\par      repeat
+\par            schon:=(tren+duoi) div 2;
+\par            gan;
+\par            if ok then
+\par               begin
+\par                    tren:=schon-1;
+\par                    ls:=schon;
+\par                    ll:=l;
+\par               end
+\par            else duoi:=schon+1;
+\par      until tren<duoi;
+\par end;
+\par 
+\par BEGIN
+\par      read_inp;
+\par      solution;
+\par      write_out;
+\par END.
+\par }\pard\plain \s15\qc\nowidctlpar\adjustright \f18\fs28 {Lu\'e5ng tr\'aan \'ae\'e5 th\'de hai ph\'dda
+\par }\pard\plain \qc\nowidctlpar\adjustright \f15 {\fs20 
+\par }\pard\plain \s15\qc\nowidctlpar\adjustright \f18\fs28 {\b S\'edm nh\'cat}{
+\par }\pard\plain \qc\nowidctlpar\adjustright \f15 {\i (B\'b5i 4-\'a7\'d2 thi ch\'ddnh th\'f8c k\'fa thi h\'e4c sinh gi\'e1i qu\'e8c gia l\'edp 12 THPT 1999-2000)
+\par 
+\par }\pard\plain \s28\fi720\sa120\nowidctlpar\adjustright \f15 {T\'b9i th\'eai \'aei\'d3m 0, m\'e9t C\'abng ty d\'dech v\'f4 ph\'b8t tri\'d3n ph\'c7n m\'d2m nh\'cbn th\'f9c hi\'d6n N y\'aau c\'c7u c\'f1a kh\'b8ch h\'b5ng (\'ae\'ad\'eec \'ae\'b8nh s\'e8 t\'f5
+ 1 \'ae\'d5n N) . M\'e7i y\'aau c\'c7u c\'f1a kh\'b8ch h\'b5ng thu\'e9c m\'e9t trong K l\'dcnh v\'f9c chuy\'aan m\'abn ( \'ae\'ad\'eec \'ae\'b8nh s\'e8 t\'f5 1 \'ae\'d5n K) v\'b5 c\'e3 m\'e9t trong 3 m\'f8c \'ae\'e9 kh\'e3 ( \'ae\'ad\'eec \'ae\'b8nh s\'e8
+ t\'f5 1 \'ae\'d5n 3) C\'abng ty c\'e3 M chuy\'aan vi\'aan (\'ae\'ad\'eec \'ae\'b8nh s\'e8 t\'f5 1 \'ae\'d5n M) \'ae\'d3 th\'f9c hi\'d6n c\'b8c y\'aau c\'c7u n\'b5y. M\'e7i chuy\'aan vi\'aan ch\'d8 c\'e3 th\'d3 th\'f9c hi\'d6n c\'b8c c\'abng vi\'d6
+c trong m\'e9t s\'e8 l\'dcnh v\'f9c chuy\'aan m\'abn thu\'e9c K l\'dcnh v\'f9c n\'aau tr\'aan. C\'abng ty bi\'d5t th\'eai gian m\'b5 m\'e7i nh\'a9n vi\'aan c\'c7n \'ae\'d3 th\'f9c hi\'d6n c\'b8c y\'aau c\'c7u \'eb c\'b8c m\'f8c \'ae\'e9 kh\'e3 kh\'b8
+c nhau trong m\'e7i l\'dcnh v\'f9c chuy\'aan m\'abn.
+\par }\pard\plain \qj\nowidctlpar\adjustright \f15 {\b Y\'aau c\'c7u :}{ T\'d7m c\'b8ch b\'e8 tr\'dd c\'b8c chuy\'aan vi\'aan th\'f9c hi\'d6n c\'b8c y\'aau c\'c7u c\'f1a kh\'b8ch h\'b5ng sao cho m\'e7i y\'aau c\'c7u c\'f1a kh\'b8ch h\'b5ng \'ae\'ad\'ee
+c giao cho \'ae\'f3ng m\'e9t nh\'a9n vi\'aan c\'e3 kh\'b6 n\'a8ng th\'f9c hi\'d6n v\'b5 th\'eai \'aei\'d3m ho\'b5n th\'b5nh t\'cat c\'b6 c\'b8c y\'aau c\'c7u c\'f1a kh\'b8ch h\'b5ng l\'b5 s\'edm nh\'cat.
+\par }{\b D\'f7 li\'d6u v\'b5o}{ t\'f5 file v\'a8n b\'b6n SOMNHAT.INP
+\par {\pntext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls32\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls32\adjustright {D\'dfng \'ae\'c7u ti\'aan ch\'f8a c\'b8c s\'e8 nguy
+\'aan d\'ad\'acng N,M,K (N}{{\field{\*\fldinst SYMBOL 163 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{M}{{\field{\*\fldinst SYMBOL 163 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{200,K}{{\field{\*\fldinst SYMBOL 163 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{200)
+
+\par {\pntext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls32\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls32\adjustright {D\'dfng th\'f8 i trong s\'e8 N d\'dfng ti\'d5
+p theo g\'e5m 2 s\'e8 nguy\'aan d\'ad\'acng p}{\sub i}{,q}{\sub i}{ t\'ad\'acng \'f8ng l\'b5 s\'e8 hi\'d6u l\'dcnh v\'f9c chuy\'aan m\'abn v\'b5 m\'f8c \'ae\'e9 kh\'e3 c\'f1a y\'aau c\'c7u kh\'b8ch h\'b5ng th\'f8 i (i=1,2..,N)
+\par {\pntext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls32\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls32\adjustright {Ti\'d5p \'ae\'d5n l\'b5 M nh\'e3m d\'dfng m\'ab t
+\'b6 kh\'b6 n\'a8ng c\'f1a c\'b8c chuy\'aan vi\'aan . Nh\'e3m d\'dfng th\'f8 j (j=1,2,..M) t\'ad\'acng \'f8ng v\'edi chuy\'aan vi\'aan j, bao g\'e5m c\'b8c d\'dfng :
+\par }\pard \qj\li360\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {+ D\'dfng \'ae\'c7u ti\'aan ghi s\'e8 nguy\'aan d\'ad\'acng r}{\sub j}{ l\'b5 s\'e8 l\'dcnh v\'f9c chuy\'aan m\'abn
+\par + Trong r}{\sub j}{ d\'dfng ti\'d5p theo, m\'e7i d\'dfng g\'e5m 4 s\'e8 nguy\'aan d\'ad\'acng : s\'e8 \'ae\'c7u ti\'aan l\'b5 s\'e8 hi\'d6u c\'f1a l\'dcnh v\'f9c chuy\'aan m\'abn , 3 s\'e8 ti\'d5p theo t\'ad\'acng \'f8ng l\'b5 th\'eai gian c\'c7n thi\'d5
+t \'ae\'d3 ho\'b5n th\'b5nh y\'aau c\'c7u thu\'e9c l\'dcnh v\'f9c chuy\'aan m\'abn n\'b5y \'eb c\'b8c m\'f8c \'ae\'e9 kh\'e3 1,2,3.
+\par }\pard \qj\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\b K\'d5t qu\'b6 ghi ra}{ file v\'a8n b\'b6n SOMNHAT.OUT
+\par {\pntext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls32\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls32\adjustright {D\'dfng \'ae\'c7u ti\'aan ghi T l\'b5 th\'eai \'aei
+\'d3m ho\'b5n th\'b5nh theo c\'b8ch b\'e8 tr\'dd t\'d7m \'ae\'ad\'eec. Ghi T=-1 n\'d5u kh\'abng t\'d7m \'ae\'ad\'eec c\'b8ch b\'e8 tr\'dd chuy\'aan vi\'aan th\'f9c hi\'d6n y\'aau c\'c7u c\'f1a t\'cat c\'b6 c\'b8c kh\'b8ch h\'b5ng.
+\par {\pntext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\nowidctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls32\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls32\adjustright {N\'d5u T}{{\field{\*\fldinst SYMBOL 185 \\f "Symbol"
+ \\s 12}{\fldrslt\f3\fs24}}}{ -1 th\'d7 d\'dfng th\'f8 i trong s\'e8 N d\'dfng ti\'d5p theo ghi ch\'d8 s\'e8 c\'f1a chuy\'aan vi\'aan \'ae\'ad\'eec giao th\'f9c hi\'d6n y\'aau c\'c7u c\'f1a kh\'b8ch h\'b5ng i (i=1,2,..,N)  
+\par }\pard \qj\nowidctlpar\adjustright {C\'b8c d\'f7 li\'d6u s\'e8 ghi tr\'aan m\'e9t d\'dfng \'ae\'ad\'eec ghi c\'b8ch nhau \'ddt nh\'cat m\'e9t d\'cau tr\'beng.
+\par 
+\par }{\b \sect }\sectd \margrsxn1080\sbknone\linex0\cols2\endnhere\colno1\colw4320\colsr720\colno2\colw4320\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qj\nowidctlpar\adjustright 
+\f15 {\b V\'dd d\'f4:}{
+\par 
+\par }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb \cellx2160\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx4428\pard \qc\nowidctlpar\intbl\adjustright {\f35\fs22 Somnhat.inp\cell Somnhat.out}{\fs22 \cell 
+}\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx2160\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx4428\pard \qj\nowidctlpar\intbl\adjustright {
+3 3 3
+\par 1 2
+\par 2 3
+\par 3 3
+\par 2
+\par 1 15 12 10
+\par 3 17 8 9
+\par 1
+\par 2 20 15 12
+\par 1
+\par 1 350 250 150\cell 250
+\par 3
+\par 2
+\par 1\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \qj\nowidctlpar\adjustright {
+\par 
+\par }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb \cellx2160\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx4428\pard \qc\nowidctlpar\intbl\adjustright {\f35\fs22 Somnhat.inp\cell Somnhat.out}{\fs22 \cell 
+}\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx2160\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb \cellx4428\pard \qj\nowidctlpar\intbl\adjustright {
+3 3 3
+\par 1 2
+\par 2 3
+\par 3 3
+\par 2
+\par 1 15 13 10
+\par 3 17 8 9
+\par 1
+\par 2 20 15 12
+\par 1
+\par 2 35 25 15\cell -1\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \qj\nowidctlpar\adjustright {
+\par 
+\par }\pard\plain \s16\nowidctlpar\adjustright \f2\fs20 {\sect }\sectd \sbknone\linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta ?}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb ?}{\pntxta ?}}\pard\plain \s16\nowidctlpar\adjustright 
+\f2\fs20 {\{$A+,B-,D+,E+,F-,G-,I+,L+,N-,O-,P-,Q+,R+,S+,T-,V+,X+\}
+\par \{$M 63840,0,655360\}
+\par uses crt;
+\par const    fi     = 'somnhat.inp';
+\par          fo     = 'somnhat.out';
+\par          max    = 201;
+\par type     mg     = array[0..max] of word;
+\par var      a         : array[0..max] of ^mg;
+\par          p,q,r,ini : mg;
+\par          tr,             }{\f15 \{Theo r\'e2i d\'a9y chuy\'d2n \}
+\par }\pard \s16\li720\nowidctlpar\adjustright {   trai,phai : mg; }{\f15 \{T\'ab m\'b5u c\'b8c cung tren d\'a9y chuy\'d2n\}}{
+\par }\pard \s16\nowidctlpar\adjustright {         so        : array[1..3] of word;
+\par          n,m,k,
+\par }\pard \s16\fi720\nowidctlpar\adjustright {   Lj  \tab  : word;
+\par }\pard \s16\nowidctlpar\adjustright {         maxs,mins : longint; }{\f15 \{Max th\'eai gian, Min th\'eai gian\}}{
+\par          giua      : longint; }{\f15 \{Th\'eai gian d\'f9 ki\'d5n cho m\'e9t ph\'ad\'acng \'b8n = gi\'b8 tr\'de d\'f9 ki\'d5n l\'b5 th\'abng l\'ad\'eeng   lu\'e5ng l\'edn nh\'cat tr\'aan m\'e4i cung\}}{ 
+\par          ok        : boolean;
+\par 
+\par procedure init;
+\par var  i    : word;
+\par begin
+\par      fillchar(ini,sizeof(ini),0);
+\par      for i := 1 to n do
+\par          begin
+\par               new(a[i]);
+\par               a[i]^ := ini;
+\par          end;
+\par end;
+\par 
+\par procedure docf;
+\par var  i,j,k,x,y : word;
+\par      f         : text;
+\par begin
+\par      assign(f,fi);
+\par      reset(f);
+\par      readln(f,n,m,k);
+\par      init;
+\par      maxs := 0;  mins := 65000;
+\par      for i := 1 to n do readln(f,p[i],q[i]);
+\par      for j := 1 to m do
+\par          begin
+\par               readln(f,r[j]);
+\par               for k := 1 to r[j] do
+\par                   begin
+\par                        read(f,x);
+\par                        for y := 1 to 3 do
+\par                            begin
+\par                                 read(f,so[y]);
+\par                                 if so[y] > maxs then maxs := so[y];
+\par                                 if so[y] < mins then mins := so[y];
+\par                            end;
+\par                        for i := 1 to n do
+\par                            if p[i] = x then
+\par                               a[i]^[j] := so[q[i]];
+\par                        readln(f);
+\par                   end;
+\par          end;
+\par      close(f);
+\par end;
+\par 
+\par procedure ghep(i  :   word);
+\par var  j : word;
+\par begin
+\par      if ok then exit;
+\par      for j := 1 to m do
+\par          if tr[j] = 0 then}{\f15 \{ t\'d7m  \'ae\'d8nh ch\'ada gh\'d0p v\'b5o d\'a9y chuy\'d2n (nh\'a9n vi\'aan j ch\'ada nh\'cbn c\'abng vi\'d6c n\'b5o)\}
+\par }{            if (a[i]^[j] > 0) and (a[i]^[j] <= giua) then
+\par \tab \tab }{\f15 \{ \'a7i\'d2u ki\'d6n cung (i,j) l\'b5 cung \'ae\'cbm : c\'abng vi\'d6c c\'f1a kh\'b8ch h\'b5ng i \'ae\'dfi h\'e1i nh\'a9n vi\'aan j l\'b5m v\'edi th\'eai gian kh\'abng qu\'b8 th\'eai gian chung t\'e8i \'aea c\'f1a m\'e4i ng\'ad\'ea
+i (= gi\'f7a) \}
+\par }{               begin
+\par                     tr[j] := i; \{}{\f15 x\'b8c nh\'cbn : giao cho nh\'a9n vi\'aan j c\'abng vi\'d6c c\'f1a kh\'b8ch i\} }{
+\par                     if trai[j] = 0 then }{\f15 \{ H\'d5t d\'a9y chuy\'d2n\} }{
+\par                        begin
+\par                             ok := true;
+\par                             Lj := j;
+\par                             exit;
+\par                        end
+\par                     else ghep(trai[j]);\{}{\f15 T\'d7m ti\'d5p d\'a9y chuy\'d2n b\'bbng \'ae\'d6 quy\} }{
+\par                end;
+\par end;
+\par 
+\par procedure tang; }{\f15 \{ T\'a8ng th\'aam 1 c\'c6p gh\'d0p (t\'a8ng th\'aam 1 nh\'a9n vi\'aan \'ae\'ad\'eec giao vi\'d6c) \}
+\par }{var  luu  : word;
+\par begin
+\par      repeat
+\par            trai[Lj]:= tr[Lj];}{\f15 \{\'ae\'b8nh d\'cau \'ae\'d8nh \'ae\'cbm b\'aan tr\'b8i (kh\'b8ch h\'b5ng tr[Lj] \'ae\'b7 \'ae\'ad\'eec x\'d5p)\} }{
+\par            luu     := phai[tr[lj]];}{\f15 \{bi\'d5n ph\'f4 gi\'f7 l\'b9i gi\'b8 tr\'de \'ae\'d8nh b\'aan ph\'b6i ti\'d5p theo c\'f1a d\'a9y chuy\'d2n\}}{
+\par            phai[tr[Lj]] := Lj;}{\f15  \{\'ae\'b8nh d\'cau \'ae\'d8nh \'ae\'cbm b\'aan ph\'b6i (nh\'a9n vi\'aan tr[Lj] \'ae\'b7 nh\'cbn vi\'d6c)\}}{
+\par            Lj           := luu;}{\f15  \{x\'d0t \'ae\'d8nh b\'aan ph\'b6i ti\'d5p theo c\'f1a d\'a9y chuy\'d2n (nh\'a9n vi\'aan ti\'d5p theo) \}}{
+\par      until Lj = 0; }{\f15 \{K\'d5t th\'f3c d\'a9y chuy\'d2n t\'b9i \'ae\'d8nh nh\'b9t b\'aan ph\'b6i\}}{
+\par end;
+\par 
+\par procedure inic;
+\par begin
+\par     trai := ini;
+\par     phai := ini;
+\par end;
+\par 
+\par procedure capghep;
+\par var  i    : word;
+\par begin
+\par      inic;
+\par      for i := 1 to n do
+\par          begin
+\par               ok := false;
+\par               tr := ini;
+\par               ghep(i);
+\par               if ok then tang
+\par               else exit;
+\par          end;
+\par end;
+\par 
+\par procedure lamv;
+\par var  dau,cuoi  : longint;
+\par begin
+\par      dau := mins;
+\par      cuoi := maxs;
+\par      repeat
+\par            giua := (dau + cuoi) div 2;
+\par            capghep;
+\par            if ok then cuoi := giua
+\par            else dau := giua + 1;
+\par      until dau >= cuoi;
+\par      giua := cuoi;
+\par      capghep;
+\par end;
+\par 
+\par procedure ghif;
+\par var  f    : text;
+\par      i    : word;
+\par begin
+\par      assign(f,fo);
+\par      rewrite(f);
+\par      if ok then
+\par         begin
+\par              writeln(f,giua);
+\par              for i := 1 to n do writeln(f,phai[i]);
+\par         end
+\par      else write(f,-1);
+\par      close(f);
+\par end;
+\par 
+\par procedure dispos;
+\par var  i : word;
+\par begin
+\par      for i:=1  to n do dispose(a[i]);
+\par end;
+\par 
+\par BEGIN
+\par      clrscr;
+\par      docf;
+\par      lamv;
+\par      ghif;
+\par      dispos;
+\par END.
+\par }{\fs24 uses crt;
+\par const        max          = 200;
+\par              fi           = 'somnhat.in5';
+\par              fo           = 'dong.out';
+\par type         mg           = array[1..max]of integer;
+\par var          a            : array[1..max]of ^mg;
+\par              trai,phai,lq : array[1..max]of integer;
+\par              tr,dx,q      : array[1..2*max]of integer;
+\par              lv,dk        : array[1..max]of integer;
+\par              m,n,vd       : integer;
+\par              dau,cuoi     : longint;
+\par              best         : integer;
+\par              ok           : boolean;
+\par procedure inp;
+\par var  f     : text;
+\par      i,j,k : integer;
+\par      so    : integer;
+\par      gt    : array[1..3]of integer;
+\par      vde   : integer;
+\par  begin
+\par    dau:=maxint;cuoi:=0;
+\par    assign(f,fi);
+\par    reset(f);
+\par    readln(f,n,m,vd);
+\par    for k:=1 to n do readln(f,lv[k],dk[k]);
+\par    for i:=1 to m do
+\par      begin
+\par        readln(f,so);
+\par        for j:=1 to so do
+\par          begin
+\par            readln(f,vde,gt[1],gt[2],gt[3]);
+\par            for k:=1 to n do
+\par             if lv[k]=vde then
+\par               begin
+\par                 a[k]^[i]:=gt[dk[k]];
+\par                 if cuoi<a[k]^[i] then cuoi:=a[k]^[i];
+\par                 if dau>a[k]^[i] then dau:=a[k]^[i];
+\par               end;
+\par          end;
+\par      end;Z
+\par    close(f);
+\par  end;
+\par procedure dieuchinh(j:integer);
+\par var i     : integer;
+\par  begin
+\par    repeat
+\par      i:=tr[j];
+\par      trai[i]:=j-n;
+\par      phai[j-n]:=i;
+\par      j:=tr[i];
+\par  end;
+\par procedure work(tg:longint);
+\par var k,i   : integer;
+\par     dd,cc : integer;
+\par     stop  : boolean;
+\par  begin
+\par    fillchar(trai,sizeof(trai),0);
+\par    fillchar(phai,sizeof(phai),0);
+\par    for k:=1 to n do
+\par      begin
+\par        fillchar(q,sizeof(q),0);
+\par        fillchar(dx,sizeof(dx),0);
+\par        fillchar(tr,sizeof(tr),0);
+\par        dd:=1;cc:=1;dx[k]:=1;q[1]:=k;
+\par        stop:=false;
+\par        while (dd<=cc)and(stop=false) do
+\par          begin
+\par            if q[dd]<=n then
+\par              begin
+\par                for i:=1 to m do
+\par                  if (dx[i+n]=0)and(a[q[dd]]^[i]<=tg) then
+\par                    begin
+\par                      inc(cc);q[cc]:=i+n;
+\par }\pard \s16\fi720\li2160\nowidctlpar\adjustright {\fs24  dx[i+n]:=1;tr[q[cc]]:=q[dd];
+\par }\pard \s16\nowidctlpar\adjustright {\fs24                      if phai[i]=0 then
+\par                        begin
+\par                          dieuchinh(i+n);
+\par                          stop:=true;
+\par                          break;
+\par                        end;
+\par                    end;
+\par              end
+\par            else if dx[phai[q[dd]-n]]=0 then
+\par              begin
+\par                inc(cc);
+\par                q[cc]:=phai[q[dd]-n];
+\par }\pard \s16\fi720\li720\nowidctlpar\adjustright {\fs24      dx[q[cc]]:=1;tr[q[cc]]:=q[dd];             end;           inc(dd);         end;       if stop=false then exit;
+\par }\pard \s16\nowidctlpar\adjustright {\fs24      end;
+\par    ok:=true;
+\par  end;
+\par procedure solution;
+\par var tg : longint;
+\par  begin
+\par    best:=maxint;
+\par    while dau<=cuoi do
+\par      begin
+\par         tg:=(dau+cuoi)div 2;
+\par         ok:=false;
+\par         work(tg);
+\par         if ok then
+\par           begin
+\par             lq:=trai;
+\par             best:=tg;
+\par             cuoi:=tg-1;
+\par           end
+\par         else dau:=tg+1;
+\par      end;
+\par  end;
+\par procedure out;
+\par var  f    : text;
+\par      k    : integer;
+\par  begin
+\par    assign(f,fo);
+\par    rewrite(f);
+\par    if best<maxint then
+\par      begin
+\par       writeln(f,best);
+\par       for k:=1 to n do  writeln(f,lq[k]);
+\par      end
+\par    else write(f,'-1');
+\par    close(f);
+\par  end;
+\par procedure news;
+\par var k,kk     : integer;
+\par  begin
+\par    for k:=1 to max do
+\par      begin
+\par        new(a[k]);
+\par        fillchar(a[k]^,sizeof(a[k]^),0);
+\par        for kk:=1 to max do a[k]^[kk]:=maxint;
+\par      end;
+\par  end;
+\par procedure disposes;
+\par var k     : integer;
+\par  begin
+\par    for k:=1 to max do dispose(a[k]);
+\par  end;
+\par BEGIN
+\par   news;
+\par   inp;
+\par   solution;
+\par   out;
+\par   disposes;
+\par END.
+\par }}

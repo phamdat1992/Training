@@ -1,0 +1,30 @@
+#include <cstdio>
+#include <cstring>
+
+string s [600000] = {'\0'};
+int next [600000] = {0};
+int num	 [600000] = {0};
+
+void init() {
+
+	int len = strlen(s);
+	for(int i = 0; i < n; ++i) {
+
+		
+	}
+}
+
+void get() {
+
+}
+
+void solved() {
+
+	
+}
+
+int main() {
+
+	scanf("%s", s);
+	solved();
+}

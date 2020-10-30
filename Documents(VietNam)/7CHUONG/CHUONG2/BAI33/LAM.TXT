@@ -1,0 +1,41 @@
+============= KET QUA KIEM TRA FILE lam ================ 
+*** Input: X0 
+Thoi gian chay chuong trinh: 8.74 (sec)
+*** Ket qua test 
+Khong xep duoc! Ok
+*** Input: X1 
+Thoi gian chay chuong trinh: 0.33 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 279, Ok
+*** Input: X2 
+Thoi gian chay chuong trinh: 3.68 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 553, Ok
+*** Input: X3 
+Thoi gian chay chuong trinh: 8.79 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 721, Ok
+*** Input: X4 
+Thoi gian chay chuong trinh: 0.16 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 143, Ok
+*** Input: X5 
+Thoi gian chay chuong trinh: 0.60 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 360, Ok
+*** Input: X6 
+Thoi gian chay chuong trinh: 0.38 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 259, Ok
+*** Input: X7 
+Thoi gian chay chuong trinh: 1.21 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 447, Ok
+*** Input: X8 
+Thoi gian chay chuong trinh: 3.52 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 546, Ok
+*** Input: X9 
+Thoi gian chay chuong trinh: 7.14 (sec)
+*** Ket qua test 
+Hop le! So lan nhan phim = 688, Ok

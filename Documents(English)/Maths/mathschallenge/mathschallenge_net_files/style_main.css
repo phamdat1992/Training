@@ -1,0 +1,228 @@
+
+@media Print    
+{
+BODY {
+	HEIGHT: auto !important; FONT-FAMILY: Verdana,Arial,sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.noprint {
+	DISPLAY: none
+}
+.square_paper {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.puzzle_box {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+H2 {
+	BORDER-TOP: #ccc 2px solid; BORDER-BOTTOM: #ccc 2px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.print-border-above {
+	BORDER-TOP: #999 1px solid
+}
+
+}
+
+@media Screen    
+{
+BODY {
+	FONT-SIZE: 100%; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; BACKGROUND: #eee; COLOR: #333; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
+.print {
+	DISPLAY: none
+}
+#container {
+	BACKGROUND: url(images/bg_shadow.gif) #fff repeat-y center 50%; POSITION: relative; MARGIN-LEFT: -400px; LEFT: 50%; MIN-HEIGHT: 100%; Z-INDEX: 2; WIDTH: 800px
+}
+#content {
+	POSITION: relative; PADDING-TOP: 20px; MARGIN-LEFT: 20px; MIN-HEIGHT: 100%; WIDTH: 760px
+}
+.square_paper {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BACKGROUND-IMAGE: url(images/squares.gif); BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 0px; PADDING-LEFT: 5px; BORDER-LEFT: #000 1px solid; MARGIN-TOP: 10px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ffffff
+}
+#header {
+	HEIGHT: 150px; BACKGROUND: url(images/header.gif) no-repeat center top; POSITION: relative; MARGIN: 0px auto; WIDTH: 800px
+}
+#header H1 {
+	DISPLAY: none
+}
+#extraDiv1 {
+	HEIGHT: 34px; BACKGROUND: url(images/bg_jigsaw.jpg) repeat-x; POSITION: absolute; LEFT: 0px; Z-INDEX: 1; TOP: 17px; WIDTH: 50%
+}
+#extraDiv2 {
+	HEIGHT: 34px; BACKGROUND: url(images/bg_jigsaw.jpg) repeat-x; RIGHT: 0px; POSITION: absolute; Z-INDEX: 1; TOP: 49px; WIDTH: 50%
+}
+#extraDiv3 {
+	FONT-SIZE: 10pt; RIGHT: 5px; POSITION: absolute; COLOR: #666; TEXT-ALIGN: right; Z-INDEX: 2; TOP: 5px; WIDTH: 100%
+}
+#footer {
+	FONT-SIZE: 80%; COLOR: #ddd; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#rss_body {
+	FONT-SIZE: 90%; BACKGROUND: #fff; MARGIN-LEFT: 20px; WIDTH: 760px
+}
+#linklist {
+	BORDER-TOP: #ddd 2px solid; BORDER-BOTTOM: #ddd 2px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px; WIDTH: 760px
+}
+#linklist UL {
+	FONT-VARIANT: small-caps; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#linklist LI {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 0px; DISPLAY: inline; PADDING-RIGHT: 20px
+}
+#linklist A {
+	COLOR: #888; TEXT-DECORATION: none
+}
+#home A {
+	
+}
+#home A.active {
+	BORDER-TOP: #f99 2px solid; BORDER-BOTTOM: #f99 2px solid
+}
+#home A:hover {
+	BORDER-TOP: #f99 2px solid; BORDER-BOTTOM: #f99 2px solid
+}
+#latest A {
+	
+}
+#latest A.active {
+	BORDER-TOP: #fc8 2px solid; BORDER-BOTTOM: #fc8 2px solid
+}
+#latest A:hover {
+	BORDER-TOP: #fc8 2px solid; BORDER-BOTTOM: #fc8 2px solid
+}
+#search A {
+	
+}
+#search A.active {
+	BORDER-TOP: #ad6 2px solid; BORDER-BOTTOM: #ad6 2px solid
+}
+#search A:hover {
+	BORDER-TOP: #ad6 2px solid; BORDER-BOTTOM: #ad6 2px solid
+}
+#faq A {
+	
+}
+#faq A.active {
+	BORDER-TOP: #9bf 2px solid; BORDER-BOTTOM: #9bf 2px solid
+}
+#faq A:hover {
+	BORDER-TOP: #9bf 2px solid; BORDER-BOTTOM: #9bf 2px solid
+}
+#links A {
+	
+}
+#links A.active {
+	BORDER-TOP: #d8f 2px solid; BORDER-BOTTOM: #d8f 2px solid
+}
+#links A:hover {
+	BORDER-TOP: #d8f 2px solid; BORDER-BOTTOM: #d8f 2px solid
+}
+    }
+A {
+	COLOR: #888; BACKGROUND-COLOR: transparent
+}
+A:hover {
+	COLOR: #faa; BACKGROUND-COLOR: transparent
+}
+H2 {
+	BACKGROUND: url(images/h2_left_grey_bar.gif) no-repeat left bottom; MARGIN: 10px 0px
+}
+H2 SPAN {
+	FONT-VARIANT: small-caps; BACKGROUND: url(images/h2_right_grey_bar.gif) no-repeat right bottom; COLOR: #999; MARGIN-LEFT: 15px; PADDING-RIGHT: 15px
+}
+H3 {
+	FONT-SIZE: 110%; FONT-VARIANT: small-caps; TEXT-ALIGN: center
+}
+H4 {
+	FONT-SIZE: 120%; FONT-FAMILY: "courier new",monospace
+}
+DL {
+	MARGIN-BOTTOM: 20px
+}
+DD {
+	MARGIN: 10px 0px
+}
+DT {
+	FONT-VARIANT: small-caps; FLOAT: left; TEXT-ALIGN: right; PADDING-RIGHT: 10px; WIDTH: 100px
+}
+VAR {
+	FONT-STYLE: italic
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+TH {
+	VERTICAL-ALIGN: bottom
+}
+#welcome {
+	HEIGHT: 350px; BACKGROUND: url(images/welcome_collage.gif); MARGIN: 0px auto; WIDTH: 350px
+}
+#welcome SPAN {
+	DISPLAY: none
+}
+#antispam TD {
+	LINE-HEIGHT: 5px
+}
+#about_problems DD {
+	MARGIN-LEFT: 120px
+}
+#rss {
+	FONT-SIZE: 80%; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #999 1px solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #999 1px solid; FONT-WEIGHT: bold; COLOR: #aaa; PADDING-BOTTOM: 4px; PADDING-TOP: 2px; PADDING-LEFT: 2px; TEXT-DECORATION: none; BORDER-LEFT: #ddd 1px solid; PADDING-RIGHT: 2px; BACKGROUND-COLOR: #ffb
+}
+#rss IMG {
+	BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; VERTICAL-ALIGN: middle; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+#email {
+	BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; VERTICAL-ALIGN: middle; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+.square_paper {
+	FONT-SIZE: 110%; FONT-FAMILY: "Times New Roman","Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif; COLOR: #111
+}
+.grid {
+	BORDER-TOP: #000 1px solid; BORDER-COLLAPSE: collapse; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: #000 1px solid; MARGIN-RIGHT: auto
+}
+.grid CAPTION {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.grid TH {
+	BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.grid TD {
+	BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.shade TH {
+	BACKGROUND-COLOR: #eee
+}
+.center_table {
+	TEXT-ALIGN: center; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.center_table TD {
+	TEXT-ALIGN: left
+}
+.links LI {
+	MARGIN-BOTTOM: 20px
+}
+.info {
+	FONT-SIZE: 90%
+}
+.overline {
+	BORDER-TOP: #000 1px solid
+}
+.radic {
+	LETTER-SPACING: -0.15em
+}
+.radicand {
+	TEXT-DECORATION: overline
+}
+A.showLink {
+	FONT-SIZE: 80%; FONT-WEIGHT: bold; COLOR: #b9ceb0; TEXT-DECORATION: none
+}
+A.showLink:hover {
+	COLOR: #6d965c
+}

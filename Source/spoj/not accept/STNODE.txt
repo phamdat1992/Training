@@ -1,0 +1,119 @@
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#include <list>
+
+using namespace std;
+
+struct node {
+
+	int vertex;
+	node* pn;
+};
+
+const int oo = 2000000000;
+
+int d1 [10001] = {0};
+int d2 [10001] = {0};
+
+int visit [10001] = {0};
+
+int n, m, s, t, r;
+
+node f1 [20000] = {0};
+node f2 [20000] = {0};
+
+void GET_INT( int &x ) {
+
+	register int c;
+
+	for( c = getchar_unlocked(); c < '0' || c > '9'; c = getchar_unlocked() );
+
+	x = c - '0';
+	for( c = getchar_unlocked(); c >= '0' && c <= '9'; c = getchar_unlocked() ) {
+
+		x = ( x<<3 ) + ( x<<1 ) + c - '0';
+	}
+}
+
+void input(  ) {
+
+	GET_INT( n );
+	GET_INT( m );
+	GET_INT( s );
+	GET_INT( t );
+
+	node* p1;
+	node* p2;
+
+	for( int i = 0, u, v; i < m; ++i ) {
+
+		GET_INT( u );
+		GET_INT( v );
+
+		p1 = new node;
+		p2 = new node;
+
+		p1->vertex = u;
+		p2->vertex = v;
+
+		p1->pn = f2[v].pn;
+		p2->pn = f1[u].pn;
+
+		f1[u].pn = p2;
+		f2[v].pn = p1;
+	}
+}
+
+void output( int kq ) {
+
+	printf( "%d", kq );
+}
+
+void dfs( int u, int* d, node* f ) {
+	
+	d[u] = 0;
+	visit[u] = r;
+
+	for( node* cur = f[u].pn; cur != 0; cur = cur->pn ) {
+
+		int v = cur->vertex;
+
+		if( visit[v] != r ) { dfs( v, d, f ); }
+
+		d[u] += d[v];	
+	}
+}
+
+int solved(  ) {
+
+	visit[t] = r = 1;
+	d1[t] = 1;
+
+	dfs( s, d1, f1 );
+
+	visit[s] = ++r;
+	d2[s] = 1;
+
+	dfs( t, d2, f2 );
+
+	int kq = 0;
+	for( int i = 1; i <= n; ++i ) {
+
+		if( i != s && i != t && d1[i]*d2[i] == d1[s] ) {
+
+			++kq;
+		}
+	}
+
+	return kq;
+}
+
+int main(  ) {
+
+	input(  );
+	output( solved(  ) );
+}
+
+
+

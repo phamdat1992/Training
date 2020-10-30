@@ -1,0 +1,138 @@
+.menulv2 {
+	background: 0px 0px rgb(253, 253, 253); border-width: 1px 1px medium; border-style: solid solid none; left: 422px; top: 27px; width: 80px; overflow: hidden; position: absolute; z-index: 99999; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.menulv2 .ml2 {
+	padding: 5px 10px; color: rgb(51, 97, 162); overflow: hidden; border-bottom-color: rgb(201, 213, 226); border-bottom-width: 1px; border-bottom-style: solid; display: block !important; cursor: pointer;
+}
+.menulv2 .ml2:hover {
+	background: 0px 0px / auto auto rgb(227, 238, 248); color: rgb(51, 51, 51);
+}
+.icoarrowlb {
+	background: url("../images/blog/ico_sprites_1.14.gif") no-repeat left -1123px; padding-left: 18px;
+}
+table {
+	text-indent: 0px; margin-top: 0px; margin-bottom: 0px; display: table; border-collapse: separate; -moz-box-sizing: border-box;
+}
+tr {
+	vertical-align: inherit; display: table-row;
+}
+td {
+	padding: 10px 1px 1px; text-align: inherit; vertical-align: inherit; display: table-cell;
+}
+.p_emotion {
+	padding: 10px 0px 0px 10px; height: 270px; float: left; display: none; overflow-x: hidden; overflow-y: auto;
+}
+.feedback-form .rowFB {
+	margin: 0px; padding: 4px 0px; height: 1%; color: rgb(102, 102, 102); overflow: hidden; display: block; position: relative;
+}
+.feedback-form .rowFB .coltext {
+	width: 76px; text-align: right; line-height: 16px; overflow: hidden; font-weight: bold; margin-right: 17px; float: left; display: inline-block;
+}
+.feedback-form .rowFB .coltext .abbr {
+	color: red; font-weight: normal;
+}
+.feedback-form .rowFB {
+	margin: 0px; padding: 4px 0px; height: 1%; color: rgb(102, 102, 102); overflow: hidden; display: block; position: relative;
+}
+.feedback-form .rowFB .coltype input {
+	padding: 0px; width: 235px;
+}
+.feedback-form .rowFB .coltype textarea {
+	padding: 0px; width: 235px;
+}
+.feedback-form .rowFB .coltype select {
+	width: 237px;
+}
+.padleft {
+	padding-left: 82px;
+}
+.blogtabs {
+	background: url("../images/blog/tabs.gif") repeat-x 0px -72px; width: 100%; height: 18px; line-height: normal;
+}
+.blogtabs ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.blogtabs li {
+	background: url("../images/blog/tabs.gif") no-repeat 0px 0px; margin: 0px 2px 0px 0px; padding: 0px 0px 0px 10px; height: 18px; line-height: 17px; float: left; display: block;
+}
+.blogtabs li.current {
+	background: url("../images/blog/tabs.gif") no-repeat 0px -18px; margin-right: 2px;
+}
+.blogtabs .current span {
+	background: url("../images/blog/tabs.gif") no-repeat right -54px;
+}
+.blogtabs span {
+	background: url("../images/blog/tabs.gif") no-repeat right -36px; padding: 0px 10px 0px 0px; float: left; display: block;
+}
+.blogtabs a:link {
+	color: black;
+}
+.tabs a:visited {
+	color: black;
+}
+.tabs a:hover {
+	color: black;
+}
+.blogtabs a {
+	font-family: Verdana,Arial; font-size: 10px; text-decoration: none;
+}
+.blogpanel_wrapper {
+	background: 0px 0px white; border-width: 0px 1px 1px; border-style: none solid solid; padding: 5px 10px 0px; clear: both; border-right-color: rgb(145, 155, 156); -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.blogpanel_wrapper .current.panel {
+	width: 100%; height: 390px; overflow: auto; display: block;
+}
+.blogpanel_wrapper .panel {
+	display: none;
+}
+fieldset {
+	margin: 0px; padding: 4px; font-family: Verdana,Arial; font-size: 10px;
+}
+fieldset td {
+	padding: 5px 5px 0px;
+}
+legend {
+	color: rgb(43, 111, 182); font-weight: bold;
+}
+#prev {
+	margin: 0px; border: 1px solid black; width: 380px; height: 230px; overflow: auto;
+}
+#flash_options {
+	display: none;
+}
+#shockwave_options {
+	display: none;
+}
+#qt_options {
+	display: none;
+}
+#wmp_options {
+	display: none;
+}
+#rmp_options {
+	display: none;
+}
+.mceActionPanel {
+	margin-top: 5px;
+}
+#src {
+	width: 250px; height: 17px;
+}
+#media_type {
+	width: 250px; height: 17px;
+}
+#width {
+	width: 40px; height: 17px;
+}
+#height {
+	width: 40px; height: 17px;
+}
+a.pickcolor span {
+	background: url("../images/blog/icons.gif") -840px 0px; width: 20px; height: 16px; margin-left: 2px; display: block;
+}
+#flash_base {
+	width: 240px;
+}
+#flash_flashvars {
+	width: 240px;
+}

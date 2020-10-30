@@ -1,0 +1,347 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0084)https://docs.google.com/document/pub -->
+<HTML><HEAD><META content="IE=5.0000" http-equiv="X-UA-Compatible">
+
+<SCRIPT type="text/javascript">
+(function(){(function(){function d(a){this.t={};this.tick=function(a,b,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),b]};this.tick("start",null,a)}var a=new d;window.jstiming={Timer:d,load:a};if(window.performance&&window.performance.timing){var a=window.performance.timing,b=window.jstiming.load,c=a.navigationStart,a=a.responseStart;0<c&&a>=c&&(b.tick("_wtsrt",void 0,c),b.tick("wtsrt_","_wtsrt",a),b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),
+b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(e){}})();})()
+</SCRIPT>
+
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<SCRIPT type="text/javascript">var KX_timer = new window.jstiming.Timer(); KX_timer.name = 'published';</SCRIPT>
+<TITLE>DP Bitmask</TITLE>
+<STYLE type="text/css">
+      body {
+        font-family: arial, sans, sans-serif;
+        margin: 0;
+      }
+
+      iframe {
+        border: 0;
+        frameborder: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      #header, #footer {
+        background: #f0f0f0;
+        padding: 10px 10px;
+      }
+
+      #header {
+        border-bottom: 1px #ccc solid;
+      }
+
+      #footer {
+        border-top: 1px #ccc solid;
+        border-bottom: 1px #ccc solid;
+        font-size: 13;
+      }
+
+      #contents {
+        margin: 6px;
+      }
+
+      .dash {
+        padding: 0 6px;
+      }
+    </STYLE>
+
+<META name="GENERATOR" content="MSHTML 10.00.9200.16635"></HEAD>
+<BODY>
+<DIV id="header">DP Bitmask</DIV>
+<DIV id="contents">
+<STYLE type="text/css">@import url('https://themes.googleusercontent.com/fonts/css?kit=qW0-oXTo-wzWUf_7rEmzaQ');.lst-kix_98ckwoc7upvp-8>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-8,lower-roman) ". "}.lst-kix_r98cpuh4gmjg-2>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-2,lower-roman) ". "}.lst-kix_98ckwoc7upvp-0>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-0}.lst-kix_r98cpuh4gmjg-0>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-0,decimal) ". "}ol.lst-kix_98ckwoc7upvp-5.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-5 0}ol.lst-kix_r98cpuh4gmjg-8.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-8 0}ol.lst-kix_r98cpuh4gmjg-7.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-7 0}.lst-kix_98ckwoc7upvp-5>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-5}ol.lst-kix_r98cpuh4gmjg-0.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-0 0}ol.lst-kix_r98cpuh4gmjg-2.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-2 0}.lst-kix_r98cpuh4gmjg-8>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-8}.lst-kix_98ckwoc7upvp-6>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-6,decimal) ". "}.lst-kix_r98cpuh4gmjg-6>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-6}ol.lst-kix_98ckwoc7upvp-0.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-0 0}.lst-kix_98ckwoc7upvp-7>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-7,lower-latin) ". "}.lst-kix_r98cpuh4gmjg-8>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-8,lower-roman) ". "}ol.lst-kix_r98cpuh4gmjg-3.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-3 0}.lst-kix_r98cpuh4gmjg-1>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-1}.lst-kix_r98cpuh4gmjg-5>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-5}ol.lst-kix_98ckwoc7upvp-7.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-7 0}.lst-kix_r98cpuh4gmjg-0>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-0}.lst-kix_98ckwoc7upvp-1>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-1,lower-latin) ". "}ol.lst-kix_r98cpuh4gmjg-4.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-4 0}.lst-kix_r98cpuh4gmjg-4>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-4,lower-latin) ". "}.lst-kix_98ckwoc7upvp-7>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-7}ol.lst-kix_r98cpuh4gmjg-1.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-1 0}.lst-kix_r98cpuh4gmjg-6>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-6,decimal) ". "}.lst-kix_r98cpuh4gmjg-7>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-7}.lst-kix_98ckwoc7upvp-1>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-1}.lst-kix_98ckwoc7upvp-4>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-4,lower-latin) ". "}.lst-kix_98ckwoc7upvp-2>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-2}.lst-kix_r98cpuh4gmjg-3>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-3}ol.lst-kix_98ckwoc7upvp-6.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-6 0}.lst-kix_98ckwoc7upvp-3>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-3,decimal) ". "}.lst-kix_r98cpuh4gmjg-3>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-3,decimal) ". "}.lst-kix_98ckwoc7upvp-4>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-4}.lst-kix_98ckwoc7upvp-6>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-6}ol.lst-kix_98ckwoc7upvp-4.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-4 0}.lst-kix_r98cpuh4gmjg-2>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-2}.lst-kix_98ckwoc7upvp-2>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-2,lower-roman) ". "}ol.lst-kix_r98cpuh4gmjg-6.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-6 0}.lst-kix_98ckwoc7upvp-8>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-8}ol.lst-kix_98ckwoc7upvp-8.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-8 0}.lst-kix_r98cpuh4gmjg-5>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-5,lower-roman) ". "}ol.lst-kix_r98cpuh4gmjg-5.start{counter-reset:lst-ctn-kix_r98cpuh4gmjg-5 0}.lst-kix_98ckwoc7upvp-5>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-5,lower-roman) ". "}.lst-kix_r98cpuh4gmjg-4>li{counter-increment:lst-ctn-kix_r98cpuh4gmjg-4}ol.lst-kix_98ckwoc7upvp-1.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-1 0}ol.lst-kix_98ckwoc7upvp-2.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-2 0}.lst-kix_98ckwoc7upvp-3>li{counter-increment:lst-ctn-kix_98ckwoc7upvp-3}.lst-kix_98ckwoc7upvp-0>li:before{content:"" counter(lst-ctn-kix_98ckwoc7upvp-0,decimal) ". "}.lst-kix_r98cpuh4gmjg-1>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-1,lower-latin) ". "}ol.lst-kix_98ckwoc7upvp-3.start{counter-reset:lst-ctn-kix_98ckwoc7upvp-3 0}.lst-kix_r98cpuh4gmjg-7>li:before{content:"" counter(lst-ctn-kix_r98cpuh4gmjg-7,lower-latin) ". "}ol{margin:0;padding:0}.c18{vertical-align:top;width:571.5pt;border-style:solid;border-color:#000000;border-width:1pt;padding:5pt 5pt 5pt 5pt}.c3{color:#66cc66;font-size:9pt;font-family:"Courier New"}.c1{color:#000066;font-size:9pt;font-family:"Courier New"}.c15{color:#b1b100;font-size:9pt;font-family:"Courier New"}.c0{color:#cc66cc;font-size:9pt;font-family:"Courier New"}.c32{max-width:571.5pt;background-color:#ffffff;padding:72pt 18pt 72pt 22.5pt}.c13{font-size:12pt;font-family:"Times New Roman"}.c19{font-size:9pt;font-family:"Courier New"}.c20{font-size:12pt;font-family:"Courier New"}.c22{font-size:10pt;font-family:"Courier New"}.c17{color:inherit;text-decoration:inherit}.c31{color:#000099;text-decoration:underline}.c2{font-size:10pt;font-family:"Verdana"}.c26{color:#993333}.c28{font-size:12pt}.c10{font-size:14pt}.c9{font-family:"Tahoma"}.c8{margin-left:18pt}.c4{direction:ltr}.c7{text-align:justify}.c11{text-align:center}.c12{height:11pt}.c27{border-collapse:collapse}.c6{margin-left:72pt}.c24{margin-right:-9pt}.c25{margin-left:180pt}.c21{font-family:"Verdana"}.c14{font-size:18pt}.c23{font-size:24pt}.c30{font-size:20pt}.c16{line-height:1.0}.c5{font-weight:bold}.c29{font-size:16pt}.title{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:36pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}.subtitle{padding-top:18pt;line-height:1.15;text-align:left;color:#666666;font-style:italic;font-size:24pt;font-family:"Georgia";padding-bottom:4pt}li{color:#000000;font-size:11pt;font-family:"Arial"}p{color:#000000;font-size:11pt;margin:0;font-family:"Arial"}h1{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:24pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}h2{padding-top:18pt;line-height:1.15;text-align:left;color:#000000;font-size:18pt;font-family:"Arial";font-weight:bold;padding-bottom:4pt}h3{padding-top:14pt;line-height:1.15;text-align:left;color:#000000;font-size:14pt;font-family:"Arial";font-weight:bold;padding-bottom:4pt}h4{padding-top:12pt;line-height:1.15;text-align:left;color:#000000;font-size:12pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}h5{padding-top:11pt;line-height:1.15;text-align:left;color:#000000;font-size:11pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}h6{padding-top:10pt;line-height:1.15;text-align:left;color:#000000;font-size:10pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}</STYLE>
+
+<H1 class="c4 c11"><A name="h.7jadw2kp85ua"></A><SPAN class="c5 c14">Kỹ thuật 
+</SPAN><SPAN class="c9 c14 c5">Quy hoạch động trạng thái</SPAN><SPAN class="c14 c5">&nbsp;ứng 
+dụng trong bài toán Hamilton</SPAN></H1>
+<P class="c4 c11"><SPAN class="c5 c13">- Giang Vi - </SPAN></P>
+<P class="c4 c11"><SPAN class="c13 c5">(Email : gvi_kei@yahoo.com)</SPAN></P>
+<H2 class="c4"><A name="h.p2lv15ya1g3x"></A><SPAN class="c14 c5">1. Bài 
+toán</SPAN></H2>
+<P class="c4"><SPAN 
+class="c5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN class="c9">Bài 
+toán tìm đường đi Hamilton là một bài toán khá quen thuộc: cho N đỉnh, tìm đường 
+đi sao cho mỗi đỉnh được thăm duy nhất một lần, và chi phí thăm N đỉnh là thấp 
+nhất.</SPAN></P>
+<P class="c4"><SPAN class="c9">Với dạng toán này, thông thường nếu N nhỏ 
+(&lt;=10), ta có thể giải quyết bài toán bằng phương pháp nhánh cận. Tuỳ vào 
+cách đặt cận mà tốc độ chương trình có thể được nâng lên, tuy nhiên thời gian 
+chạy chương trình vẫn có thể không đảm bảo với một số test khó.</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">Không những vậy, nếu giới hạn N tăng lên đến 20, 
+thì việc sử dụng phương pháp nhánh cận để giải quyết sẽ không còn khả thi nữa. 
+Trong trường hợp này, ta có cách tiếp cận khác để giải quyết bài toán một cách 
+tối ưu hơn, với độ phức tạp O(N^2*2^N). Đó chính là kỹ Quy hoạch động trạng thái 
+(QHĐ TT) được bàn đến trong bài viết này.</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">Lấy ví dụ một bài toán cụ thể, ta sẽ tìm hiểu kỹ 
+thuật QHĐ TT thông qua bài toán này: </SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P><A name="35a45e98285f4c3b460fc1498534beeb21af2bad" 
+href="https://docs.google.com/document/pub?id=1g9ndAI1lYNfJ120KC5VWpxr0K5PeTuPlzAeqn3MKwbo#"></A><A 
+name="0" href="https://docs.google.com/document/pub?id=1g9ndAI1lYNfJ120KC5VWpxr0K5PeTuPlzAeqn3MKwbo#"></A>
+<TABLE class="c27" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD class="c18">
+      <H2 class="c4 c11"><SPAN class="c21 c29">Từ tập các bài có trên SPOJ 
+      (oi)</SPAN></H2>
+      <H1 class="c4 c25"><A name="h.7jadw2kp85ua"></A><SPAN 
+      class="c21 c30">2645. TRIP</SPAN></H1>
+      <H2 class="c4 c11"><SPAN class="c21 c28">Mã bài: LEM3</SPAN></H2>
+      <P class="c4 c11 c12"><SPAN class="c21"></SPAN></P>
+      <P class="c4 c7"><SPAN class="c2">Trong kì nghỉ hè năm nay sherry được bố 
+      thưởng cho 1 tour du lịch quanh N đất nước tươi đẹp với nhiều thắng cảnh 
+      nổi tiếng (vì sherry rất ngoan). Tất nhiên sherry sẽ đi bằng máy 
+      bay.</SPAN></P>
+      <P class="c4 c7"><SPAN class="c2">Giá vé máy bay từ đất nước i đến đất 
+      nước j là Cij (dĩ nhiên Cij có thể khác Cji). Tuy được bố thưởng cho nhiều 
+      tiền để đi du lịch nhưng sherry cũng muốn tìm cho mình 1 hành trình với 
+      chi phí rẻ nhất có thể để dành tiền mua quà về tặng mọi người (Các chuyến 
+      bay của sherry đều được đảm bảo an toàn tuyệt đối).</SPAN></P>
+      <P class="c4 c7"><SPAN class="c2">Bạn hãy giúp sherry tìm 1 hành trình đi 
+      qua tất cả các nước, mỗi nước đúng 1 lần sao cho chi phí là bé nhất 
+      nhé.</SPAN></P>
+      <H3 class="c4"><SPAN class="c2 c5">Input</SPAN></H3>
+      <P class="c4 c7"><SPAN class="c2">Dòng 1: N (5 &lt; N &lt; 16)</SPAN></P>
+      <P class="c4 c7"><SPAN class="c2">Dòng thứ i trong N dòng tiếp theo: Gồm N 
+      số nguyên, số thứ j là Cij (0 &lt; Cij &lt; 10001)</SPAN></P>
+      <H3 class="c4"><SPAN class="c2 c5">Output</SPAN></H3>
+      <P class="c4 c7"><SPAN class="c2">Gồm 1 dòng duy nhất ghi chi phí bé nhất 
+      tìm được</SPAN></P>
+      <H3 class="c4"><SPAN class="c2 c5">Example</SPAN></H3>
+      <P class="c4"><SPAN class="c2 c5">Input:</SPAN></P>
+      <P class="c4"><SPAN class="c2">6</SPAN></P>
+      <P class="c4"><SPAN class="c2">0 1 2 1 3 4</SPAN></P>
+      <P class="c4"><SPAN class="c2">5 0 3 2 3 4</SPAN></P>
+      <P class="c4"><SPAN class="c2">4 1 0 2 1 2</SPAN></P>
+      <P class="c4"><SPAN class="c2">4 2 5 0 4 3</SPAN></P>
+      <P class="c4"><SPAN class="c2">2 5 3 5 0 2</SPAN></P>
+      <P class="c4"><SPAN class="c2">5 4 3 3 1 0</SPAN></P>
+      <P class="c4 c12"><SPAN class="c2"></SPAN></P>
+      <P class="c4"><SPAN class="c2 c5">Output:</SPAN></P>
+      <P class="c4"><SPAN class="c2">8</SPAN></P>
+      <P class="c4 c11 c12"><SPAN class="c21"></SPAN></P></TD></TR>
+  <TR>
+    <TD class="c18">
+      <P class="c4 c7 c16"><SPAN class="c2">URL: </SPAN><SPAN class="c2 c31"><A 
+      class="c17" href="http://www.google.com/url?q=http%3A%2F%2Fvn.spoj.pl%2Fproblems%2FLEM3%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGydcn7b6tVLy15A3Rq1K3Z0Qo1Ug">http://www.google.com/url?q=http%3A%2F%2Fvn.spoj.pl%2Fproblems%2FLEM3%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGydcn7b6tVLy15A3Rq1K3Z0Qo1Ug</A></SPAN></P></TD></TR></TBODY></TABLE>
+<P class="c4 c7 c12"><SPAN class="c2"></SPAN></P>
+<H2 class="c4"><A name="h.kv0vs3z1sn3o"></A><SPAN class="c21 c14 c5">2. Giải 
+thuật</SPAN></H2>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<H3 class="c4"><A name="h.3weuxlafmzum"></A><SPAN class="c9 c5 c10">a. Ý tưởng 
+chính</SPAN></H3>
+<P class="c4"><SPAN class="c9">Để giải quyết bài toán này theo phương pháp quy 
+hoạch động, các buớc thiết lập lời giải phải được lưu trữ để có thể tính toán từ 
+các bài toán con. Rõ ràng ở đây, chúng ta phải lưu các đỉnh đã đi qua và đỉnh 
+cuối cùng của một hành trình bất kỳ. Để làm việc này, ta dùng một mảng nhị phân 
+N phần tử với ý nghĩa bit 1 tượng trưng cho các đỉnh đã được thăm và ngược lại. 
+Từ đó, ta định nghĩa Fx [i,j] là chi phí tối ưu trong trạng thái i, j là đỉnh 
+kết thúc hành trình (0 &lt;= i &lt;= 2^N -1; 1 &lt;= j &lt;= N).</SPAN></P>
+<P class="c4 c12"><SPAN class="c9 c5"></SPAN></P>
+<P class="c4"><SPAN class="c9 c5">Ví dụ:</SPAN></P>
+<P class="c4"><SPAN class="c9">Dãy [010011] &lt;=&gt; trạng thái có 3 đĩnh được 
+đi, và đỉnh kết thúc hành trình là đỉnh 5 (tính từ phải qua), với biểu diễn 
+trong hệ thập phân tương ứng của dãy này là 19. </SPAN></P>
+<P class="c4"><SPAN class="c9">Vậy hàm quy hoạch động của trạng thái này là 
+Fx[19,5].</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<H3 class="c4"><A name="h.1pclj6rhewo"></A><SPAN class="c10 c9 c5">b. Chi tiết 
+thuật toán</SPAN></H3>
+<P class="c4"><SPAN class="c9">Với mỗi trạng thái I có j là đỉnh đến cuối cùng 
+trong trạng thái này, xét mọi đỉnh k &lt;&gt; j mà k chưa được thăm trong trạng 
+thái I. Gọi trạng thái mà hành trình của nó có chứa đỉnh k là X. </SPAN></P>
+<P class="c4 c12"><SPAN class="c9 c5"></SPAN></P>
+<P class="c4"><SPAN class="c9 c5">Ví dụ:</SPAN></P>
+<P class="c4 c24"><SPAN class="c9">I = [010011] có các đỉnh 1,2,5 đã thăm. Giả 
+sử k = 3 (thoả vì chưa đến được thành phố 3 trong trạng thái I), ta được trạng 
+thái X = [010111]. </SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">Tóm lại, ở bước này: trạng thái X và trạng thái I 
+chỉ khác nhau duy nhất ở đỉnh k. Dễ nhận thấy số thành phố đi được thấy đi được 
+ở trạng thái X = số thành phố đi được ở trạng thái I + 1, suy ra việc tính toán 
+Fx[X,k] sẽ dựa vào kết quả bài toán có kích thước nhỏ hơn nó là 
+Fx[I,j]</SPAN></P>
+<P class="c4 c12"><SPAN class="c10 c9 c5"></SPAN></P>
+<P class="c4"><SPAN class="c9">Tiếp theo, ta sẽ tối ưu Fx[X,k] theo công thức : 
+</SPAN><SPAN class="c20">Fx[X,k] = Min (Fx[X,k], Fx[I,j] + C[j,k]);</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">Công thức trên sẽ lấy chi phí nhỏ hơn giữa trạng 
+thái hiện tại (hành trình kết thúc tại k) và trạng thái hành trình kết thúc tại 
+j cộng với chi phí di chuyển từ j -&gt; k.</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">Bước tìm đường đi có chi phí ngắn nhất chính là 
+giá trị nhỏ nhất trong tất cả đường đi qua N đỉnh mà đường đi đó kết thúc tại 
+thành phố i. Từ đó ta có kết quả bài toán là Min (Fx [2^N - 1, i]) với i 
+=1..N.</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">Số 2^N-1 thể hiện trạng thái mà N đỉnh đã được 
+thăm. Ví dụ: 2^6 - 1 = 63 (dec) = [111111] (bin)</SPAN></P>
+<H2 class="c4"><A name="h.2ri8pbz9xwg6"></A><SPAN class="c9 c14 c5">3. Cài 
+đặt</SPAN></H2>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4 c6"><SPAN class="c5 c22">(* Tác giả source code: Hoàng Minh Trung 
+*)</SPAN></P>
+<P class="c4 c12 c6"><SPAN class="c9"></SPAN></P>
+<P class="c8 c4"><SPAN class="c5 c19">Procedure</SPAN><SPAN 
+class="c1">&nbsp;Work;</SPAN></P>
+<P class="c8 c4"><SPAN class="c15">Var</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; 
+&nbsp;i,j,k,X:</SPAN><SPAN class="c19 c26">Integer</SPAN><SPAN 
+class="c1">;</SPAN></P>
+<P class="c8 c4"><SPAN class="c15">Begin</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">{Chuẩn bị cho bước QHĐ}</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp;Min:=</SPAN><SPAN 
+class="c0">1000000000</SPAN><SPAN class="c1">;</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp;</SPAN><SPAN class="c15">For</SPAN><SPAN 
+class="c1">&nbsp;i:=</SPAN><SPAN class="c0">1</SPAN><SPAN 
+class="c1">&nbsp;</SPAN><SPAN class="c15">to</SPAN><SPAN 
+class="c1">&nbsp;Sq</SPAN><SPAN class="c3">[</SPAN><SPAN 
+class="c1">N</SPAN><SPAN class="c3">]</SPAN><SPAN class="c1">-</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN class="c15">do</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp;</SPAN><SPAN class="c15">For</SPAN><SPAN 
+class="c1">&nbsp;j:=</SPAN><SPAN class="c0">1</SPAN><SPAN 
+class="c1">&nbsp;</SPAN><SPAN class="c15">to</SPAN><SPAN class="c1">&nbsp;N 
+</SPAN><SPAN class="c15">do</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Fx</SPAN><SPAN class="c3">[</SPAN><SPAN 
+class="c1">i,j</SPAN><SPAN class="c3">]</SPAN><SPAN class="c1">:=Min; 
+</SPAN></P>
+<P class="c8 c4 c12"><SPAN class="c1"></SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp;{Đặt cơ sở QHĐ}</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; Fx</SPAN><SPAN 
+class="c3">[</SPAN><SPAN class="c0">1</SPAN><SPAN class="c1">,</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c3">]</SPAN><SPAN class="c1">:=</SPAN><SPAN 
+class="c0">0</SPAN><SPAN class="c1">; </SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; </SPAN><SPAN 
+class="c15">For</SPAN><SPAN class="c1">&nbsp;j:=</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN 
+class="c15">to</SPAN><SPAN class="c1">&nbsp;N-</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN class="c15">do 
+</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp;Fx</SPAN><SPAN class="c3">[</SPAN><SPAN class="c1">Sq</SPAN><SPAN 
+class="c3">[</SPAN><SPAN class="c1">j</SPAN><SPAN class="c3">]</SPAN><SPAN 
+class="c1">,j+</SPAN><SPAN class="c0">1</SPAN><SPAN class="c3">]</SPAN><SPAN 
+class="c1">:=</SPAN><SPAN class="c0">0</SPAN><SPAN class="c1">;</SPAN></P>
+<P class="c8 c4 c12"><SPAN class="c1"></SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; </SPAN><SPAN 
+class="c15">For</SPAN><SPAN class="c1">&nbsp;i:=</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN 
+class="c15">to</SPAN><SPAN class="c1">&nbsp;Sq</SPAN><SPAN 
+class="c3">[</SPAN><SPAN class="c1">N</SPAN><SPAN class="c3">]</SPAN><SPAN 
+class="c1">-</SPAN><SPAN class="c0">1</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN 
+class="c15">do </SPAN><SPAN class="c1">{Xét tất cả các trạng thái}</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp;</SPAN><SPAN class="c15">For</SPAN><SPAN 
+class="c1">&nbsp;j:=</SPAN><SPAN class="c0">1</SPAN><SPAN 
+class="c1">&nbsp;</SPAN><SPAN class="c15">to</SPAN><SPAN class="c1">&nbsp;N 
+</SPAN><SPAN class="c15">do </SPAN><SPAN class="c1">{Với mỗi trạng thái xét tất 
+cả các thành phố j}</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</SPAN><SPAN class="c15">If</SPAN><SPAN 
+class="c1">&nbsp;Fx</SPAN><SPAN class="c3">[</SPAN><SPAN 
+class="c1">i,j</SPAN><SPAN class="c3">]</SPAN><SPAN class="c1">&gt;=</SPAN><SPAN 
+class="c0">0</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN class="c15">then 
+</SPAN><SPAN class="c1">{Nếu trong trạng thái i đã thăm j}</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp;</SPAN><SPAN class="c15">For</SPAN><SPAN class="c1">&nbsp;k:=</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN 
+class="c15">to</SPAN><SPAN class="c1">&nbsp;N </SPAN><SPAN class="c15">do 
+</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp;</SPAN><SPAN class="c15">If</SPAN><SPAN 
+class="c1">&nbsp;k&lt;&gt;j </SPAN><SPAN class="c15">then </SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp;</SPAN><SPAN class="c15">Begin</SPAN></P>
+<P class="c8 c4"><SPAN 
+class="c15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+class="c1">{Gán X = trạng thái I đã bật bit k}</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; X:=i Or </SPAN><SPAN 
+class="c3">(</SPAN><SPAN class="c0">1</SPAN><SPAN class="c1">&nbsp;Shl 
+</SPAN><SPAN class="c3">(</SPAN><SPAN class="c1">k-</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c3">))</SPAN><SPAN class="c1">; </SPAN></P>
+<P class="c8 c4"><SPAN 
+class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{Nếu 
+thành phố k chưa được thămt}</SPAN></P>
+<P class="c4 c8"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</SPAN><SPAN 
+class="c15">If</SPAN><SPAN class="c1">&nbsp;</SPAN><SPAN 
+class="c3">((</SPAN><SPAN class="c1">i shr </SPAN><SPAN class="c3">(</SPAN><SPAN 
+class="c1">k-</SPAN><SPAN class="c0">1</SPAN><SPAN class="c3">))</SPAN><SPAN 
+class="c1">&nbsp;And </SPAN><SPAN class="c0">1</SPAN><SPAN class="c1">&nbsp;= 
+</SPAN><SPAN class="c0">0</SPAN><SPAN class="c3">)</SPAN><SPAN 
+class="c1">&nbsp;</SPAN><SPAN class="c15">then 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+class="c1">Fx</SPAN><SPAN class="c3">[</SPAN><SPAN class="c1">X,k</SPAN><SPAN 
+class="c3">]</SPAN><SPAN class="c1">:=GetMin</SPAN><SPAN 
+class="c3">(</SPAN><SPAN class="c1">Fx</SPAN><SPAN class="c3">[</SPAN><SPAN 
+class="c1">X,k</SPAN><SPAN class="c3">]</SPAN><SPAN class="c1">,C</SPAN><SPAN 
+class="c3">[</SPAN><SPAN class="c1">j,k</SPAN><SPAN class="c3">]</SPAN><SPAN 
+class="c1">+Fx</SPAN><SPAN class="c3">[</SPAN><SPAN class="c1">i,j</SPAN><SPAN 
+class="c3">])</SPAN><SPAN class="c1">;</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+class="c15">End</SPAN><SPAN class="c1">;</SPAN></P>
+<P class="c8 c4 c12"><SPAN class="c1"></SPAN></P>
+<P class="c8 c4"><SPAN class="c1">{Xét trạng thái tất cả các thành phố đều đã 
+thăm với j là đỉnh kết thúc hành trình}</SPAN></P>
+<P class="c8 c4"><SPAN class="c15">For</SPAN><SPAN 
+class="c1">&nbsp;j:=</SPAN><SPAN class="c0">1</SPAN><SPAN 
+class="c1">&nbsp;</SPAN><SPAN class="c15">to</SPAN><SPAN class="c1">&nbsp;N 
+</SPAN><SPAN class="c15">do</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp;</SPAN><SPAN class="c15">If</SPAN><SPAN 
+class="c1">&nbsp;</SPAN><SPAN class="c3">(</SPAN><SPAN class="c1">Fx</SPAN><SPAN 
+class="c3">[</SPAN><SPAN class="c1">Sq</SPAN><SPAN class="c3">[</SPAN><SPAN 
+class="c1">N</SPAN><SPAN class="c3">]</SPAN><SPAN class="c1">-</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c1">,j</SPAN><SPAN class="c3">]</SPAN><SPAN 
+class="c1">&gt;=</SPAN><SPAN class="c0">0</SPAN><SPAN class="c3">)</SPAN><SPAN 
+class="c1">&nbsp;and </SPAN><SPAN class="c3">(</SPAN><SPAN 
+class="c1">Fx</SPAN><SPAN class="c3">[</SPAN><SPAN class="c1">Sq</SPAN><SPAN 
+class="c3">[</SPAN><SPAN class="c1">N</SPAN><SPAN class="c3">]</SPAN><SPAN 
+class="c1">-</SPAN><SPAN class="c0">1</SPAN><SPAN class="c1">,j</SPAN><SPAN 
+class="c3">]</SPAN><SPAN class="c1">&lt;Min</SPAN><SPAN class="c3">)</SPAN><SPAN 
+class="c1">&nbsp;</SPAN><SPAN class="c15">then</SPAN></P>
+<P class="c8 c4"><SPAN class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Min:=Fx</SPAN><SPAN 
+class="c3">[</SPAN><SPAN class="c1">Sq</SPAN><SPAN class="c3">[</SPAN><SPAN 
+class="c1">N</SPAN><SPAN class="c3">]</SPAN><SPAN class="c1">-</SPAN><SPAN 
+class="c0">1</SPAN><SPAN class="c1">,j</SPAN><SPAN class="c3">]</SPAN><SPAN 
+class="c1">;</SPAN></P>
+<P class="c8 c4"><SPAN class="c15">End</SPAN><SPAN class="c1">;</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9 c5">Ghi chú:</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">Ở đây, mảng hằng Sq[i] = 2^i, ta cũng có thể thay 
+mảng này bằng cách sử dụng trực tiếp hàm Shl : 2^i = Sq[i] = 1 ShL i.</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4"><SPAN class="c9">&nbsp; &nbsp;</SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P>
+<P class="c4 c12"><SPAN class="c9"></SPAN></P></DIV>
+<DIV id="footer"><SPAN>Được xuất bản bởi <A title="Learn more about Google Drive" 
+href="https://docs.google.com/" target="_blank">Google Drive</A></SPAN><SPAN 
+class="dash">–</SPAN><A href="https://docs.google.com/abuse?id=1g9ndAI1lYNfJ120KC5VWpxr0K5PeTuPlzAeqn3MKwbo">Báo 
+cáo Lạm dụng </A><SPAN class="dash">–</SPAN><SPAN>Cập nhật tự động 5 phút</SPAN> 
+một lần</DIV>
+<SCRIPT type="text/javascript">
+(function(){if(window.jstiming){window.jstiming.a={};window.jstiming.b=1;var e=function(b,a,d){var c=b.t[a],g=b.t.start;if(c&&(g||d))return c=b.t[a][0],void 0!=d?g=d:g=g[0],c-g},n=function(b,a,d){var c="";window.jstiming.pt&&(c+="&srt="+window.jstiming.pt,delete window.jstiming.pt);try{window.external&&window.external.tran?c+="&tran="+window.external.tran:window.gtbExternal&&window.gtbExternal.tran?c+="&tran="+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(c+="&tran="+window.chrome.csi().tran)}catch(g){}var f=
+window.chrome;if(f&&(f=f.loadTimes)){f().wasFetchedViaSpdy&&(c+="&p=s");if(f().wasNpnNegotiated){var c=c+"&npn=1",k=f().npnNegotiatedProtocol;k&&(c+="&npnv="+(encodeURIComponent||escape)(k))}f().wasAlternateProtocolAvailable&&(c+="&apa=1")}var l=b.t,s=l.start,f=[],k=[],h;for(h in l)if("start"!=h&&0!=h.indexOf("_")){var m=l[h][1];m?l[m]&&k.push(h+"."+e(b,h,l[m][0])):s&&f.push(h+"."+e(b,h))}delete l.start;if(a)for(var p in a)c+="&"+p+"="+a[p];(a=d)||(a="https:"==document.location.protocol?"https://csi.gstatic.com/csi":
+"http://csi.gstatic.com/csi");return[a,"?v=3","&s="+(window.jstiming.sn||"_s")+"&action=",b.name,k.length?"&it="+k.join(","):"",c,"&rt=",f.join(",")].join("")};window.jstiming.getReportUri=n;var q=function(b,a,d){b=n(b,a,d);if(!b)return"";a=new Image;var c=window.jstiming.b++;window.jstiming.a[c]=a;a.onload=a.onerror=function(){window.jstiming&&delete window.jstiming.a[c]};a.src=b;a=null;return b};window.jstiming.report=function(b,a,d){if("prerender"==document.webkitVisibilityState){var c=!1,g=function(){if(!c){a?
+a.prerender="1":a={prerender:"1"};var f;"prerender"==document.webkitVisibilityState?f=!1:(q(b,a,d),f=!0);f&&(c=!0,document.removeEventListener("webkitvisibilitychange",g,!1))}};document.addEventListener("webkitvisibilitychange",g,!1);return""}return q(b,a,d)};window.jstiming.reportDone=function(b){if(window.jstiming.b<=(b||1))return!1;for(var a in window.jstiming.a)return!1;return!0};var r=function(b,a,d,c){return 0<d?(c?b.tick(a,c,d):b.tick(a,"",d),!0):!1};window.jstiming.getNavTiming=function(b){if(window.performance&&
+window.performance.timing){var a=window.performance.timing;r(b,"_dns",a.domainLookupStart)&&r(b,"dns_",a.domainLookupEnd,"_dns");r(b,"_con",a.connectStart)&&r(b,"con_",a.connectEnd,"_con");r(b,"_req",a.requestStart)&&r(b,"req_",a.responseStart,"_req");r(b,"_rcv",a.responseStart)&&r(b,"rcv_",a.responseEnd,"_rcv");if(r(b,"_ns",a.navigationStart)){r(b,"ntsrt_",a.responseStart,"_ns");r(b,"nsfs_",a.fetchStart,"_ns");var d=window.external&&window.external.startE;!d&&(window.chrome&&window.chrome.csi)&&
+(d=Math.floor(window.chrome.csi().startE));d&&(r(b,"_se",d),r(b,"sens_",a.navigationStart,"_se"));r(b,"ntplt0_",a.loadEventStart,"_ns");r(b,"ntplt1_",a.loadEventEnd,"_ns")}}}};})()
+</SCRIPT>
+
+<SCRIPT type="text/javascript">KX_timer.tick('tl'); if (document.location.protocol == 'https:') {window.jstiming.report(KX_timer, undefined , 'https://gg.google.com/csi');} else {window.jstiming.report(KX_timer);}</SCRIPT>
+</BODY></HTML>

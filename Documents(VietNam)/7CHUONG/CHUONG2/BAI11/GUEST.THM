@@ -1,0 +1,294 @@
+{$A+,B-,D+,E+,F-,G-,I+,L+,N-,O-,P-,Q+,R+,S+,T-,V+,X+}
+{$M 65520,0,655360}
+
+(* Dung 4 kieu tham lam. Chuong trinh thu nghiem 
+   (Ti le dung kha cao) *)
+
+uses  crt;
+const inp = 'GUEST.INP';
+      out = 'GUEST.OUT';
+      mn  = 1000;
+type  arr1inte = array [ 1..mn ] of integer;
+      arr2inte = array [ 1..mn, 1..20 ] of integer;
+      arr1byte = array [ 1..mn ] of byte;
+      arr1real = array [ 1..mn ] of real;
+var   f : text;
+      vui, sep, cs : arr1inte;
+      res, dd, scon : arr1byte;
+      con : arr2inte;
+      tile : arr1real;
+      n, i, j, vuiMax, tong, smoi, kieuTL, tbegin, time : longint;
+      tnow : longint absolute 0:1132;
+
+procedure new_;
+begin
+end;
+
+procedure input;
+begin
+  assign(f,inp);
+    reset(f);
+    readln(f,n);
+    for i := 1 to n do readln(f,sep[i],vui[i]);
+  close(f);
+end;
+
+procedure init;
+begin
+  smoi := 0;
+  vuiMax := 0;
+  fillchar(con, sizeof(con), 0);
+  fillchar(scon, sizeof(scon), 0);
+end;
+
+procedure init1;
+begin
+  for i := 1 to n do cs[i] := i;
+end;
+
+procedure lapQHe;
+begin
+  for i := 1 to n do
+    if sep[i] > 0
+    then begin
+           inc(scon[sep[i]]);
+           con[sep[i],scon[sep[i]]] := i;
+         end;
+end;
+
+procedure laplich;
+begin
+  tong := 0;
+  fillchar(dd, sizeof(dd), 0);
+  for i := 1 to n do
+    if dd[cs[i]] = 0
+    then begin
+           inc(tong,vui[cs[i]]);
+           dd[cs[i]] := 1;
+           if sep[cs[i]] > 0 then dd[sep[cs[i]]] := 2;
+           for j := 1 to scon[cs[i]] do dd[con[cs[i],j]] := 2;
+         end;
+end;
+
+procedure swap(var x, y : integer);
+var tg : integer;
+begin
+  tg := x;
+  x := y;
+  y := tg;
+end;
+
+procedure qsort1(d, c : integer);
+var gt : integer;
+begin
+  gt := vui[cs[(d+c) div 2]];
+  i := d;
+  j := c;
+  repeat
+    while vui[cs[i]] > gt do inc(i);
+    while vui[cs[j]] < gt do dec(j);
+    if i <= j
+    then begin
+           swap(cs[i],cs[j]);
+           inc(i);
+           dec(j);
+         end;
+  until i > j;
+  if i < c then qsort1(i,c);
+  if j > d then qsort1(d,j);
+end;
+
+procedure ghinhan;
+begin
+  vuiMax := tong;
+  res := dd;
+end;
+
+procedure thlam1;
+{chon giam dan theo do vui ve }
+begin
+  init1;
+  qsort1(1,n);
+  laplich;
+  if tong > vuiMax
+  then begin
+         ghinhan;
+         kieuTL := 1;
+       end;
+end;
+
+procedure init2;
+begin
+  for i := 1 to n do
+    begin
+      cs[i] := i;
+      if scon[i] = 0 then tile[i] := maxint
+                     else tile[i] := vui[i]/scon[i];
+    end;
+end;
+
+procedure qsort2(d, c : integer);
+var gt : real;
+begin
+  gt := tile[cs[(d+c) div 2]];
+  i := d;
+  j := c;
+  repeat
+    while tile[cs[i]] > gt do inc(i);
+    while tile[cs[j]] < gt do dec(j);
+    if i <= j
+    then begin
+           swap(cs[i],cs[j]);
+           inc(i);
+           dec(j);
+         end;
+  until i > j;
+  if i < c then qsort2(i,c);
+  if j > d then qsort2(d,j);
+end;
+
+procedure thlam2;
+{chon giam dan theo ti le doVUI[i]/scon[i] }
+begin
+  init2;{continue}
+  qsort2(1,n);
+  laplich;
+  if tong > vuiMax
+  then begin
+         ghinhan;
+         kieuTL := 2;
+       end;
+end;
+
+procedure init3;
+begin
+  for i := 1 to n do cs[i] := i;
+end;
+
+procedure qsort3(d, c : integer);
+var gt : integer;
+begin
+  gt := scon[cs[(d+c) div 2]];
+  i := d;
+  j := c;
+  repeat
+    while scon[cs[i]] < gt do inc(i);
+    while scon[cs[j]] > gt do dec(j);
+    if i <= j
+    then begin
+           swap(cs[i],cs[j]);
+           inc(i);
+           dec(j);
+         end;
+  until i > j;
+  if i < c then qsort3(i,c);
+  if j > d then qsort3(d,j);
+end;
+
+procedure thlam3;
+{chon tang dan theo scon[i]}
+begin
+  init3;
+  qsort3(1,n);
+  laplich;
+  if tong > vuiMax
+  then begin
+         ghinhan;
+         kieuTL := 3;
+       end;
+end;
+
+procedure init4;
+var convui : longint;
+begin
+  for i := 1 to n do
+    begin
+      cs[i] := i;
+      if scon[i] = 0
+      then tile[i] := vui[i]
+      else begin
+             convui := 0;
+             for j := 1 to scon[i] do inc(convui,vui[con[i,j]]);
+             if convui > 0 then tile[i] := vui[i]/convui { de phong vui[] = 0 }
+                           else tile[i] := vui[i];
+           end;
+    end;
+end;
+
+procedure thlam4;
+{chon giam dan theo tile doVUI[I]/doVUI(caccon[i]) }
+begin
+  init4;
+  qsort3(1,n);
+  laplich;
+  if tong > vuiMax
+  then begin
+         ghinhan;
+         kieuTL := 4;
+       end;
+end;
+
+procedure test;
+begin
+  lapQHe;
+  thlam1;
+  thlam2;
+  thlam3;
+  thlam4;
+end;
+
+procedure result;
+begin
+  for i := 1 to n do
+    if res[i] = 1 then inc(smoi);
+  assign(f,out);
+    rewrite(f);
+    writeln(f,smoi,' ',vuiMax);
+    for i := 1 to n do
+      if res[i] = 1 then writeln(f,i);
+  close(f);
+  writeln('Kieu thalm lam : ',kieuTL);
+end;
+
+BEGIN
+  tbegin := tnow;
+  clrscr;
+  new_;
+  input;
+  init;
+  test;
+  result;
+  writeln('Time = ',time,' ',time/18.2 :5:2);
+END.
+
+12
+0 1
+1 1
+1 1
+1 1
+2 1
+2 1
+3 1
+4 1
+4 1
+5 1
+5 1
+5 1
+
+3
+0 3
+1 6
+2 4
+
+7
+0 1
+1 1
+1 12
+2 50
+2 1
+3 1
+3 1
+5 40
+11 6
+11 12
+5 5

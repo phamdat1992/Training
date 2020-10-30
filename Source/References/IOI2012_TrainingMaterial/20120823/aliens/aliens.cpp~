@@ -1,0 +1,29 @@
+#include <algorithm>
+#include <bitset>
+#include <cmath>
+#include <ctime>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <deque>
+#include <fstream>
+#include <functional>
+#include <iostream>
+#include <map>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <queue>
+#include <vector>
+#include <utility>
+using namespace std;
+
+void solve(int N,int Mx,iny My) {
+  // write your code here
+  // the following is a sample
+  int g = examine(1,1);
+  int h = examine(N - 1,N);
+  int i = examine(N/2,N/3);
+  answer(Mx,My);
+  // end code here
+}

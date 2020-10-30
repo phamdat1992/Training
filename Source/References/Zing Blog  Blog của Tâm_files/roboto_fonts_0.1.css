@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Thin"), local("Roboto-Thin"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/MMDEOSa6i6T9gBocjYCJkQ.woff) format("woff");
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Light"), local("Roboto-Light"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/d-QWLnp4didxos_6urzFtg.woff) format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Regular"), local("Roboto-Regular"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/grlryt2bdKIyfMSOhzd1eA.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Medium"), local("Roboto-Medium"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/7KXg6nyyqN8gyMoNwQ7aOQ.woff) format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Bold"), local("Roboto-Bold"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/vxNK-E6B13CyehuDCmvQvw.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/iE8HhaRzdhPxC93dOdA05z8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Italic"), local("Roboto-Italic"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/biUEjW7P-lfzIZFXrcy-wQ.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/daIfzbEw-lbjMyv4rMUUTj8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(http://css.me.zdn.vn/v3/blog/css/canhan/fonts/owYYXKukxFDFjr0ZO8NXhz8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+	font-weight: 700;
+	font-style: italic;
+}

@@ -1,0 +1,74 @@
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+
+using namespace std;
+
+typedef long long ll;
+
+ll a,b,c,d,a1,b1,a2,b2,xo, yo,x,y,t;
+
+void Enter(){
+     cin >> a1 >> b1 >> a2 >> b2;
+}
+
+ll gcd(ll a, ll b){
+     
+	while(b>0){
+          
+		ll r=a%b;
+          a=b;
+          b=r;      
+     }
+
+     return a;
+}
+
+void ee(ll a, ll b, ll &x, ll &y){
+     ll x2, y2;
+
+	if(a<b)
+		ee(b,a,x,y);
+	else if(b==0){
+             x=1; y=0;            
+     }else {
+         ee(b,a%b,x2,y2);  
+         x=y2;
+         y=(ll)(x2-(a/b)*y2);
+     }
+}
+void swap(ll &x, ll &y){
+     ll tg;
+     tg= x; x=y; y=tg;
+}
+ll min(ll x, ll y){
+     return (x<y)?x:y;
+}
+void Solve(){
+     if(b1>b2){
+           a=a2;    
+           b=-a1;
+           c=b1-b2;
+     }else{
+         a=a1; 
+         b=-a2;
+         c=b2-b1;           
+     }
+     d=gcd(abs(a),abs(b));
+     a/=d; b/=d; c/=d;
+     ee(abs(a),abs(b),xo,yo);    
+     if(abs(a) < abs(b))swap(xo,yo);
+     yo=-yo*c; xo*=c; 
+     double tmp1=floor((-xo*1.0)/(b*1.0));  
+     double tmp2=floor((yo*1.0)/(a*1.0));
+     t=min((ll)(tmp1),(ll)(tmp2));
+     x=xo+b*t; y=yo-a*t;
+       if(a1*x+b1!=a2*y+b2)swap(x,y);
+     cout << x << " " << y << endl;
+}
+ 
+int main(){
+    Enter();
+    Solve();
+    return 0;
+}

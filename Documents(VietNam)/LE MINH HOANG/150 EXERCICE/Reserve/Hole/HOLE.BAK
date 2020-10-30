@@ -1,0 +1,57 @@
+{$R+}
+Const
+     fi = 'Hole.inp';
+     fo = 'Hole.out';
+     nmax = 1000000;
+     gtrmax = 1000;
+
+Var
+   sl : array [1..gtrmax] of longint;
+   f : text;
+   n, sum : longint;
+
+Procedure Enter;
+Var
+   i, j : longint;
+
+Begin
+  assign(f, fi); reset(f);
+  readln(f, n);
+  fillchar(sl, sizeof(sl), 0);
+  for i := 1 to n do
+      begin
+        read(f, j);
+        inc(sl[j]);
+      end;
+
+  Close(f);
+End;
+
+Procedure Print(result : longint);
+Begin
+  assign(f, fo); rewrite(f);
+  writeln(f, result);
+  Close(f); halt;
+End;
+
+Procedure Solve;
+Var
+   i : longint;
+
+Begin
+  sum := 0;
+
+  for i := 1 to gtrmax do
+      while sl[i] > 0 do
+            begin
+              if i > sum + 1 then Print(sum + 1);
+              sum := sum + i;
+              dec(sl[i]);
+            end;
+End;
+
+Begin
+  Enter;
+  Solve;
+  Print(sum + 1);
+End.

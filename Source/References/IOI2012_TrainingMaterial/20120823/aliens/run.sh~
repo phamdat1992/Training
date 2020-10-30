@@ -1,0 +1,6 @@
+#!/bin/bash
+g++ grader.cpp -g -o grader
+for c = 1 to 24 do
+  echo Test $c:
+  timeout 5s ./grader < $c.in
+done

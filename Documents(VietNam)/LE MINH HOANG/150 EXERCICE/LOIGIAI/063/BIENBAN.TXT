@@ -1,0 +1,5 @@
+Diem cho Test LMOVE.IN1:     1
+Diem cho Test LMOVE.IN2:     1
+Diem cho Test LMOVE.IN3:     1
+Diem cho Test LMOVE.IN3:     1
+Diem cho Test LMOVE.IN4:     1

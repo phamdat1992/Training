@@ -1,0 +1,107 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+const long long cs = 100000000ll;
+
+long long f [200][1000] = {0};
+int g [200] = {0};
+
+int n, k;
+
+void input(  ) {
+
+	scanf( "%d %d", &n, &k );
+}
+
+void output( long long *a, int l ) {
+
+	printf( "%lld", a[l] );
+
+	for( int i = l-1; i >= 0; --i ) {
+
+		for( long long d = cs; d > 1 && d > a[i]; d /=10 ) {
+
+			printf( "0" );
+		}
+
+		printf( "%lld", a[i] );
+	}
+}
+
+void multy( long long* a, int b, long long* c, int &lena, int &lenc ) {
+
+	long long t = 0;
+
+	lenc = lena;
+	for( int i = 0; i <= lena; ++i ) {
+
+		t += a[i]*b;
+
+		c[i] = t%cs;
+		t /= cs;
+	}
+
+	for( ; t > 0; c[++lenc] = t%cs; t /= cs );
+}
+
+void multi_big( long long* a, long long* b, long long* c, int &lena, int &lenb, int &lenc ) {
+
+	lenc = lena + lenb;
+	for( int i = 0; i <= lena; ++i ) {
+
+		for( int j = 0; j <= lenb; ++j ) {
+
+			c[i+j] += a[i]*b[j];
+		}
+	}
+
+	for( int i = 0; i <= lenc; ++i ) {
+
+		c[i+1] += c[i]/cs;
+		c[i] %= cs;
+	}
+}
+
+void add( long long* a, long long* b, long long* c, int &lena, int &lenb, int &lenc ) {
+
+	long long t = 0;
+
+	lenc = max( lena. lenb );
+	for( int i = 0; i <= lena || i <= lenb; ++i ) {
+
+		long long f1 = 0;
+		long long f2 = 0;
+
+		if( i <= lena ) { f1 = a[i]; }
+		if( i <= lenb ) { f2 = b[i]; }
+
+		t += f1 + f2;
+
+		c[i] = t%cs;
+		t /= cs;
+	}
+
+	for( t > 0; c[++lenc] = t%cs; t /= cs );
+}
+
+void solved(  ) {
+
+	long long h [1000];
+	int lenh;
+
+	long long p [1000];
+	int lenp;
+
+	f[0][0] = 0;
+	f[1][0] = 1;
+
+	g[0] = 1;
+	g[1] = 1;
+
+	for( int i = 3; i <= n; ++i ) {
+
+		if( i >= k ) 
+	}
+}

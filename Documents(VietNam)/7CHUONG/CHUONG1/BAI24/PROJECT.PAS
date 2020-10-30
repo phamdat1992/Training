@@ -1,0 +1,77 @@
+PROGRAM Thue_nhan_cong ;
+Const   Fi             = 'Project.in21' ;
+        Fo             = 'Project.out' ;
+
+Var     thue ,sthai ,lthang : Longint ;
+        D                   : Array [1..120] of Longint ;
+        A                   : Array [0..120] of Longint ;
+        N ,M                : Longint ;
+
+Procedure Nhap ;
+  Var F : Text ;
+      i : Longint ;
+  Begin
+    Assign(F ,Fi) ;
+    Reset(F) ;
+    Readln(F ,N) ;
+    Readln(F ,thue ,lthang ,sthai) ;
+    M := 0 ;
+    For i := 1 to N do
+      Begin
+        Read(F ,D[i]) ;
+        If D[i] > M then M := D[i] ;
+      End ;
+    Close(F) ;
+  End ;
+
+Procedure Xuly ;
+  Var F : Text ;
+      m ,chiphi ,i ,j ,nmax ,m1 : Longint ;
+  Begin
+     m := (sthai+thue) div lthang ;
+     d[n+1] := maxint ;
+     a[1] := d[1] ;
+     Chiphi := A[1]*(thue + lthang) ;
+     For i := 2 to N do
+       Begin
+         If d[i] >= a[i-1] then
+           Begin
+             chiphi := chiphi + (d[i]-a[i-1])*thue + d[i]*lthang ;
+             a[i] := d[i] ;
+           End else
+           Begin
+             nmax := 0 ;
+             If m+i-1 > n+1 then m1 := n-i+1 else m1 := m-1;
+             For j := 0 to m1 do
+               If nmax < d[i+j] then nmax := d[i+j] ;
+             If nmax < a[i-1] then
+               Begin
+                 a[i] := nmax ;
+                 Inc(chiphi,(a[i-1]-nmax)*sthai+lthang*a[i]) ;
+               End else
+               Begin
+                 a[i] := a[i-1] ;
+                 Inc(chiphi,a[i]*lthang)
+               End ;
+           End ;
+       End ;
+     Assign(F ,Fo) ;
+     Rewrite(F) ;
+     Writeln(F ,chiphi) ;
+     a[0] := 0 ;
+     For i := 1 to N do Writeln(F ,a[i]-a[i-1]) ;
+     Close(F) ;
+  End ;
+
+BEGIN
+  Nhap ;
+  Xuly ;
+END .
+
+3
+4 5 6
+10 9 11
+
+3
+4 5 3
+10 9 11

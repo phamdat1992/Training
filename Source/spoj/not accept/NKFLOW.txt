@@ -1,0 +1,89 @@
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#include <list>
+
+using namespace std;
+
+const int oo = 2000000000;
+
+vector< list< int > > s;
+
+int a [2000] = {0};
+int b [2000][2000] = {0};
+
+bool f1 [2000] = {0};
+bool f2 [2000] = {0};
+bool *p;
+
+int n, m, s, t;
+
+void input(  ) {
+
+	scanf( "%d %d %d %d", &n, &m, &s, &t );
+
+	a[s] = +oo;
+	a[t] = -oo;
+
+	f1[t] = 1;
+	f2[t] = 1;
+
+	s.resize( n+1 );
+	for( int i = 0, u, v, c; i < m; ++i ) {
+
+		scanf( "%d %d %d", &u, &v, &c );
+
+		s[u].push_back( v );
+		s[u].push_back( c );
+	}
+}
+
+void dfs( int u ) {
+
+	p[u] = 1;
+
+	for( list< int >::iterator pos = s[u].begin(); pos != s[u].end();  ) {
+
+		int v = *(pos++);
+		int c = *(pos++);
+
+		if( p[v] == 0 ) {
+
+			int f = min( c - b[u][v], a[u] );
+
+			a[v] += f;
+			a[u] -= f;
+
+			b[u][v] += f;
+
+			dfs( v );
+
+			int g = min( c - b[u][v], a[v] );
+
+			b[u][v] -= g;
+
+			a[u] += g;
+			a[v] -= g;
+		}
+		else {
+
+			int f = min( b[u][v], a[v] );
+
+			a[v] -= f;
+			a[u] += f;
+
+			b[u][v] -= f;
+		}
+	}
+}
+
+int main(  ) {
+
+	input(  );
+
+	p = f1;
+	dfs( 1 );
+
+	p = f2;
+	dfs( 1 );
+}
