@@ -1,1 +1,0 @@
-i:\tp\bin\turbo
